@@ -313,7 +313,14 @@ function initMap(stations) {
     .attr('class', 'station-label')
     .attr('x', d => projection(d)[0] + 4)
     .attr('y', d => projection(d)[1] + 1)
-    .text(d => d.name);
+    .text(d => d.name)
+    .style('cursor', 'pointer')
+    .on('click', (event, d) => {
+      event.stopPropagation();
+      selectStation(d);
+    })
+    .on('mouseenter', function() { d3.select(this).attr('text-decoration', 'underline'); })
+    .on('mouseleave', function() { d3.select(this).attr('text-decoration', 'none'); });
 
   // Click on background to deselect
   svg.on('click', () => selectStation(null));
