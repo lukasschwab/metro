@@ -66,8 +66,8 @@ function setupProjection(stations) {
   const availW = svgWidth - 2 * padding;
   const availH = svgHeight - 2 * padding;
 
-  // Single scale so the map is never warped
-  const scale = Math.min(availW / geoW, availH / geoH);
+  // Single scale so the map is never warped — fill the window (may exceed bounds)
+  const scale = Math.max(availW / geoW, availH / geoH);
 
   // Centre the map in the available space
   const offX = padding + (availW - geoW * scale) / 2;
@@ -197,6 +197,35 @@ function drawLinePaths(stations) {
   }
 }
 
+// ─── Seine river path ───────────────────────────────────────────────
+// Waypoints tracing the Seine through the Paris metro area (SE → NW)
+const SEINE_COORDS = [
+  [48.811, 2.420], [48.821, 2.405], [48.833, 2.385], [48.840, 2.375],
+  [48.845, 2.365], [48.850, 2.356], [48.854, 2.347], [48.857, 2.341],
+  [48.860, 2.333], [48.862, 2.323], [48.863, 2.314], [48.863, 2.304],
+  [48.863, 2.296], [48.860, 2.289], [48.855, 2.285], [48.849, 2.278],
+  [48.843, 2.268], [48.839, 2.256], [48.835, 2.242], [48.836, 2.230],
+  [48.842, 2.224], [48.850, 2.220], [48.860, 2.222], [48.870, 2.234],
+  [48.880, 2.252], [48.888, 2.270], [48.894, 2.295], [48.900, 2.320],
+  [48.912, 2.345], [48.930, 2.365],
+];
+
+function drawSeine(gRiver) {
+  gRiver.selectAll('.seine').remove();
+  const pts = SEINE_COORDS
+    .map(([lat, lng]) => projection({ latitude: lat, longitude: lng }))
+    .filter(Boolean);
+  if (pts.length < 2) return;
+  gRiver.append('path')
+    .attr('class', 'seine')
+    .attr('d', lineGen(pts))
+    .attr('fill', 'none')
+    .attr('stroke', 'rgba(80, 140, 210, 0.15)')
+    .attr('stroke-width', 18)
+    .attr('stroke-linecap', 'round')
+    .attr('stroke-linejoin', 'round');
+}
+
 // ─── Filter logic ───────────────────────────────────────────────────
 function isActive(station) {
   const lineMatch = state.activeLines.size === 0 ||
@@ -220,9 +249,12 @@ function initMap(stations) {
     .attr('preserveAspectRatio', 'xMidYMid meet');
 
   const gMain = svg.append('g').attr('class', 'main-group');
+  const gRiver = gMain.append('g').attr('class', 'river');
   gLines = gMain.append('g').attr('class', 'lines');
   gStations = gMain.append('g').attr('class', 'stations');
   gLabels = gMain.append('g').attr('class', 'labels');
+
+  drawSeine(gRiver);
 
   // Zoom
   zoom = d3.zoom()
@@ -286,9 +318,13 @@ function initMap(stations) {
   // Click on background to deselect
   svg.on('click', () => selectStation(null));
 
-  // Initial zoom to fit
-  const initialTransform = d3.zoomIdentity.translate(0, 0).scale(1);
-  svg.call(zoom.transform, initialTransform);
+  // Centre on Île de la Cité
+  const ileCenter = projection({ latitude: 48.854, longitude: 2.347 });
+  if (ileCenter) {
+    const initialTransform = d3.zoomIdentity
+      .translate(svgWidth / 2 - ileCenter[0], svgHeight / 2 - ileCenter[1]);
+    svg.call(zoom.transform, initialTransform);
+  }
 }
 
 function render() {
@@ -544,7 +580,8 @@ async function init() {
       gLabels.selectAll('.station-label')
         .attr('x', d => (projection(d)?.[0] || 0) + 4)
         .attr('y', d => (projection(d)?.[1] || 0) + 1);
-      // Rebuild line paths
+      // Rebuild river and line paths
+      drawSeine(svg.select('.river'));
       drawLinePaths(stations);
     }, 200);
   });
