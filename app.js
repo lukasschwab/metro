@@ -354,6 +354,9 @@ function render() {
       .transition().duration(300)
       .attr('opacity', active ? 0.6 : 0.06);
   });
+
+  // Update sidebar station list (if no station selected)
+  renderSidebarList();
 }
 
 // ─── Controls ───────────────────────────────────────────────────────
@@ -508,22 +511,20 @@ function panToStation(station) {
 // ─── Sidebar ────────────────────────────────────────────────────────
 function selectStation(station) {
   state.selectedStation = station;
-  const sidebar = document.getElementById('sidebar');
-  const content = document.getElementById('sidebar-content');
+  const closeBtn = document.getElementById('sidebar-close');
+
+  // Remove highlight
+  gStations.selectAll('.station-dot')
+    .attr('stroke-width', d => station && d.slug === station.slug ? 2 : 0.5)
+    .attr('stroke', '#fff');
 
   if (!station) {
-    sidebar.classList.add('hidden');
-    // Remove highlight
-    gStations.selectAll('.station-dot')
-      .attr('stroke-width', 0.5)
-      .attr('stroke', '#fff');
+    closeBtn.classList.add('hidden');
+    renderSidebarList();
     return;
   }
 
-  // Highlight selected station
-  gStations.selectAll('.station-dot')
-    .attr('stroke-width', d => d.slug === station.slug ? 2 : 0.5)
-    .attr('stroke', d => d.slug === station.slug ? '#fff' : '#fff');
+  closeBtn.classList.remove('hidden');
 
   const linesBadges = station.lines.map(l =>
     `<span class="detail-line-badge" style="background:${LINE_COLORS[l] || '#666'};${[1, '3bis', 5, 6, 7, '7bis', 8, 9, 10, 13].includes(l) ? 'color:#000' : ''}">${l}</span>`
@@ -540,7 +541,7 @@ function selectStation(station) {
     ? `<a class="layout-link" href="http://estacions.albertguillaumes.cat/img/paris/${station.layout_image}.png" target="_blank" rel="noopener">View station layout diagram &rarr;</a>`
     : '';
 
-  content.innerHTML = `
+  document.getElementById('sidebar-content').innerHTML = `
     <h2>${station.name}</h2>
     <div class="detail-lines">${linesBadges}</div>
     <div class="detail-meta">
@@ -552,12 +553,45 @@ function selectStation(station) {
     ${priorNames}
     ${layoutLink}
   `;
+}
 
-  sidebar.classList.remove('hidden');
+function renderSidebarList() {
+  if (state.selectedStation) return;
+  const active = state.stations.filter(s => isActive(s));
+  active.sort((a, b) => a.name.localeCompare(b.name));
+
+  document.getElementById('sidebar-content').innerHTML = active.map(s => {
+    const lineDots = s.lines.map(l =>
+      `<span class="list-line-dot" style="background:${LINE_COLORS[l] || '#666'}"></span>`
+    ).join('');
+    return `<div class="station-list-item" data-slug="${s.slug}">
+      <span class="list-name">${s.name}</span>
+      <span class="list-lines">${lineDots}</span>
+    </div>`;
+  }).join('');
+
+  // Bind clicks
+  document.querySelectorAll('.station-list-item').forEach(el => {
+    el.addEventListener('click', () => {
+      const station = state.stations.find(s => s.slug === el.dataset.slug);
+      if (station) {
+        selectStation(station);
+        panToStation(station);
+      }
+    });
+  });
 }
 
 document.getElementById('sidebar-close').addEventListener('click', () => {
   selectStation(null);
+});
+
+// Mobile drawer toggle
+const sidebarToggle = document.getElementById('sidebar-toggle');
+sidebarToggle.addEventListener('click', () => {
+  const sidebar = document.getElementById('sidebar');
+  const collapsed = sidebar.classList.toggle('collapsed');
+  sidebarToggle.innerHTML = collapsed ? '[+]' : '[&minus;]';
 });
 
 // ─── Init ───────────────────────────────────────────────────────────
