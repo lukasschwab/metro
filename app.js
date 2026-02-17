@@ -596,6 +596,7 @@ function initCommandPalette(stations) {
   const lineActions = LINE_ORDER.map(line => ({
     id: `line-${line}`,
     title: `Toggle Line ${line}`,
+    icon: `<span style="display:inline-flex;align-items:center;justify-content:center;width:1em;height:1em;margin-right:4px"><svg viewBox="0 0 16 16" width="12" height="12"><circle cx="8" cy="8" r="7" fill="${LINE_COLORS[line]}"/></svg></span>`,
     section: 'Lines',
     handler: () => {
       const label = String(line);
