@@ -1,0 +1,2340 @@
+[
+  {
+    "name": "Abbesses",
+    "slug": "abbesses",
+    "lat": 48.88449,
+    "lng": 2.33845,
+    "imgPath": "paris/abbesses.png"
+  },
+  {
+    "name": "Arts-et-Métiers",
+    "slug": "arts_et_metiers",
+    "lat": 48.86561,
+    "lng": 2.35611,
+    "imgPath": "paris/arts_et_metiers.png"
+  },
+  {
+    "name": "Asnières – Gennevilliers – Les Courtilles",
+    "slug": "les_courtilles",
+    "lat": 48.93036,
+    "lng": 2.28378,
+    "imgPath": "paris/les_courtilles.png"
+  },
+  {
+    "name": "Auber",
+    "slug": "auber",
+    "lat": 48.8724,
+    "lng": 2.32982,
+    "imgPath": "paris/auber.png"
+  },
+  {
+    "name": "Avenue Émile Zola",
+    "slug": "avenue_emile_zola",
+    "lat": 48.84699,
+    "lng": 2.2952,
+    "imgPath": "paris/avenue_emile_zola.png"
+  },
+  {
+    "name": "Barbès-Rochechouart",
+    "slug": "barbes",
+    "lat": 48.88376,
+    "lng": 2.3494,
+    "imgPath": "paris/barbes.png"
+  },
+  {
+    "name": "Bastille",
+    "slug": "bastille",
+    "lat": 48.85293,
+    "lng": 2.36896,
+    "imgPath": "paris/bastille.png"
+  },
+  {
+    "name": "Belleville",
+    "slug": "belleville",
+    "lat": 48.8721,
+    "lng": 2.37677,
+    "imgPath": "paris/belleville.png"
+  },
+  {
+    "name": "Bercy",
+    "slug": "bercy",
+    "lat": 48.84045,
+    "lng": 2.37891,
+    "imgPath": "paris/bercy.png"
+  },
+  {
+    "name": "Bibliothèque François Mitterrand",
+    "slug": "bibliotheque_francois_mitterrand",
+    "lat": 48.83005,
+    "lng": 2.37626,
+    "imgPath": "paris/bibliotheque_francois_mitterrand.png"
+  },
+  {
+    "name": "Bir Hakeim / Champs de Mars - Tour Eiffel",
+    "slug": "bir_hakeim_champ_de_mars",
+    "lat": 48.85398,
+    "lng": 2.28907,
+    "imgPath": "paris/bir_hakeim_champ_de_mars.png"
+  },
+  {
+    "name": "Bolivar",
+    "slug": "bolivar",
+    "lat": 48.88081,
+    "lng": 2.3741,
+    "imgPath": "paris/bolivar.png"
+  },
+  {
+    "name": "Bonne Nouvelle",
+    "slug": "bonne_nouvelle",
+    "lat": 48.87086,
+    "lng": 2.34697,
+    "imgPath": "paris/bonne_nouvelle.png"
+  },
+  {
+    "name": "Botzaris",
+    "slug": "botzaris",
+    "lat": 48.87957,
+    "lng": 2.38923,
+    "imgPath": "paris/botzaris.png"
+  },
+  {
+    "name": "Bourse",
+    "slug": "bourse",
+    "lat": 48.86881,
+    "lng": 2.34186,
+    "imgPath": "paris/bourse.png"
+  },
+  {
+    "name": "Buttes Chaumont",
+    "slug": "buttes_chaumont",
+    "lat": 48.87812,
+    "lng": 2.3812,
+    "imgPath": "paris/buttes_chaumont.png"
+  },
+  {
+    "name": "Champs Elysées - Clemenceau",
+    "slug": "champs_elysees_clemenceau",
+    "lat": 48.86772,
+    "lng": 2.31367,
+    "imgPath": "paris/champs_elysees_clemenceau.png"
+  },
+  {
+    "name": "Chardon Lagache",
+    "slug": "chardon_lagache",
+    "lat": 48.84492,
+    "lng": 2.26644,
+    "imgPath": "paris/chardon_lagache.png"
+  },
+  {
+    "name": "Charles de Gaulle - Étoile",
+    "slug": "etoile",
+    "lat": 48.874,
+    "lng": 2.29471,
+    "imgPath": "paris/etoile.png"
+  },
+  {
+    "name": "Charles Michels",
+    "slug": "charles_michels",
+    "lat": 48.84679,
+    "lng": 2.28584,
+    "imgPath": "paris/charles_michels.png"
+  },
+  {
+    "name": "Château d’Eau",
+    "slug": "chateau_d_eau",
+    "lat": 48.87242,
+    "lng": 2.35588,
+    "imgPath": "paris/chateau_d_eau.png"
+  },
+  {
+    "name": "Châtelet / Châtelet - Les Halles / Les Halles",
+    "slug": "chatelet_les_halles",
+    "lat": 48.85953,
+    "lng": 2.3471,
+    "imgPath": "paris/chatelet_les_halles.png"
+  },
+  {
+    "name": "Chaussée d'Antin - la Fayette",
+    "slug": "chaussee_d_antin",
+    "lat": 48.87332,
+    "lng": 2.3332,
+    "imgPath": "paris/chaussee_d_antin.png"
+  },
+  {
+    "name": "Colonel Fabien",
+    "slug": "colonel_fabien",
+    "lat": 48.87795,
+    "lng": 2.37081,
+    "imgPath": "paris/colonel_fabien.png"
+  },
+  {
+    "name": "Commerce",
+    "slug": "commerce",
+    "lat": 48.84461,
+    "lng": 2.29377,
+    "imgPath": "paris/commerce.png"
+  },
+  {
+    "name": "Concorde",
+    "slug": "concorde",
+    "lat": 48.86642,
+    "lng": 2.32311,
+    "imgPath": "paris/concorde.png"
+  },
+  {
+    "name": "Convention",
+    "slug": "convention",
+    "lat": 48.83735,
+    "lng": 2.29642,
+    "imgPath": "paris/convention.png"
+  },
+  {
+    "name": "Couronnes",
+    "slug": "couronnes",
+    "lat": 48.86905,
+    "lng": 2.38043,
+    "imgPath": "paris/couronnes.png"
+  },
+  {
+    "name": "Danube",
+    "slug": "danube",
+    "lat": 48.88204,
+    "lng": 2.39346,
+    "imgPath": "paris/danube.png"
+  },
+  {
+    "name": "Daumesnil",
+    "slug": "daumesnil",
+    "lat": 48.83954,
+    "lng": 2.39564,
+    "imgPath": "paris/daumesnil.png"
+  },
+  {
+    "name": "Denfert-Rochereau",
+    "slug": "denfert",
+    "lat": 48.83458,
+    "lng": 2.33217,
+    "imgPath": "paris/denfert.png"
+  },
+  {
+    "name": "Duroc",
+    "slug": "duroc",
+    "lat": 48.84687,
+    "lng": 2.31658,
+    "imgPath": "paris/duroc.png"
+  },
+  {
+    "name": "École Militaire",
+    "slug": "ecole_militaire",
+    "lat": 48.85445,
+    "lng": 2.30569,
+    "imgPath": "paris/ecole_militaire.png"
+  },
+  {
+    "name": "Église d'Auteuil",
+    "slug": "eglise_d_auteuil",
+    "lat": 48.84761,
+    "lng": 2.26982,
+    "imgPath": "paris/eglise_d_auteuil.png"
+  },
+  {
+    "name": "Étienne Marcel",
+    "slug": "etienne_marcel",
+    "lat": 48.86374,
+    "lng": 2.34901,
+    "imgPath": "paris/etienne_marcel.png"
+  },
+  {
+    "name": "Falguière",
+    "slug": "falguiere",
+    "lat": 48.84454,
+    "lng": 2.31779,
+    "imgPath": "paris/falguiere.png"
+  },
+  {
+    "name": "Franklin D. Roosevelt",
+    "slug": "franklin_d_roosevelt",
+    "lat": 48.86907,
+    "lng": 2.30938,
+    "imgPath": "paris/franklin_d_roosevelt.png"
+  },
+  {
+    "name": "Gambetta",
+    "slug": "gambetta",
+    "lat": 48.86501,
+    "lng": 2.39864,
+    "imgPath": "paris/gambetta.png"
+  },
+  {
+    "name": "Gare d'Austerlitz",
+    "slug": "austerlitz",
+    "lat": 48.84247,
+    "lng": 2.36582,
+    "imgPath": "paris/austerlitz.png"
+  },
+  {
+    "name": "Gare de l'Est",
+    "slug": "est",
+    "lat": 48.8764,
+    "lng": 2.35891,
+    "imgPath": "paris/est.png"
+  },
+  {
+    "name": "Gare de Lyon",
+    "slug": "lyon",
+    "lat": 48.84458,
+    "lng": 2.37346,
+    "imgPath": "paris/lyon.png"
+  },
+  {
+    "name": "Gare du Nord / Magenta / La Chapelle",
+    "slug": "nord",
+    "lat": 48.88063,
+    "lng": 2.35558,
+    "imgPath": "paris/nord.png"
+  },
+  {
+    "name": "George V",
+    "slug": "george_v",
+    "lat": 48.87189,
+    "lng": 2.30105,
+    "imgPath": "paris/george_v.png"
+  },
+  {
+    "name": "Grands Boulevards",
+    "slug": "grands_boulevards",
+    "lat": 48.87143,
+    "lng": 2.3433,
+    "imgPath": "paris/grands_boulevards.png"
+  },
+  {
+    "name": "Haussmann - Saint-Lazare",
+    "slug": "haussmann_saint_lazare",
+    "lat": 48.87522,
+    "lng": 2.32773,
+    "imgPath": "paris/haussmann_saint_lazare.png"
+  },
+  {
+    "name": "Havre-Caumartin",
+    "slug": "havre_caumartin",
+    "lat": 48.87362,
+    "lng": 2.32718,
+    "imgPath": "paris/havre_caumartin.png"
+  },
+  {
+    "name": "Hôtel de Ville",
+    "slug": "hotel_de_ville",
+    "lat": 48.8573,
+    "lng": 2.35187,
+    "imgPath": "paris/hotel_de_ville.png"
+  },
+  {
+    "name": "Invalides",
+    "slug": "invalides",
+    "lat": 48.86211,
+    "lng": 2.31486,
+    "imgPath": "paris/invalides.png"
+  },
+  {
+    "name": "Jaurès",
+    "slug": "jaures",
+    "lat": 48.88258,
+    "lng": 2.37007,
+    "imgPath": "paris/jaures.png"
+  },
+  {
+    "name": "Javel",
+    "slug": "javel",
+    "lat": 48.84616,
+    "lng": 2.27758,
+    "imgPath": "paris/javel.png"
+  },
+  {
+    "name": "Jourdain",
+    "slug": "jourdain",
+    "lat": 48.87438,
+    "lng": 2.38935,
+    "imgPath": "paris/jourdain.png"
+  },
+  {
+    "name": "Jussieu",
+    "slug": "jussieu",
+    "lat": 48.84605,
+    "lng": 2.35466,
+    "imgPath": "paris/jussieu.png"
+  },
+  {
+    "name": "La Défense",
+    "slug": "la_defense",
+    "lat": 48.89189,
+    "lng": 2.23846,
+    "imgPath": "paris/la_defense.png"
+  },
+  {
+    "name": "La Fourche",
+    "slug": "la_fourche",
+    "lat": 48.88766,
+    "lng": 2.32549,
+    "imgPath": "paris/la_fourche.png"
+  },
+  {
+    "name": "La Motte Picquet - Grenelle",
+    "slug": "la_motte_picquet",
+    "lat": 48.84905,
+    "lng": 2.29808,
+    "imgPath": "paris/la_motte_picquet.png"
+  },
+  {
+    "name": "La Muette - Boulainvilliers",
+    "slug": "la_muette_boulainvilliers",
+    "lat": 48.85828,
+    "lng": 2.27431,
+    "imgPath": "paris/la_muette_boulainvilliers.png"
+  },
+  {
+    "name": "La Tour-Maubourg",
+    "slug": "la_tour_maubourg",
+    "lat": 48.85795,
+    "lng": 2.31028,
+    "imgPath": "paris/la_tour_maubourg.png"
+  },
+  {
+    "name": "Lamarck Caulaincourt",
+    "slug": "lamarck_caulaincourt",
+    "lat": 48.88991,
+    "lng": 2.33875,
+    "imgPath": "paris/lamarck_caulaincourt.png"
+  },
+  {
+    "name": "Liège",
+    "slug": "liege",
+    "lat": 48.87961,
+    "lng": 2.32683,
+    "imgPath": "paris/liege.png"
+  },
+  {
+    "name": "Louis Blanc",
+    "slug": "louis_blanc",
+    "lat": 48.88124,
+    "lng": 2.36508,
+    "imgPath": "paris/louis_blanc.png"
+  },
+  {
+    "name": "Louvre - Rivoli",
+    "slug": "louvre_rivoli",
+    "lat": 48.86073,
+    "lng": 2.34092,
+    "imgPath": "paris/louvre_rivoli.png"
+  },
+  {
+    "name": "Madeleine",
+    "slug": "madeleine",
+    "lat": 48.86953,
+    "lng": 2.32503,
+    "imgPath": "paris/madeleine.png"
+  },
+  {
+    "name": "Mairie de Saint-Ouen",
+    "slug": "mairie_de_saint_ouen",
+    "lat": 48.912,
+    "lng": 2.33398,
+    "imgPath": "paris/mairie_de_saint_ouen.png"
+  },
+  {
+    "name": "Mairie des Lilas",
+    "slug": "mairie_des_lilas",
+    "lat": 48.87963,
+    "lng": 2.4164,
+    "imgPath": "paris/mairie_des_lilas.png"
+  },
+  {
+    "name": "Marcadet - Poissonniers",
+    "slug": "marcadet_poissonniers",
+    "lat": 48.89163,
+    "lng": 2.34942,
+    "imgPath": "paris/marcadet_poissonniers.png"
+  },
+  {
+    "name": "Ménilmontant",
+    "slug": "menilmontant",
+    "lat": 48.86671,
+    "lng": 2.38325,
+    "imgPath": "paris/menilmontant.png"
+  },
+  {
+    "name": "Michel Ange - Auteuil",
+    "slug": "michel_ange_auteuil",
+    "lat": 48.84786,
+    "lng": 2.26411,
+    "imgPath": "paris/michel_ange_auteuil.png"
+  },
+  {
+    "name": "Michel Ange - Molitor",
+    "slug": "michel_ange_molitor",
+    "lat": 48.84516,
+    "lng": 2.26183,
+    "imgPath": "paris/michel_ange_molitor.png"
+  },
+  {
+    "name": "Mirabeau",
+    "slug": "mirabeau",
+    "lat": 48.847,
+    "lng": 2.27257,
+    "imgPath": "paris/mirabeau.png"
+  },
+  {
+    "name": "Miromesnil",
+    "slug": "miromesnil",
+    "lat": 48.87354,
+    "lng": 2.31451,
+    "imgPath": "paris/miromesnil.png"
+  },
+  {
+    "name": "Montparnasse-Bienvenüe",
+    "slug": "montparnasse2",
+    "lat": 48.84287,
+    "lng": 2.32215,
+    "imgPath": "paris/montparnasse2.png"
+  },
+  {
+    "name": "Nation",
+    "slug": "nation",
+    "lat": 48.84833,
+    "lng": 2.39604,
+    "imgPath": "paris/nation.png"
+  },
+  {
+    "name": "Oberkampf",
+    "slug": "oberkampf",
+    "lat": 48.86462,
+    "lng": 2.36839,
+    "imgPath": "paris/oberkampf.png"
+  },
+  {
+    "name": "Odéon",
+    "slug": "odeon",
+    "lat": 48.85224,
+    "lng": 2.33936,
+    "imgPath": "paris/odeon.png"
+  },
+  {
+    "name": "Opéra",
+    "slug": "opera",
+    "lat": 48.8708,
+    "lng": 2.33225,
+    "imgPath": "paris/opera.png"
+  },
+  {
+    "name": "Palais Royal - Musée du Louvre",
+    "slug": "palais_royal",
+    "lat": 48.86238,
+    "lng": 2.33646,
+    "imgPath": "paris/palais_royal.png"
+  },
+  {
+    "name": "Pasteur",
+    "slug": "pasteur",
+    "lat": 48.8429,
+    "lng": 2.31272,
+    "imgPath": "paris/pasteur.png"
+  },
+  {
+    "name": "Pelleport",
+    "slug": "pelleport",
+    "lat": 48.8681,
+    "lng": 2.40146,
+    "imgPath": "paris/pelleport.png"
+  },
+  {
+    "name": "Père Lachaise",
+    "slug": "pere_lachaise",
+    "lat": 48.86299,
+    "lng": 2.38733,
+    "imgPath": "paris/pere_lachaise.png"
+  },
+  {
+    "name": "Pigalle",
+    "slug": "pigalle",
+    "lat": 48.88241,
+    "lng": 2.33725,
+    "imgPath": "paris/pigalle.png"
+  },
+  {
+    "name": "Place de Clichy",
+    "slug": "place_de_clichy",
+    "lat": 48.88362,
+    "lng": 2.32768,
+    "imgPath": "paris/place_de_clichy.png"
+  },
+  {
+    "name": "Place des Fêtes",
+    "slug": "place_des_fetes",
+    "lat": 48.87686,
+    "lng": 2.39253,
+    "imgPath": "paris/place_des_fetes.png"
+  },
+  {
+    "name": "Place d'Italie",
+    "slug": "place_d_italie",
+    "lat": 48.83135,
+    "lng": 2.35568,
+    "imgPath": "paris/place_d_italie.png"
+  },
+  {
+    "name": "Pont Cardinet",
+    "slug": "pont_cardinet",
+    "lat": 48.88779,
+    "lng": 2.3148,
+    "imgPath": "paris/pont_cardinet.png"
+  },
+  {
+    "name": "Porte d’Auteuil",
+    "slug": "porte_d_auteuil",
+    "lat": 48.84765,
+    "lng": 2.25811,
+    "imgPath": "paris/porte_d_auteuil.png"
+  },
+  {
+    "name": "Porte de Clichy",
+    "slug": "porte_de_clichy",
+    "lat": 48.89454,
+    "lng": 2.31359,
+    "imgPath": "paris/porte_de_clichy.png"
+  },
+  {
+    "name": "Porte des Lilas",
+    "slug": "porte_des_lilas",
+    "lat": 48.8767,
+    "lng": 2.4066,
+    "imgPath": "paris/porte_des_lilas.png"
+  },
+  {
+    "name": "Porte Maillot",
+    "slug": "porte_maillot",
+    "lat": 48.8773,
+    "lng": 2.28361,
+    "imgPath": "paris/porte_maillot.png"
+  },
+  {
+    "name": "Pré-Saint-Gervais",
+    "slug": "pre_saint_gervais",
+    "lat": 48.87969,
+    "lng": 2.3988,
+    "imgPath": "paris/pre_saint_gervais.png"
+  },
+  {
+    "name": "Pyramides",
+    "slug": "pyramides",
+    "lat": 48.86544,
+    "lng": 2.3347,
+    "imgPath": "paris/pyramides.png"
+  },
+  {
+    "name": "Pyrénées",
+    "slug": "pyrenees",
+    "lat": 48.874,
+    "lng": 2.38517,
+    "imgPath": "paris/pyrenees.png"
+  },
+  {
+    "name": "Quatre-Septembre",
+    "slug": "quatre_septembre",
+    "lat": 48.86959,
+    "lng": 2.33588,
+    "imgPath": "paris/quatre_septembre.png"
+  },
+  {
+    "name": "Raspail",
+    "slug": "raspail",
+    "lat": 48.83903,
+    "lng": 2.33086,
+    "imgPath": "paris/raspail.png"
+  },
+  {
+    "name": "Réaumur - Sébastopol",
+    "slug": "reaumur_sebastopol",
+    "lat": 48.86601,
+    "lng": 2.35238,
+    "imgPath": "paris/reaumur_sebastopol.png"
+  },
+  {
+    "name": "Rennes",
+    "slug": "rennes",
+    "lat": 48.8482,
+    "lng": 2.3278,
+    "imgPath": "paris/rennes.png"
+  },
+  {
+    "name": "République",
+    "slug": "republique",
+    "lat": 48.86742,
+    "lng": 2.36392,
+    "imgPath": "paris/republique.png"
+  },
+  {
+    "name": "Reuilly-Diderot",
+    "slug": "reuilly_diderot",
+    "lat": 48.84743,
+    "lng": 2.38617,
+    "imgPath": "paris/reuilly_diderot.png"
+  },
+  {
+    "name": "Richelieu - Drouot",
+    "slug": "richelieu_drouot",
+    "lat": 48.87202,
+    "lng": 2.33955,
+    "imgPath": "paris/richelieu_drouot.png"
+  },
+  {
+    "name": "Saint-Fargeau",
+    "slug": "saint_fargeau",
+    "lat": 48.8716,
+    "lng": 2.4041,
+    "imgPath": "paris/saint_fargeau.png"
+  },
+  {
+    "name": "Saint-Lazare",
+    "slug": "saint_lazare",
+    "lat": 48.87611,
+    "lng": 2.32493,
+    "imgPath": "paris/saint_lazare.png"
+  },
+  {
+    "name": "Saint-Michel - Notre Dame - Cluny-La Sorbonne",
+    "slug": "saint_michel",
+    "lat": 48.85388,
+    "lng": 2.34477,
+    "imgPath": "paris/saint_michel.png"
+  },
+  {
+    "name": "Saint-Ouen",
+    "slug": "saint_ouen",
+    "lat": 48.90498,
+    "lng": 2.32243,
+    "imgPath": "paris/saint_ouen.png"
+  },
+  {
+    "name": "Sentier",
+    "slug": "sentier",
+    "lat": 48.86738,
+    "lng": 2.34708,
+    "imgPath": "paris/sentier.png"
+  },
+  {
+    "name": "Sèvres - Babylone",
+    "slug": "sevres_babylone",
+    "lat": 48.85162,
+    "lng": 2.32679,
+    "imgPath": "paris/sevres_babylone.png"
+  },
+  {
+    "name": "Stalingrad",
+    "slug": "stalingrad",
+    "lat": 48.8843,
+    "lng": 2.36592,
+    "imgPath": "paris/stalingrad.png"
+  },
+  {
+    "name": "Strasbourg - Saint-Denis",
+    "slug": "strasbourg_st_denis",
+    "lat": 48.86942,
+    "lng": 2.35417,
+    "imgPath": "paris/strasbourg_st_denis.png"
+  },
+  {
+    "name": "Télégraphe",
+    "slug": "telegraphe",
+    "lat": 48.87537,
+    "lng": 2.39878,
+    "imgPath": "paris/telegraphe.png"
+  },
+  {
+    "name": "Temple",
+    "slug": "temple",
+    "lat": 48.8666,
+    "lng": 2.36154,
+    "imgPath": "paris/temple.png"
+  },
+  {
+    "name": "Trocadéro",
+    "slug": "trocadero",
+    "lat": 48.86287,
+    "lng": 2.28718,
+    "imgPath": "paris/trocadero.png"
+  },
+  {
+    "name": "Tuileries",
+    "slug": "tuileries",
+    "lat": 48.86428,
+    "lng": 2.3301,
+    "imgPath": "paris/tuileries.png"
+  },
+  {
+    "name": "Vaugirard",
+    "slug": "vaugirard",
+    "lat": 48.83963,
+    "lng": 2.30101,
+    "imgPath": "paris/vaugirard.png"
+  },
+  {
+    "name": "Villiers",
+    "slug": "villiers",
+    "lat": 48.88128,
+    "lng": 2.31562,
+    "imgPath": "paris/villiers.png"
+  },
+  {
+    "name": "Volontaires",
+    "slug": "volontaires",
+    "lat": 48.84153,
+    "lng": 2.30823,
+    "imgPath": "paris/volontaires.png"
+  },
+  {
+    "name": "Mairie d'Issy",
+    "slug": "mairie_d_issy",
+    "lat": 48.8243165,
+    "lng": 2.2729934,
+    "imgPath": "paris/mairie_d_issy.png"
+  },
+  {
+    "name": "Corentin Celton",
+    "slug": "corentin_celton",
+    "lat": 48.8272169,
+    "lng": 2.2791696,
+    "imgPath": "paris/corentin_celton.png"
+  },
+  {
+    "name": "Porte de Versailles",
+    "slug": "pte_versailles",
+    "lat": 48.83252,
+    "lng": 2.28784,
+    "imgPath": "paris/pte_versailles.png"
+  },
+  {
+    "name": "Falguière",
+    "slug": "falguiere",
+    "lat": 48.8445417,
+    "lng": 2.3177864,
+    "imgPath": "paris/falguiere.png"
+  },
+  {
+    "name": "Notre-Dame des Champs",
+    "slug": "nd_champs",
+    "lat": 48.8447744,
+    "lng": 2.3287753,
+    "imgPath": "paris/nd_champs.png"
+  },
+  {
+    "name": "Rennes",
+    "slug": "rennes",
+    "lat": 48.8482044,
+    "lng": 2.3277971,
+    "imgPath": "paris/rennes.png"
+  },
+  {
+    "name": "Rue du Bac",
+    "slug": "bac",
+    "lat": 48.8557072,
+    "lng": 2.3256728,
+    "imgPath": "paris/bac.png"
+  },
+  {
+    "name": "Solférino",
+    "slug": "solferino",
+    "lat": 48.85822,
+    "lng": 2.32334,
+    "imgPath": "paris/solferino.png"
+  },
+  {
+    "name": "Assemblée Nationale",
+    "slug": "assemblee_nationale",
+    "lat": 48.8612875,
+    "lng": 2.3203557,
+    "imgPath": "paris/assemblee_nationale.png"
+  },
+  {
+    "name": "Trinité – d'Estienne d'Orves",
+    "slug": "trinite",
+    "lat": 48.8764983,
+    "lng": 2.3324992,
+    "imgPath": "paris/trinite.png"
+  },
+  {
+    "name": "Notre-Dame-de-Lorette",
+    "slug": "nd_lorette",
+    "lat": 48.8761699,
+    "lng": 2.3385969,
+    "imgPath": "paris/nd_lorette.png"
+  },
+  {
+    "name": "Saint-Georges",
+    "slug": "st_georges",
+    "lat": 48.8787,
+    "lng": 2.33742,
+    "imgPath": "paris/st_georges.png"
+  },
+  {
+    "name": "Jules Joffrin",
+    "slug": "jules_joffrin",
+    "lat": 48.892533,
+    "lng": 2.3446776,
+    "imgPath": "paris/jules_joffrin.png"
+  },
+  {
+    "name": "Marx Dormoy",
+    "slug": "marx_dormoy",
+    "lat": 48.8905071,
+    "lng": 2.3600973,
+    "imgPath": "paris/marx_dormoy.png"
+  },
+  {
+    "name": "Porte de la Chapelle",
+    "slug": "pte_chapelle",
+    "lat": 48.8980571,
+    "lng": 2.3589513,
+    "imgPath": "paris/pte_chapelle.png"
+  },
+  {
+    "name": "Porte de Vincennes",
+    "slug": "pte_vincennes",
+    "lat": 48.847153,
+    "lng": 2.41018,
+    "imgPath": "paris/pte_vincennes.png"
+  },
+  {
+    "name": "Saint-Paul",
+    "slug": "st_paul",
+    "lat": 48.8553441,
+    "lng": 2.3601375,
+    "imgPath": "paris/st_paul.png"
+  },
+  {
+    "name": "Avron",
+    "slug": "avron",
+    "lat": 48.85132,
+    "lng": 2.39849,
+    "imgPath": "paris/avron.png"
+  },
+  {
+    "name": "Alexandre Dumas",
+    "slug": "alexandre_dumas",
+    "lat": 48.8563342,
+    "lng": 2.3944206,
+    "imgPath": "paris/alexandre_dumas.png"
+  },
+  {
+    "name": "Philippe Auguste",
+    "slug": "philippe_auguste",
+    "lat": 48.8582991,
+    "lng": 2.3895556,
+    "imgPath": "paris/philippe_auguste.png"
+  },
+  {
+    "name": "Rome",
+    "slug": "rome",
+    "lat": 48.882294,
+    "lng": 2.3212291,
+    "imgPath": "paris/rome.png"
+  },
+  {
+    "name": "Blanche",
+    "slug": "blanche",
+    "lat": 48.8836992,
+    "lng": 2.3329476,
+    "imgPath": "paris/blanche.png"
+  },
+  {
+    "name": "Anvers",
+    "slug": "anvers",
+    "lat": 48.8828912,
+    "lng": 2.3440843,
+    "imgPath": "paris/anvers.png"
+  },
+  {
+    "name": "Europe",
+    "slug": "europe",
+    "lat": 48.8788798,
+    "lng": 2.3227856,
+    "imgPath": "paris/europe.png"
+  },
+  {
+    "name": "Parmentier",
+    "slug": "parmentier",
+    "lat": 48.8654227,
+    "lng": 2.3746054,
+    "imgPath": "paris/parmentier.png"
+  },
+  {
+    "name": "Rue Saint-Maur",
+    "slug": "rue_st_maur",
+    "lat": 48.8640085,
+    "lng": 2.3807969,
+    "imgPath": "paris/rue_st_maur.png"
+  },
+  {
+    "name": "Porte de Bagnolet",
+    "slug": "pte_bagnolet",
+    "lat": 48.8638158,
+    "lng": 2.4085554,
+    "imgPath": "paris/pte_bagnolet.png"
+  },
+  {
+    "name": "Gallieni",
+    "slug": "gallieni",
+    "lat": 48.864918,
+    "lng": 2.4167516,
+    "imgPath": "paris/gallieni.png"
+  },
+  {
+    "name": "Campo-Formio",
+    "slug": "campo_formio",
+    "lat": 48.8356243,
+    "lng": 2.3583955,
+    "imgPath": "paris/campo_formio.png"
+  },
+  {
+    "name": "Saint-Marcel",
+    "slug": "st_marcel",
+    "lat": 48.83874,
+    "lng": 2.36072,
+    "imgPath": "paris/st_marcel.png"
+  },
+  {
+    "name": "Quai de La Rapée",
+    "slug": "quai_rapee",
+    "lat": 48.8461287,
+    "lng": 2.3664909,
+    "imgPath": "paris/quai_rapee.png"
+  },
+  {
+    "name": "Richard Lenoir",
+    "slug": "richard_lenoir",
+    "lat": 48.8598089,
+    "lng": 2.3719328,
+    "imgPath": "paris/richard_lenoir.png"
+  },
+  {
+    "name": "Bréguet - Sabin",
+    "slug": "breguet_sabin",
+    "lat": 48.8556475,
+    "lng": 2.3700809,
+    "imgPath": "paris/breguet_sabin.png"
+  },
+  {
+    "name": "Vavin",
+    "slug": "vavin",
+    "lat": 48.8422235,
+    "lng": 2.3290368,
+    "imgPath": "paris/vavin.png"
+  },
+  {
+    "name": "Saint-Placide",
+    "slug": "st_placide",
+    "lat": 48.8467875,
+    "lng": 2.3269489,
+    "imgPath": "paris/st_placide.png"
+  },
+  {
+    "name": "Saint-Sulpice",
+    "slug": "st_sulpice",
+    "lat": 48.8514147,
+    "lng": 2.3309978,
+    "imgPath": "paris/st_sulpice.png"
+  },
+  {
+    "name": "Saint-Germain-des-Prés",
+    "slug": "st_germain_des_pres",
+    "lat": 48.8536184,
+    "lng": 2.3337393,
+    "imgPath": "paris/st_germain_des_pres.png"
+  },
+  {
+    "name": "Cité",
+    "slug": "cite",
+    "lat": 48.85536,
+    "lng": 2.34681,
+    "imgPath": "paris/cite.png"
+  },
+  {
+    "name": "Château Rouge",
+    "slug": "chateau_rouge",
+    "lat": 48.8873337,
+    "lng": 2.3494494,
+    "imgPath": "paris/chateau_rouge.png"
+  },
+  {
+    "name": "Simplon",
+    "slug": "simplon",
+    "lat": 48.8939921,
+    "lng": 2.3478437,
+    "imgPath": "paris/simplon.png"
+  },
+  {
+    "name": "Porte de Clignancourt",
+    "slug": "pte_clignancourt",
+    "lat": 48.89818,
+    "lng": 2.34507,
+    "imgPath": "paris/pte_clignancourt.png"
+  },
+  {
+    "name": "Picpus",
+    "slug": "picpus",
+    "lat": 48.84509,
+    "lng": 2.40212,
+    "imgPath": "paris/picpus.png"
+  },
+  {
+    "name": "Bel-Air",
+    "slug": "bel_air",
+    "lat": 48.841701,
+    "lng": 2.401153,
+    "imgPath": "paris/bel_air.png"
+  },
+  {
+    "name": "Dugommier",
+    "slug": "dugommier",
+    "lat": 48.8390992,
+    "lng": 2.3895676,
+    "imgPath": "paris/dugommier.png"
+  },
+  {
+    "name": "Quai de La Gare",
+    "slug": "quai_de_la_gare",
+    "lat": 48.8370571,
+    "lng": 2.3728543,
+    "imgPath": "paris/quai_de_la_gare.png"
+  },
+  {
+    "name": "Chevaleret",
+    "slug": "chevaleret",
+    "lat": 48.8349549,
+    "lng": 2.3681046,
+    "imgPath": "paris/chevaleret.png"
+  },
+  {
+    "name": "Nationale",
+    "slug": "nationale",
+    "lat": 48.83306,
+    "lng": 2.36258,
+    "imgPath": "paris/nationale.png"
+  },
+  {
+    "name": "Corvisart",
+    "slug": "corvisart",
+    "lat": 48.8296454,
+    "lng": 2.3497032,
+    "imgPath": "paris/corvisart.png"
+  },
+  {
+    "name": "Glacière",
+    "slug": "glaciere",
+    "lat": 48.831159,
+    "lng": 2.3434895,
+    "imgPath": "paris/glaciere.png"
+  },
+  {
+    "name": "Saint-Jacques",
+    "slug": "st_jacques",
+    "lat": 48.833085,
+    "lng": 2.3365195,
+    "imgPath": "paris/st_jacques.png"
+  },
+  {
+    "name": "Edgar Quinet",
+    "slug": "edgar_quinet",
+    "lat": 48.8411763,
+    "lng": 2.3250167,
+    "imgPath": "paris/edgar_quinet.png"
+  },
+  {
+    "name": "Sèvres-Lecourbe",
+    "slug": "sevres_lecourbe",
+    "lat": 48.8454306,
+    "lng": 2.3101917,
+    "imgPath": "paris/sevres_lecourbe.png"
+  },
+  {
+    "name": "Cambronne",
+    "slug": "cambronne",
+    "lat": 48.8475271,
+    "lng": 2.3030098,
+    "imgPath": "paris/cambronne.png"
+  },
+  {
+    "name": "Dupleix",
+    "slug": "dupleix",
+    "lat": 48.850435,
+    "lng": 2.2935545,
+    "imgPath": "paris/dupleix.png"
+  },
+  {
+    "name": "Passy",
+    "slug": "passy",
+    "lat": 48.85759,
+    "lng": 2.2858,
+    "imgPath": "paris/passy.png"
+  },
+  {
+    "name": "Les Gobelins",
+    "slug": "les_gobelins",
+    "lat": 48.8359113,
+    "lng": 2.3525331,
+    "imgPath": "paris/les_gobelins.png"
+  },
+  {
+    "name": "Censier-Daubenton",
+    "slug": "censier_daubenton",
+    "lat": 48.8406167,
+    "lng": 2.3515223,
+    "imgPath": "paris/censier_daubenton.png"
+  },
+  {
+    "name": "Place Monge",
+    "slug": "place_monge",
+    "lat": 48.84315,
+    "lng": 2.35214,
+    "imgPath": "paris/place_monge.png"
+  },
+  {
+    "name": "Sully - Morland",
+    "slug": "sully_morland",
+    "lat": 48.851336,
+    "lng": 2.3624402,
+    "imgPath": "paris/sully_morland.png"
+  },
+  {
+    "name": "Pont Marie",
+    "slug": "pont_marie",
+    "lat": 48.8536604,
+    "lng": 2.3572158,
+    "imgPath": "paris/pont_marie.png"
+  },
+  {
+    "name": "Pont Neuf",
+    "slug": "pont_neuf",
+    "lat": 48.8584354,
+    "lng": 2.3421855,
+    "imgPath": "paris/pont_neuf.png"
+  },
+  {
+    "name": "Le Peletier",
+    "slug": "le_peletier",
+    "lat": 48.8747048,
+    "lng": 2.3398963,
+    "imgPath": "paris/le_peletier.png"
+  },
+  {
+    "name": "Cadet",
+    "slug": "cadet",
+    "lat": 48.8760396,
+    "lng": 2.3440167,
+    "imgPath": "paris/cadet.png"
+  },
+  {
+    "name": "Poissonnière",
+    "slug": "poissonniere",
+    "lat": 48.8773174,
+    "lng": 2.3491434,
+    "imgPath": "paris/poissonniere.png"
+  },
+  {
+    "name": "Château Landon",
+    "slug": "chateau_landon",
+    "lat": 48.8789979,
+    "lng": 2.3620406,
+    "imgPath": "paris/chateau_landon.png"
+  },
+  {
+    "name": "Porte de Charenton",
+    "slug": "pte_charenton",
+    "lat": 48.8330809,
+    "lng": 2.401726,
+    "imgPath": "paris/pte_charenton.png"
+  },
+  {
+    "name": "Porte Dorée",
+    "slug": "pte_doree",
+    "lat": 48.8353839,
+    "lng": 2.4061198,
+    "imgPath": "paris/pte_doree.png"
+  },
+  {
+    "name": "Michel Bizot",
+    "slug": "michel_bizot",
+    "lat": 48.83691,
+    "lng": 2.40259,
+    "imgPath": "paris/michel_bizot.png"
+  },
+  {
+    "name": "Montgallet",
+    "slug": "montgallet",
+    "lat": 48.84419,
+    "lng": 2.39022,
+    "imgPath": "paris/montgallet.png"
+  },
+  {
+    "name": "Faidherbe - Chaligny",
+    "slug": "faidherbe_challigny",
+    "lat": 48.8502738,
+    "lng": 2.3841559,
+    "imgPath": "paris/faidherbe_challigny.png"
+  },
+  {
+    "name": "Ledru-Rollin",
+    "slug": "ledru_rollin",
+    "lat": 48.8511317,
+    "lng": 2.3763292,
+    "imgPath": "paris/ledru_rollin.png"
+  },
+  {
+    "name": "Saint-Sébastien - Froissart",
+    "slug": "st_sebastien_froissart",
+    "lat": 48.8611339,
+    "lng": 2.3673656,
+    "imgPath": "paris/st_sebastien_froissart.png"
+  },
+  {
+    "name": "Chemin Vert",
+    "slug": "chemin_vert",
+    "lat": 48.8574416,
+    "lng": 2.3679867,
+    "imgPath": "paris/chemin_vert.png"
+  },
+  {
+    "name": "Filles du Calvaire",
+    "slug": "filles_du_calvaire",
+    "lat": 48.8632905,
+    "lng": 2.3666653,
+    "imgPath": "paris/filles_du_calvaire.png"
+  },
+  {
+    "name": "Saint-Ambroise",
+    "slug": "st_ambroise",
+    "lat": 48.8611176,
+    "lng": 2.3746466,
+    "imgPath": "paris/st_ambroise.png"
+  },
+  {
+    "name": "Voltaire",
+    "slug": "voltaire",
+    "lat": 48.8582762,
+    "lng": 2.3800465,
+    "imgPath": "paris/voltaire.png"
+  },
+  {
+    "name": "Charonne",
+    "slug": "charonne",
+    "lat": 48.8546156,
+    "lng": 2.3856775,
+    "imgPath": "paris/charonne.png"
+  },
+  {
+    "name": "Rue des Boulets",
+    "slug": "rue_des_boulets",
+    "lat": 48.8522635,
+    "lng": 2.3892284,
+    "imgPath": "paris/rue_des_boulets.png"
+  },
+  {
+    "name": "Buzenval",
+    "slug": "buzenval",
+    "lat": 48.8519636,
+    "lng": 2.4012209,
+    "imgPath": "paris/buzenval.png"
+  },
+  {
+    "name": "Maraîchers",
+    "slug": "maraichers",
+    "lat": 48.8525872,
+    "lng": 2.4060405,
+    "imgPath": "paris/maraichers.png"
+  },
+  {
+    "name": "Porte de Montreuil",
+    "slug": "pte_montreuil",
+    "lat": 48.8536,
+    "lng": 2.41095,
+    "imgPath": "paris/pte_montreuil.png"
+  },
+  {
+    "name": "Robespierre",
+    "slug": "robespierre",
+    "lat": 48.8557214,
+    "lng": 2.4227192,
+    "imgPath": "paris/robespierre.png"
+  },
+  {
+    "name": "Croix de Chavaux",
+    "slug": "croix_de_chavaux",
+    "lat": 48.8580812,
+    "lng": 2.4355604,
+    "imgPath": "paris/croix_de_chavaux.png"
+  },
+  {
+    "name": "Mairie de Montreuil",
+    "slug": "mairie_de_montreuil",
+    "lat": 48.862117,
+    "lng": 2.4417126,
+    "imgPath": "paris/mairie_de_montreuil.png"
+  },
+  {
+    "name": "Cardinal Lemoine",
+    "slug": "cardinal_lemoine",
+    "lat": 48.84648,
+    "lng": 2.35147,
+    "imgPath": "paris/cardinal_lemoine.png"
+  },
+  {
+    "name": "Maubert - Mutualité",
+    "slug": "maubert_mutualite",
+    "lat": 48.8501398,
+    "lng": 2.348154,
+    "imgPath": "paris/maubert_mutualite.png"
+  },
+  {
+    "name": "Mabillon",
+    "slug": "mabillon",
+    "lat": 48.8529413,
+    "lng": 2.3357908,
+    "imgPath": "paris/mabillon.png"
+  },
+  {
+    "name": "Vaneau",
+    "slug": "vaneau",
+    "lat": 48.8488699,
+    "lng": 2.3210496,
+    "imgPath": "paris/vaneau.png"
+  },
+  {
+    "name": "Ségur",
+    "slug": "segur",
+    "lat": 48.84711,
+    "lng": 2.30733,
+    "imgPath": "paris/segur.png"
+  },
+  {
+    "name": "Goncourt",
+    "slug": "goncourt",
+    "lat": 48.8697957,
+    "lng": 2.3710874,
+    "imgPath": "paris/goncourt.png"
+  },
+  {
+    "name": "Rambuteau",
+    "slug": "rambuteau",
+    "lat": 48.8613071,
+    "lng": 2.3536304,
+    "imgPath": "paris/rambuteau.png"
+  },
+  {
+    "name": "Saint-François-Xavier",
+    "slug": "st_francois_xavier",
+    "lat": 48.85122,
+    "lng": 2.31433,
+    "imgPath": "paris/st_francois_xavier.png"
+  },
+  {
+    "name": "Duroc",
+    "slug": "duroc",
+    "lat": 48.8470501,
+    "lng": 2.3163159,
+    "imgPath": "paris/duroc.png"
+  },
+  {
+    "name": "Saint-Augustin",
+    "slug": "st_augustin",
+    "lat": 48.87531983882131,
+    "lng": 2.3155365817255413,
+    "imgPath": "paris/st_augustin"
+  },
+  {
+    "name": "Jacques Bonsergent",
+    "slug": "jacques_bonsergent",
+    "lat": 48.87091193271083,
+    "lng": 2.36104947229034,
+    "imgPath": "paris/jacques_bonsergent.png"
+  },
+  {
+    "name": "Esplanade de la Défense",
+    "slug": "esplanade_de_la_defense",
+    "lat": 48.88809,
+    "lng": 2.24998,
+    "imgPath": "paris/esplanade_de_la_defense.png"
+  },
+  {
+    "name": "Pont de Neuilly",
+    "slug": "pont_de_neuilly",
+    "lat": 48.88507,
+    "lng": 2.26007,
+    "imgPath": "paris/pont_de_neuilly.png"
+  },
+  {
+    "name": "Les Sablons",
+    "slug": "les_sablons",
+    "lat": 48.88136,
+    "lng": 2.27179,
+    "imgPath": "paris/les_sablons.png"
+  },
+  {
+    "name": "Argentine",
+    "slug": "argentine",
+    "lat": 48.87544,
+    "lng": 2.28933,
+    "imgPath": "paris/argentine.png"
+  },
+  {
+    "name": "Victor Hugo",
+    "slug": "victor_hugo",
+    "lat": 48.8698,
+    "lng": 2.28543,
+    "imgPath": "paris/victor_hugo.png"
+  },
+  {
+    "name": "Porte Dauphine",
+    "slug": "porte_dauphine",
+    "lat": 48.87215,
+    "lng": 2.27705,
+    "imgPath": "paris/porte_dauphine.png"
+  },
+  {
+    "name": "Saint-Mandé",
+    "slug": "st_mande",
+    "lat": 48.84628,
+    "lng": 2.41869,
+    "imgPath": "paris/st_mande.png"
+  },
+  {
+    "name": "Bérault",
+    "slug": "berault",
+    "lat": 48.84551,
+    "lng": 2.42825,
+    "imgPath": "paris/berault.png"
+  },
+  {
+    "name": "Château de Vincennes",
+    "slug": "chateau_de_vincennes",
+    "lat": 48.84463,
+    "lng": 2.43803,
+    "imgPath": "paris/chateau_de_vincennes.png"
+  },
+  {
+    "name": "Kléber",
+    "slug": "kleber",
+    "lat": 48.87165,
+    "lng": 2.2935,
+    "imgPath": "paris/kleber.png"
+  },
+  {
+    "name": "Boissière",
+    "slug": "boissiere",
+    "lat": 48.86693,
+    "lng": 2.2902,
+    "imgPath": "paris/boissiere.png"
+  },
+  {
+    "name": "Alma-Marceau",
+    "slug": "alma_marceau",
+    "lat": 48.86485,
+    "lng": 2.30174,
+    "imgPath": "paris/alma_marceau.png"
+  },
+  {
+    "name": "Iéna",
+    "slug": "iena",
+    "lat": 48.86466,
+    "lng": 2.29412,
+    "imgPath": "paris/iena.png"
+  },
+  {
+    "name": "Saint-Philippe-du-Roule",
+    "slug": "st_philippe_du_roule",
+    "lat": 48.87275,
+    "lng": 2.31055,
+    "imgPath": "paris/st_philippe_du_roule.png"
+  },
+  {
+    "name": "Monceau",
+    "slug": "monceau",
+    "lat": 48.88044,
+    "lng": 2.30893,
+    "imgPath": "paris/monceau.png"
+  },
+  {
+    "name": "Courcelles",
+    "slug": "courcelles",
+    "lat": 48.87916,
+    "lng": 2.30376,
+    "imgPath": "paris/courcelles.png"
+  },
+  {
+    "name": "Ternes",
+    "slug": "ternes",
+    "lat": 48.87815,
+    "lng": 2.29848,
+    "imgPath": "paris/ternes.png"
+  },
+  {
+    "name": "Porte de Champerret",
+    "slug": "porte_de_champerret",
+    "lat": 48.8856,
+    "lng": 2.29293,
+    "imgPath": "paris/porte_de_champerret.png"
+  },
+  {
+    "name": "Wagram",
+    "slug": "wagram",
+    "lat": 48.88399,
+    "lng": 2.30469,
+    "imgPath": "paris/wagram.png"
+  },
+  {
+    "name": "Malesherbes",
+    "slug": "malesherbes",
+    "lat": 48.88249,
+    "lng": 2.31011,
+    "imgPath": "paris/malesherbes.png"
+  },
+  {
+    "name": "Louise Michel",
+    "slug": "louise_michel",
+    "lat": 48.88877,
+    "lng": 2.28784,
+    "imgPath": "paris/louise_michel.png"
+  },
+  {
+    "name": "Pont de Levallois - Bécon",
+    "slug": "pont_de_levallois_becon",
+    "lat": 48.89735,
+    "lng": 2.27991,
+    "imgPath": "paris/pont_de_levallois_becon.png"
+  },
+  {
+    "name": "Anatole-France",
+    "slug": "anatole_france",
+    "lat": 48.89217,
+    "lng": 2.2852,
+    "imgPath": "paris/anatole_france.png"
+  },
+  {
+    "name": "Gabriel Péri",
+    "slug": "gabriel_peri",
+    "lat": 48.91638,
+    "lng": 2.29473,
+    "imgPath": "paris/gabriel_peri.png"
+  },
+  {
+    "name": "Les Agnettes",
+    "slug": "les_agnettes",
+    "lat": 48.92319,
+    "lng": 2.28583,
+    "imgPath": "paris/les_agnettes.png"
+  },
+  {
+    "name": "Mairie de Clichy",
+    "slug": "mairie_de_clichy",
+    "lat": 48.90338,
+    "lng": 2.3061,
+    "imgPath": "paris/mairie_de_clichy.png"
+  },
+  {
+    "name": "Brochant",
+    "slug": "brochant",
+    "lat": 48.89047,
+    "lng": 2.32004,
+    "imgPath": "paris/brochant.png"
+  },
+  {
+    "name": "Guy Môquet",
+    "slug": "guy_moquet",
+    "lat": 48.89278,
+    "lng": 2.32721,
+    "imgPath": "paris/guy_moquet.png"
+  },
+  {
+    "name": "Porte de Saint-Ouen",
+    "slug": "porte_de_saint_ouen",
+    "lat": 48.89733,
+    "lng": 2.32879,
+    "imgPath": "paris/porte_de_saint_ouen.png"
+  },
+  {
+    "name": "Garibaldi",
+    "slug": "garibaldi",
+    "lat": 48.90603,
+    "lng": 2.33172,
+    "imgPath": "paris/garibaldi.png"
+  },
+  {
+    "name": "Saint-Denis–Pleyel",
+    "slug": "st_denis_pleyel",
+    "lat": 48.91772,
+    "lng": 2.34675,
+    "imgPath": "paris/st_denis_pleyel.png"
+  },
+  {
+    "name": "Carrefour Pleyel",
+    "slug": "carrefour_pleyel",
+    "lat": 48.91963,
+    "lng": 2.34328,
+    "imgPath": "paris/carrefour_pleyel.png"
+  },
+  {
+    "name": "Saint-Denis - Porte de Paris",
+    "slug": "st_denis_porte_de_paris",
+    "lat": 48.92963,
+    "lng": 2.35655,
+    "imgPath": "paris/st_denis_porte_de_paris.png"
+  },
+  {
+    "name": "Basilique de Saint-Denis",
+    "slug": "basilique_de_st_denis",
+    "lat": 48.93723,
+    "lng": 2.35966,
+    "imgPath": "paris/basilique_de_st_denis.png"
+  },
+  {
+    "name": "Saint-Denis - Université",
+    "slug": "st_denis_universite",
+    "lat": 48.94586,
+    "lng": 2.36455,
+    "imgPath": "paris/st_denis_universite.png"
+  },
+  {
+    "name": "Front Populaire",
+    "slug": "front_populaire",
+    "lat": 48.9064,
+    "lng": 2.36585,
+    "imgPath": "paris/front_populaire.png"
+  },
+  {
+    "name": "Mairie d'Aubervilliers",
+    "slug": "mairie_aubervilliers",
+    "lat": 48.91402,
+    "lng": 2.38138,
+    "imgPath": "paris/mairie_aubervilliers.png"
+  },
+  {
+    "name": "Aimé Césaire",
+    "slug": "aime_cesaire",
+    "lat": 48.9077,
+    "lng": 2.37735,
+    "imgPath": "paris/aime_cesaire.png"
+  },
+  {
+    "name": "Riquet",
+    "slug": "riquet",
+    "lat": 48.88834,
+    "lng": 2.37415,
+    "imgPath": "paris/riquet.png"
+  },
+  {
+    "name": "Crimée",
+    "slug": "crimee",
+    "lat": 48.89149,
+    "lng": 2.37748,
+    "imgPath": "paris/crimee.png"
+  },
+  {
+    "name": "Corentin Cariou",
+    "slug": "corentin_cariou",
+    "lat": 48.89486,
+    "lng": 2.38241,
+    "imgPath": "paris/corentin_cariou.png"
+  },
+  {
+    "name": "Porte de la Villette",
+    "slug": "porte_de_la_villette",
+    "lat": 48.8974,
+    "lng": 2.38674,
+    "imgPath": "paris/porte_de_la_villette.png"
+  },
+  {
+    "name": "Aubervilliers-Pantin Quatre Chemins",
+    "slug": "aubervilliers_pantin_quatre_chemins",
+    "lat": 48.90374,
+    "lng": 2.39206,
+    "imgPath": "paris/aubervilliers_pantin_quatre_chemins.png"
+  },
+  {
+    "name": "Fort d'Aubervilliers",
+    "slug": "fort_aubervilliers",
+    "lat": 48.91473,
+    "lng": 2.40404,
+    "imgPath": "paris/fort_aubervilliers.png"
+  },
+  {
+    "name": "La Courneuve - 8 Mai 1945",
+    "slug": "la_courneuve_8_mai_1945",
+    "lat": 48.92083,
+    "lng": 2.41073,
+    "imgPath": "paris/la_courneuve_8_mai_1945.png"
+  },
+  {
+    "name": "Laumière",
+    "slug": "laumiere",
+    "lat": 48.88504,
+    "lng": 2.37963,
+    "imgPath": "paris/laumiere.png"
+  },
+  {
+    "name": "Ourcq",
+    "slug": "ourcq",
+    "lat": 48.88708,
+    "lng": 2.38706,
+    "imgPath": "paris/ourcq.png"
+  },
+  {
+    "name": "Porte de Pantin",
+    "slug": "porte_de_pantin",
+    "lat": 48.88862,
+    "lng": 2.39285,
+    "imgPath": "paris/porte_de_pantin.png"
+  },
+  {
+    "name": "Hoche",
+    "slug": "hoche",
+    "lat": 48.89109,
+    "lng": 2.40195,
+    "imgPath": "paris/hoche.png"
+  },
+  {
+    "name": "Église de Pantin",
+    "slug": "eglise_de_pantin",
+    "lat": 48.89317,
+    "lng": 2.41343,
+    "imgPath": "paris/eglise_de_pantin.png"
+  },
+  {
+    "name": "Bobigny - Pantin - Raymond Queneau",
+    "slug": "bobigny_pantin_raymond_queneau",
+    "lat": 48.89539,
+    "lng": 2.42528,
+    "imgPath": "paris/bobigny_pantin_raymond_queneau.png"
+  },
+  {
+    "name": "Bobigny-Pablo Picasso",
+    "slug": "bobigny_pablo_picasso",
+    "lat": 48.90699,
+    "lng": 2.44946,
+    "imgPath": "paris/bobigny_pablo_picasso.png"
+  },
+  {
+    "name": "Serge Gainsbourg",
+    "slug": "serge_gainsbourg",
+    "lat": 48.88115,
+    "lng": 2.42664,
+    "imgPath": "paris/serge_gainsbourg.png"
+  },
+  {
+    "name": "Romainville Carnot",
+    "slug": "romainville_carnot",
+    "lat": 48.8834,
+    "lng": 2.4408,
+    "imgPath": "paris/romainville_carnot.png"
+  },
+  {
+    "name": "Montreuil-Hôpital",
+    "slug": "montreuil_hopital",
+    "lat": 48.87842,
+    "lng": 2.45316,
+    "imgPath": "paris/montreuil_hopital.png"
+  },
+  {
+    "name": "La Dhuys",
+    "slug": "la_dhuys",
+    "lat": 48.87795,
+    "lng": 2.4654,
+    "imgPath": "paris/la_dhuys.png"
+  },
+  {
+    "name": "Rosny-Bois-Perrier",
+    "slug": "rosny_bois_perrier",
+    "lat": 48.88284,
+    "lng": 2.4806,
+    "imgPath": "paris/rosny_bois_perrier.png"
+  },
+  {
+    "name": "Liberté",
+    "slug": "liberte",
+    "lat": 48.82672,
+    "lng": 2.40561,
+    "imgPath": "paris/liberte.png"
+  },
+  {
+    "name": "Charenton - Écoles",
+    "slug": "charenton_ecoles",
+    "lat": 48.82157,
+    "lng": 2.41419,
+    "imgPath": "paris/charenton_ecoles.png"
+  },
+  {
+    "name": "École Vétérinaire de Maisons-Alfort",
+    "slug": "ecole_veterinaire_de_maisons_alfort",
+    "lat": 48.81476,
+    "lng": 2.42239,
+    "imgPath": "paris/ecole_veterinaire_de_maisons_alfort.png"
+  },
+  {
+    "name": "Maisons-Alfort - Stade",
+    "slug": "maisons_alfort_stade",
+    "lat": 48.80915,
+    "lng": 2.4345,
+    "imgPath": "paris/maisons_alfort_stade.png"
+  },
+  {
+    "name": "Maisons-Alfort - Les Juilliottes",
+    "slug": "maisons_alfort_les_juilliottes",
+    "lat": 48.80404,
+    "lng": 2.44449,
+    "imgPath": "paris/maisons_alfort_les_juilliottes.png"
+  },
+  {
+    "name": "Créteil - L'Échat",
+    "slug": "creteil_echat",
+    "lat": 48.79645,
+    "lng": 2.44924,
+    "imgPath": "paris/creteil_echat.png"
+  },
+  {
+    "name": "Créteil-Université",
+    "slug": "creteil_universite",
+    "lat": 48.78998,
+    "lng": 2.45051,
+    "imgPath": "paris/creteil_universite.png"
+  },
+  {
+    "name": "Créteil - Préfecture",
+    "slug": "creteil_prefecture",
+    "lat": 48.77986,
+    "lng": 2.45935,
+    "imgPath": "paris/creteil_prefecture.png"
+  },
+  {
+    "name": "Créteil - Pointe du Lac",
+    "slug": "pointe_du_lac",
+    "lat": 48.76903,
+    "lng": 2.46436,
+    "imgPath": "paris/pointe_du_lac.png"
+  },
+  {
+    "name": "Tolbiac",
+    "slug": "tolbiac",
+    "lat": 48.8262,
+    "lng": 2.35721,
+    "imgPath": "paris/tolbiac.png"
+  },
+  {
+    "name": "Maison Blanche",
+    "slug": "maison_blanche",
+    "lat": 48.82171,
+    "lng": 2.35852,
+    "imgPath": "paris/maison_blanche.png"
+  },
+  {
+    "name": "Cour Saint-Émilion",
+    "slug": "cour_st_emilion",
+    "lat": 48.83367,
+    "lng": 2.38611,
+    "imgPath": "paris/cour_st_emilion.png"
+  },
+  {
+    "name": "Olympiades",
+    "slug": "olympiades",
+    "lat": 48.82691,
+    "lng": 2.36637,
+    "imgPath": "paris/olympiades.png"
+  },
+  {
+    "name": "Porte d'Italie",
+    "slug": "porte_italie",
+    "lat": 48.8189,
+    "lng": 2.35991,
+    "imgPath": "paris/porte_italie.png"
+  },
+  {
+    "name": "Porte de Choisy",
+    "slug": "porte_de_choisy",
+    "lat": 48.81991,
+    "lng": 2.36452,
+    "imgPath": "paris/porte_de_choisy.png"
+  },
+  {
+    "name": "Porte d'Ivry",
+    "slug": "porte_ivry",
+    "lat": 48.82156,
+    "lng": 2.36934,
+    "imgPath": "paris/porte_ivry.png"
+  },
+  {
+    "name": "Pierre et Marie Curie",
+    "slug": "pierre_et_marie_curie",
+    "lat": 48.81594,
+    "lng": 2.37691,
+    "imgPath": "paris/pierre_et_marie_curie.png"
+  },
+  {
+    "name": "Mairie d'Ivry",
+    "slug": "mairie_ivry",
+    "lat": 48.81102,
+    "lng": 2.3841,
+    "imgPath": "paris/mairie_ivry.png"
+  },
+  {
+    "name": "Le Kremlin-Bicêtre",
+    "slug": "le_kremlin_bicetre",
+    "lat": 48.81038,
+    "lng": 2.36226,
+    "imgPath": "paris/le_kremlin_bicetre.png"
+  },
+  {
+    "name": "Villejuif Léo Lagrange",
+    "slug": "villejuif_leo_lagrange",
+    "lat": 48.80453,
+    "lng": 2.36398,
+    "imgPath": "paris/villejuif_leo_lagrange.png"
+  },
+  {
+    "name": "Villejuif Paul Vaillant-Couturier",
+    "slug": "villejuif_paul_vaillant_couturier",
+    "lat": 48.79651,
+    "lng": 2.36809,
+    "imgPath": "paris/villejuif_paul_vaillant_couturier.png"
+  },
+  {
+    "name": "Villejuif - Louis Aragon",
+    "slug": "villejuif_louis_aragon",
+    "lat": 48.7876,
+    "lng": 2.36782,
+    "imgPath": "paris/villejuif_louis_aragon.png"
+  },
+  {
+    "name": "Aéroport d'Orly",
+    "slug": "aeroport_orly",
+    "lat": 48.72819,
+    "lng": 2.3619,
+    "imgPath": "paris/aeroport_orly.png"
+  },
+  {
+    "name": "Chevilly-Larue​",
+    "slug": "chevilly_larue",
+    "lat": 48.75905,
+    "lng": 2.36648,
+    "imgPath": "paris/chevilly_larue.png"
+  },
+  {
+    "name": "Thiais - Orly​",
+    "slug": "thiais_orly",
+    "lat": 48.74722,
+    "lng": 2.37283,
+    "imgPath": "paris/thiais_orly.png"
+  },
+  {
+    "name": "L'Haÿ-les-Roses",
+    "slug": "hay_les_roses",
+    "lat": 48.77554,
+    "lng": 2.35403,
+    "imgPath": "paris/hay_les_roses.png"
+  },
+  {
+    "name": "Villejuif - Gustave Roussy",
+    "slug": "villejuif_gustave_roussy",
+    "lat": 48.79344,
+    "lng": 2.34973,
+    "imgPath": "paris/villejuif_gustave_roussy.png"
+  },
+  {
+    "name": "Hôpital Bicêtre",
+    "slug": "hopital_bicetre",
+    "lat": 48.8096,
+    "lng": 2.34969,
+    "imgPath": "paris/hopital_bicetre.png"
+  },
+  {
+    "name": "Bagneux - Lucie Aubrac",
+    "slug": "bagneux_lucie_aubrac",
+    "lat": 48.80356,
+    "lng": 2.31743,
+    "imgPath": "paris/bagneux_lucie_aubrac.png"
+  },
+  {
+    "name": "Barbara",
+    "slug": "barbara",
+    "lat": 48.80981,
+    "lng": 2.31759,
+    "imgPath": "paris/barbara.png"
+  },
+  {
+    "name": "Mairie de Montrouge",
+    "slug": "mairie_de_montrouge",
+    "lat": 48.8182,
+    "lng": 2.31971,
+    "imgPath": "paris/mairie_de_montrouge.png"
+  },
+  {
+    "name": "Porte d'Orléans",
+    "slug": "porte_orleans",
+    "lat": 48.82272,
+    "lng": 2.32599,
+    "imgPath": "paris/porte_orleans.png"
+  },
+  {
+    "name": "Alésia",
+    "slug": "alesia",
+    "lat": 48.82814,
+    "lng": 2.3273,
+    "imgPath": "paris/alesia.png"
+  },
+  {
+    "name": "Mouton Duvernet",
+    "slug": "mouton_duvernet",
+    "lat": 48.83136,
+    "lng": 2.32985,
+    "imgPath": "paris/mouton_duvernet.png"
+  },
+  {
+    "name": "Gaîté",
+    "slug": "gaite",
+    "lat": 48.83827,
+    "lng": 2.32244,
+    "imgPath": "paris/gaite.png"
+  },
+  {
+    "name": "Pernety",
+    "slug": "pernety",
+    "lat": 48.83399,
+    "lng": 2.31795,
+    "imgPath": "paris/pernety.png"
+  },
+  {
+    "name": "Plaisance",
+    "slug": "plaisance",
+    "lat": 48.83173,
+    "lng": 2.3143,
+    "imgPath": "paris/plaisance.png"
+  },
+  {
+    "name": "Porte de Vanves",
+    "slug": "porte_de_vanves",
+    "lat": 48.82747,
+    "lng": 2.3059,
+    "imgPath": "paris/porte_de_vanves.png"
+  },
+  {
+    "name": "Malakoff - Plateau de Vanves",
+    "slug": "malakoff_plateau_de_vanves",
+    "lat": 48.82254,
+    "lng": 2.2985,
+    "imgPath": "paris/malakoff_plateau_de_vanves.png"
+  },
+  {
+    "name": "Malakoff - Rue Étienne Dolet",
+    "slug": "malakoff_rue_etienne_dolet",
+    "lat": 48.81477,
+    "lng": 2.29666,
+    "imgPath": "paris/malakoff_rue_etienne_dolet.png"
+  },
+  {
+    "name": "Châtillon Montrouge",
+    "slug": "chatillon_montrouge",
+    "lat": 48.81078,
+    "lng": 2.30174,
+    "imgPath": "paris/chatillon_montrouge.png"
+  },
+  {
+    "name": "Balard",
+    "slug": "balard",
+    "lat": 48.83647,
+    "lng": 2.2781,
+    "imgPath": "paris/balard.png"
+  },
+  {
+    "name": "Lourmel",
+    "slug": "lourmel",
+    "lat": 48.83901,
+    "lng": 2.28253,
+    "imgPath": "paris/lourmel.png"
+  },
+  {
+    "name": "Boucicaut",
+    "slug": "boucicaut",
+    "lat": 48.84102,
+    "lng": 2.28784,
+    "imgPath": "paris/boucicaut.png"
+  },
+  {
+    "name": "Félix Faure",
+    "slug": "felix_faure",
+    "lat": 48.8427,
+    "lng": 2.29156,
+    "imgPath": "paris/felix_faure.png"
+  },
+  {
+    "name": "Boulogne Pont de Saint-Cloud",
+    "slug": "boulogne_pont_de_saint_cloud",
+    "lat": 48.8408,
+    "lng": 2.22828,
+    "imgPath": "paris/boulogne_pont_de_saint_cloud.png"
+  },
+  {
+    "name": "Boulogne Jean Jaurès",
+    "slug": "boulogne_jean_jaures",
+    "lat": 48.84203,
+    "lng": 2.23877,
+    "imgPath": "paris/boulogne_jean_jaures.png"
+  },
+  {
+    "name": "Pont de Sèvres",
+    "slug": "pont_de_sevres",
+    "lat": 48.82958,
+    "lng": 2.23014,
+    "imgPath": "paris/pont_de_sevres.png"
+  },
+  {
+    "name": "Billancourt",
+    "slug": "billancourt",
+    "lat": 48.83204,
+    "lng": 2.23819,
+    "imgPath": "paris/billancourt.png"
+  },
+  {
+    "name": "Marcel Sembat",
+    "slug": "marcel_sembat",
+    "lat": 48.83369,
+    "lng": 2.24354,
+    "imgPath": "paris/marcel_sembat.png"
+  },
+  {
+    "name": "Porte de Saint-Cloud",
+    "slug": "porte_de_saint_cloud",
+    "lat": 48.83801,
+    "lng": 2.25716,
+    "imgPath": "paris/porte_de_saint_cloud.png"
+  },
+  {
+    "name": "Exelmans",
+    "slug": "exelmans",
+    "lat": 48.84302,
+    "lng": 2.25991,
+    "imgPath": "paris/exelmans.png"
+  },
+  {
+    "name": "Jasmin",
+    "slug": "jasmin",
+    "lat": 48.85248,
+    "lng": 2.26817,
+    "imgPath": "paris/jasmin.png"
+  },
+  {
+    "name": "Ranelagh",
+    "slug": "ranelagh",
+    "lat": 48.85551,
+    "lng": 2.27012,
+    "imgPath": "paris/ranelagh.png"
+  },
+  {
+    "name": "Rue de la Pompe",
+    "slug": "rue_de_la_pompe",
+    "lat": 48.86413,
+    "lng": 2.27796,
+    "imgPath": "paris/rue_de_la_pompe.png"
+  },
+  {
+    "name": "Musée d'Orsay",
+    "slug": "musee_orsay",
+    "lat": 48.86021,
+    "lng": 2.32535,
+    "imgPath": "paris/musee_orsay.png"
+  },
+  {
+    "name": "Pont de l'Alma",
+    "slug": "pont_alma",
+    "lat": 48.86254,
+    "lng": 2.30108,
+    "imgPath": "paris/pont_alma.png"
+  },
+  {
+    "name": "Avenue du Président Kennedy - Maison de Radio France",
+    "slug": "avenue_president_kennedy",
+    "lat": 48.85337,
+    "lng": 2.27999,
+    "imgPath": "paris/avenue_president_kennedy.png"
+  },
+  {
+    "name": "Avenue Henri-Martin",
+    "slug": "avenue_henri_martin",
+    "lat": 48.86442,
+    "lng": 2.27226,
+    "imgPath": "paris/avenue_henri_martin.png"
+  },
+  {
+    "name": "Avenue Foch",
+    "slug": "porte_dauphine",
+    "lat": 48.87088,
+    "lng": 2.27555,
+    "imgPath": "paris/porte_dauphine.png"
+  },
+  {
+    "name": "Val de Fontenay",
+    "slug": "val_de_fontenay",
+    "lat": 48.85431,
+    "lng": 2.48907,
+    "imgPath": "paris/val_de_fontenay.png"
+  },
+  {
+    "name": "Vincennes",
+    "slug": "vincennes",
+    "lat": 48.84736,
+    "lng": 2.43336,
+    "imgPath": "paris/vincennes.png"
+  },
+  {
+    "name": "Nogent-sur-Marne",
+    "slug": "nogent_sur_marne",
+    "lat": 48.83442,
+    "lng": 2.47192,
+    "imgPath": "paris/nogent_sur_marne.png"
+  },
+  {
+    "name": "Cité Universitaire",
+    "slug": "cite_universitaire",
+    "lat": 48.82048,
+    "lng": 2.33895,
+    "imgPath": "paris/cite_universitaire.png"
+  },
+  {
+    "name": "Port-Royal",
+    "slug": "port_royal",
+    "lat": 48.83982,
+    "lng": 2.337,
+    "imgPath": "paris/port_royal.png"
+  },
+  {
+    "name": "Luxembourg",
+    "slug": "luxembourg",
+    "lat": 48.84677,
+    "lng": 2.34031,
+    "imgPath": "paris/luxembourg.png"
+  },
+  {
+    "name": "Pereire",
+    "slug": "pereire",
+    "lat": 48.88482868466478,
+    "lng": 2.298351319320327,
+    "imgPath": "paris/pereire.png"
+  },
+  {
+    "name": "Varenne",
+    "slug": "varenne",
+    "lat": 48.85620272259449,
+    "lng": 2.315014878101465,
+    "imgPath": "paris/varenne.png"
+  },
+  {
+    "name": "Rosa Parks",
+    "slug": "rosa_parks",
+    "lat": 48.89662812236149,
+    "lng": 2.373904118127917,
+    "imgPath": "paris/rosa_parks.png"
+  }
+]

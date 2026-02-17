@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paris Métro — Origins of Every Station Name</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Paris Métro</h1>
+    <p class="subtitle">The origin of every station name</p>
+  </header>
+
+  <div id="controls">
+    <div id="line-filter"></div>
+    <div id="category-filter"></div>
+    <div id="timeline">
+      <button id="play-btn" aria-label="Play timeline">&#9654;</button>
+      <input id="year-slider" type="range" min="1900" max="2026" value="2026">
+      <span id="year-label">2026</span>
+      <span id="station-count"></span>
+    </div>
+    <div id="search-box">
+      <input id="search" type="text" placeholder="Search stations…" autocomplete="off">
+      <div id="search-results"></div>
+    </div>
+  </div>
+
+  <main>
+    <div id="map-container">
+      <svg id="metro-map"></svg>
+    </div>
+    <aside id="sidebar" class="hidden">
+      <button id="sidebar-close" aria-label="Close">&times;</button>
+      <div id="sidebar-content"></div>
+    </aside>
+  </main>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
