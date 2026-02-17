@@ -11,20 +11,17 @@ const LINE_COLORS = {
 const LINE_ORDER = [1, 2, 3, '3bis', 4, 5, 6, 7, '7bis', 8, 9, 10, 11, 12, 13, 14];
 
 const CATEGORIES = [
-  { id: 'battle', label: 'Battles' },
-  { id: 'ruler', label: 'Rulers' },
-  { id: 'politician', label: 'Politicians' },
+  { id: 'government', label: 'Government' },
   { id: 'military', label: 'Military' },
   { id: 'writer', label: 'Writers' },
   { id: 'artist', label: 'Artists' },
   { id: 'scientist', label: 'Scientists' },
   { id: 'religion', label: 'Religion' },
   { id: 'institution', label: 'Institutions' },
-  { id: 'geographic', label: 'Geographic' },
+  { id: 'place', label: 'Places' },
   { id: 'infrastructure', label: 'Infrastructure' },
   { id: 'trade', label: 'Trade' },
   { id: 'foreign', label: 'Foreign' },
-  { id: 'street', label: 'Streets' },
 ];
 
 // ─── State ──────────────────────────────────────────────────────────
@@ -369,7 +366,7 @@ function initControls(stations) {
       .attr('class', 'line-btn')
       .attr('data-line', label)
       .style('background-color', LINE_COLORS[line])
-      .style('color', [1, 9].includes(line) ? '#000' : '#fff')
+      .style('color', [1, '3bis', 5, 6, 7, '7bis', 8, 9, 10, 13].includes(line) ? '#000' : '#fff')
       .text(label)
       .on('click', function() {
         const btn = d3.select(this);
@@ -529,7 +526,7 @@ function selectStation(station) {
     .attr('stroke', d => d.slug === station.slug ? '#fff' : '#fff');
 
   const linesBadges = station.lines.map(l =>
-    `<span class="detail-line-badge" style="background:${LINE_COLORS[l] || '#666'};${[1, 9].includes(l) ? 'color:#000' : ''}">${l}</span>`
+    `<span class="detail-line-badge" style="background:${LINE_COLORS[l] || '#666'};${[1, '3bis', 5, 6, 7, '7bis', 8, 9, 10, 13].includes(l) ? 'color:#000' : ''}">${l}</span>`
   ).join('');
 
   const priorNames = station.prior_names && station.prior_names.length > 0

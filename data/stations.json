@@ -13,7 +13,8 @@
     "layout_image": "la_defense",
     "etymology": "Named after La Defense, the business district located west of Paris. The district itself takes its name from the statue La Defense de Paris, erected in 1883 to commemorate the defense of the city during the Franco-Prussian War of 1870-1871.",
     "categories": [
-      "infrastructure"
+      "infrastructure",
+      "military"
     ]
   },
   {
@@ -64,7 +65,7 @@
     "layout_image": "les_sablons",
     "etymology": "Named after the Porte des Sablons, a gate in the former Thiers fortifications of Paris. The name 'sablons' means 'sandy ground' in French, referring to the sandy soil that characterized the area near the Bois de Boulogne.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -127,7 +128,8 @@
     "layout_image": "etoile",
     "etymology": "Originally named Etoile after the Place de l'Etoile, the star-shaped intersection of twelve avenues radiating from the Arc de Triomphe. Renamed in 1970 to honor Charles de Gaulle (1890-1970), leader of the Free French Forces during World War II and first president of the Fifth Republic.",
     "categories": [
-      "politician"
+      "government",
+      "military"
     ]
   },
   {
@@ -149,7 +151,8 @@
     "layout_image": "george_v",
     "etymology": "Originally named Alma after the nearby street commemorating the Battle of the Alma (1854) in the Crimean War. Renamed on 27 May 1920 after George V (1865-1936), King of the United Kingdom, in appreciation of British support for France during World War I.",
     "categories": [
-      "ruler"
+      "government",
+      "foreign"
     ]
   },
   {
@@ -175,7 +178,8 @@
     "layout_image": "franklin_d_roosevelt",
     "etymology": "Originally named Marbeuf after the nearby street. Renamed in 1946 to honor Franklin D. Roosevelt (1882-1945), the 32nd President of the United States, in recognition of America's role in the liberation of France during World War II.",
     "categories": [
-      "foreign"
+      "foreign",
+      "government"
     ]
   },
   {
@@ -198,7 +202,7 @@
     "layout_image": "champs_elysees_clemenceau",
     "etymology": "Originally named Champs-Elysees after the famous avenue. Renamed in 1931 after Georges Clemenceau (1841-1929), twice Prime Minister of France, who led the country to victory in World War I and was known as 'Le Tigre' and 'Pere la Victoire.'",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -278,7 +282,8 @@
     "layout_image": "louvre_rivoli",
     "etymology": "Originally named Louvre after the nearby palace and museum. Renamed Louvre-Rivoli in 1989 when the Palais Royal station was given the Musee du Louvre subtitle. The Rivoli part refers to the Rue de Rivoli, named after Napoleon's victory at the Battle of Rivoli (1797).",
     "categories": [
-      "institution"
+      "institution",
+      "military"
     ]
   },
   {
@@ -414,7 +419,8 @@
     "layout_image": "nation",
     "etymology": "Named after the Place de la Nation, originally called Place du Trone for the throne erected there for Louis XIV's entry into Paris in 1660. Renamed Place de la Nation in 1880 to celebrate the French Republic, it features a bronze sculpture representing the triumph of the Republic.",
     "categories": [
-      "institution"
+      "institution",
+      "government"
     ]
   },
   {
@@ -465,7 +471,7 @@
     "layout_image": "berault",
     "etymology": "Named after the Avenue du Chateau de Vincennes, formerly known as the Rue Berault. The name Berault likely refers to a local landowner or historical figure associated with the area between Saint-Mande and Vincennes.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -499,7 +505,8 @@
     "layout_image": "porte_dauphine",
     "etymology": "Named after the Porte Dauphine, a gate in the Thiers fortifications named in honor of the Dauphine (wife of the Dauphin, heir to the French throne). The station is famous for its Art Nouveau entrance designed by Hector Guimard, one of only two surviving glazed canopy entrances in Paris.",
     "categories": [
-      "ruler"
+      "government",
+      "infrastructure"
     ]
   },
   {
@@ -533,7 +540,7 @@
     "layout_image": "ternes",
     "etymology": "Named after the quartier des Ternes, a neighborhood in the 17th arrondissement. The name derives from the Latin 'externus' (external), referring to its location outside the medieval city walls. The area was formerly a separate village before being absorbed into Paris in 1860.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -550,7 +557,7 @@
     "layout_image": "courcelles",
     "etymology": "Named after the Rue de Courcelles, which leads to the former village of Courcelles. The name derives from 'curticella,' a diminutive of the Latin 'cortis' (courtyard or small farm), indicating a small agricultural settlement that once existed in the area.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -567,7 +574,7 @@
     "layout_image": "monceau",
     "etymology": "Named after the Parc Monceau and the adjacent Boulevard de Courcelles. The park was created in 1778 by the Duke of Chartres and later redesigned by Haussmann. The name Monceau derives from 'moncel' (small hill), referring to the slightly elevated terrain.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -585,7 +592,7 @@
     "layout_image": "villiers",
     "etymology": "Named after the Boulevard de Villiers (now Boulevard de Courcelles) and the nearby Avenue de Villiers. The name refers to an ancient hamlet or settlement, from the Latin 'villare' meaning a small rural estate or farm.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -620,7 +627,7 @@
     "layout_image": "place_de_clichy",
     "etymology": "Named after the Place de Clichy, a major intersection on the former boundary of Paris. The name refers to the commune of Clichy to the north. The square is the site of the Monument to Marshal Moncey, commemorating the defense of Paris at the Barriere de Clichy in 1814.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -637,7 +644,7 @@
     "layout_image": "blanche",
     "etymology": "Named after the Rue Blanche, which leads up to the Place Blanche at the foot of Montmartre. The name 'Blanche' (white) derives from the white plaster dust that covered the street from carts transporting gypsum quarried from the Montmartre hill.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -695,7 +702,8 @@
     "layout_image": "barbes",
     "etymology": "Named after two boulevards: Boulevard Barbes, honoring Armand Barbes (1809-1870), a republican revolutionary and political prisoner, and Boulevard de Rochechouart, named after Marguerite de Rochechouart de Montpipeau (1665-1727), abbess of Montmartre.",
     "categories": [
-      "politician"
+      "government",
+      "religion"
     ]
   },
   {
@@ -740,7 +748,8 @@
     "layout_image": "stalingrad",
     "etymology": "Originally named Rue d'Aubervilliers, then renamed Aubervilliers-Boulevard de la Villette in 1942. Renamed Stalingrad on 10 February 1946 to commemorate the Soviet victory at the Battle of Stalingrad (1942-1943), a decisive turning point of World War II.",
     "categories": [
-      "battle"
+      "military",
+      "foreign"
     ]
   },
   {
@@ -764,7 +773,7 @@
     "layout_image": "jaures",
     "etymology": "Originally named Rue d'Allemagne (Street of Germany). Renamed on 1 August 1914 to honor Jean Jaures (1859-1914), the socialist leader and pacifist assassinated the previous day. The renaming also reflected anti-German sentiment at the outbreak of World War I.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -804,7 +813,7 @@
     "layout_image": "belleville",
     "etymology": "Named after the former commune of Belleville, annexed to Paris in 1860. The name means 'beautiful town' (belle ville) and refers to a hilltop village that was historically known for its vineyards and later as a working-class neighborhood.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -821,7 +830,7 @@
     "layout_image": "couronnes",
     "etymology": "Named after the Rue des Couronnes in the Belleville neighborhood. The name 'couronnes' (crowns) is believed to derive from the garlands or floral wreaths that decorated the area. The station was the site of the tragic 1903 metro fire that killed 84 people.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -838,7 +847,7 @@
     "layout_image": "menilmontant",
     "etymology": "Named after the neighborhood of Menilmontant, from the medieval 'mesnil mautemps' meaning 'badly cultivated hamlet' or possibly 'house on the hill.' The area was a separate village absorbed into Paris in 1860, known for its steep streets on the eastern hills of the city.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -873,7 +882,7 @@
     "layout_image": "philippe_auguste",
     "etymology": "Named after the Avenue Philippe Auguste, honoring Philippe II Auguste (1165-1223), King of France. Philippe Auguste greatly expanded the French royal domain, built the first permanent Louvre fortress, and constructed the city wall that defined Paris for centuries.",
     "categories": [
-      "ruler"
+      "government"
     ]
   },
   {
@@ -912,7 +921,7 @@
     "layout_image": "avron",
     "etymology": "Named after the Rue d'Avron, which commemorates the Plateau d'Avron east of Paris. During the Siege of Paris in 1870-1871, the French army established artillery positions on the plateau before being forced to retreat by Prussian bombardment.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -968,7 +977,7 @@
     "layout_image": "louise_michel",
     "etymology": "Originally named Vallier after a local street. Renamed on 1 May 1946 to honor Louise Michel (1830-1905), a French anarchist, teacher, and leading figure of the Paris Commune of 1871. She is buried in the Levallois-Perret cemetery.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -1019,7 +1028,7 @@
     "layout_image": "wagram",
     "etymology": "Named after the Avenue de Wagram, which commemorates the Battle of Wagram (5-6 July 1809), where Napoleon defeated Archduke Charles of Austria near Vienna. This decisive victory led to the Treaty of Schonbrunn and consolidated French dominance in Central Europe.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -1036,7 +1045,7 @@
     "layout_image": "malesherbes",
     "etymology": "Named after the Boulevard Malesherbes, honoring Chretien-Guillaume de Lamoignon de Malesherbes (1721-1794). He was a French statesman and lawyer who served as minister under Louis XVI and courageously defended the king during his trial, for which he was guillotined during the Terror.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -1053,7 +1062,7 @@
     "layout_image": "europe",
     "etymology": "Named after the Place de l'Europe, a square near the Gare Saint-Lazare where streets are named after European capitals (Rome, Madrid, London, etc.). The quartier de l'Europe was developed in the 1820s around the new railway station. The station was subtitled Simone Veil in 2018.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -1073,7 +1082,8 @@
     "layout_image": "saint_lazare",
     "etymology": "Named after the Gare Saint-Lazare, the second busiest railway station in Paris. The station takes its name from Saint Lazarus, as a medieval leper hospital (lazaret) dedicated to him once stood nearby. The Gare Saint-Lazare was famously painted by Claude Monet.",
     "categories": [
-      "religion"
+      "religion",
+      "infrastructure"
     ]
   },
   {
@@ -1091,7 +1101,7 @@
     "layout_image": "havre_caumartin",
     "etymology": "Named after the intersection of Rue du Havre and Rue de Caumartin. The Rue du Havre leads to the Gare Saint-Lazare and is named after the port city of Le Havre. The Rue de Caumartin honors Antoine-Louis-Francois de Caumartin (1725-1803), a city official.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -1127,7 +1137,8 @@
     "layout_image": "quatre_septembre",
     "etymology": "Named after the Rue du Quatre-Septembre, commemorating 4 September 1870, the date when the Third French Republic was proclaimed at the Hotel de Ville following the capture of Napoleon III at the Battle of Sedan. This ended the Second Empire and began republican government.",
     "categories": [
-      "institution"
+      "institution",
+      "government"
     ]
   },
   {
@@ -1144,7 +1155,8 @@
     "layout_image": "bourse",
     "etymology": "Named after the nearby Bourse de Paris (Paris Stock Exchange), housed in the Palais Brongniart. Built between 1808 and 1826 to a design by Alexandre-Theodore Brongniart, the neoclassical building served as the home of the French stock exchange until electronic trading moved operations in 1998.",
     "categories": [
-      "trade"
+      "trade",
+      "institution"
     ]
   },
   {
@@ -1161,7 +1173,7 @@
     "layout_image": "sentier",
     "etymology": "Named after the Rue du Sentier in the 2nd arrondissement. The name 'sentier' means 'path' or 'trail,' referring to an ancient footpath that traversed the area. The quartier du Sentier has been the historic center of the Parisian garment and textile trade.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -1179,7 +1191,8 @@
     "layout_image": "reaumur_sebastopol",
     "etymology": "Named after the intersection of Rue Reaumur and Boulevard de Sebastopol. Reaumur honors Rene Antoine Ferchault de Reaumur (1683-1757), a French scientist who invented the Reaumur temperature scale. Sebastopol commemorates the Siege of Sevastopol (1854-1855) during the Crimean War.",
     "categories": [
-      "scientist"
+      "scientist",
+      "military"
     ]
   },
   {
@@ -1235,7 +1248,8 @@
     "layout_image": "republique",
     "etymology": "Named after the Place de la Republique, created by Haussmann in 1854. The square features a large bronze statue of Marianne, the personification of the French Republic, erected in 1883. The place has historically been a gathering point for political demonstrations and celebrations.",
     "categories": [
-      "institution"
+      "institution",
+      "government"
     ]
   },
   {
@@ -1291,7 +1305,7 @@
     "layout_image": "gambetta",
     "etymology": "Named after the Place Gambetta, honoring Leon Gambetta (1838-1882), a prominent French republican statesman. He dramatically escaped besieged Paris by balloon in 1870 to organize resistance during the Franco-Prussian War, and later served as Prime Minister of France.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -1342,7 +1356,8 @@
     "layout_image": "pte_clignancourt",
     "etymology": "Named after the Porte de Clignancourt, one of the gates in the Thiers fortifications built in the 1840s. Clignancourt was a hamlet that became part of the 18th arrondissement when Paris annexed its surrounding communes in 1860. The name likely derives from a landowner named Clignancourt or from the old French word for a fenced enclosure.",
     "categories": [
-      "geographic"
+      "place",
+      "infrastructure"
     ]
   },
   {
@@ -1376,7 +1391,8 @@
     "layout_image": "marcadet_poissonniers",
     "etymology": "Located at the intersection of Rue Marcadet and Rue des Poissonniers. Rue Marcadet follows the path of an ancient Roman road and its name may derive from 'marché' (market). Rue des Poissonniers was the route used by fish merchants (poissonniers) transporting fish from the northern ports to the Halles market in central Paris.",
     "categories": [
-      "street"
+      "place",
+      "trade"
     ]
   },
   {
@@ -1393,7 +1409,7 @@
     "layout_image": "chateau_rouge",
     "etymology": "Named after a red-painted pleasure house and dance hall called the Château Rouge that stood nearby in the 18th century. The building, originally a country house built in the 1780s, became a popular entertainment venue before being demolished in 1882. The surrounding neighborhood retained the name.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -1463,7 +1479,8 @@
     "layout_image": "strasbourg_st_denis",
     "etymology": "Located at the intersection of Boulevard de Strasbourg and Rue du Faubourg-Saint-Denis. The boulevard commemorates the city of Strasbourg in Alsace, while Saint-Denis refers to the route leading north to the Basilica of Saint-Denis, burial place of the French kings. The nearby Porte Saint-Denis triumphal arch, built in 1672, celebrates Louis XIV's victories on the Rhine.",
     "categories": [
-      "street"
+      "place",
+      "religion"
     ]
   },
   {
@@ -1480,7 +1497,7 @@
     "layout_image": "etienne_marcel",
     "etymology": "Named after the Rue Étienne Marcel, which honors Étienne Marcel (c. 1302-1358), provost of the merchants of Paris. He led a revolt against the Dauphin (future Charles V) during the Hundred Years' War, demanding greater political representation for the bourgeoisie. He was assassinated in 1358 by supporters of the Dauphin.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -1497,7 +1514,7 @@
     "layout_image": "cite",
     "etymology": "Named after the Île de la Cité, the island in the Seine that is the historical heart of Paris. The Parisii, a Celtic tribe, first settled here around the 3rd century BC. The island houses Notre-Dame Cathedral, the Sainte-Chapelle, and the Conciergerie, and was the seat of royal and religious power for centuries.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -1605,7 +1622,8 @@
     "layout_image": "montparnasse2",
     "etymology": "A combination of two names: Montparnasse, from Mount Parnassus in Greek mythology, a nickname given by students who gathered on a mound of rubble to recite poetry; and Bienvenüe, honoring Fulgence Bienvenüe (1852-1936), the engineer who masterminded the construction of the Paris Métro. The two nearby stations were merged in 1942.",
     "categories": [
-      "geographic"
+      "place",
+      "scientist"
     ]
   },
   {
@@ -1622,7 +1640,7 @@
     "layout_image": "vavin",
     "etymology": "Named after the Rue Vavin, which honors a member of the Vavin family who were notable landowners in the area during the 18th century. The street is located in the heart of Montparnasse, which was a center of artistic and intellectual life in the early 20th century.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -1640,7 +1658,8 @@
     "layout_image": "raspail",
     "etymology": "Named after the Boulevard Raspail, which honors François-Vincent Raspail (1794-1878), a French chemist, physician, and republican politician. He was a pioneer of cell biology and antiseptic medicine, and was imprisoned multiple times for his opposition to the monarchies of Louis-Philippe and Napoleon III. He was elected to the National Assembly in 1869 and 1876.",
     "categories": [
-      "politician"
+      "government",
+      "scientist"
     ]
   },
   {
@@ -1697,7 +1716,7 @@
     "layout_image": "alesia",
     "etymology": "Named after the Rue d'Alésia, which commemorates the Battle of Alesia in 52 BC, where Julius Caesar defeated the Gallic chieftain Vercingetorix. This decisive battle marked the end of organized Gallic resistance to Roman conquest. The exact location of ancient Alesia has been debated but is generally identified as Alise-Sainte-Reine in Burgundy.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -1714,7 +1733,8 @@
     "layout_image": "porte_orleans",
     "etymology": "Named after the Porte d'Orléans, a gate in the Thiers fortifications on the road leading south to the city of Orléans. The gate took its name from the historic route to Orléans, one of France's most important cities during the medieval period. General Leclerc's troops entered Paris through this gate during the Liberation in August 1944.",
     "categories": [
-      "geographic"
+      "place",
+      "infrastructure"
     ]
   },
   {
@@ -1833,7 +1853,8 @@
     "layout_image": "porte_de_pantin",
     "etymology": "Named after the Porte de Pantin, a gate in the Thiers fortifications on the road leading northeast to the commune of Pantin. The gate was one of many openings in the defensive wall built around Paris in the 1840s. The nearby Parc de la Villette and the Cité de la Musique now occupy this area.",
     "categories": [
-      "geographic"
+      "place",
+      "infrastructure"
     ]
   },
   {
@@ -1850,7 +1871,7 @@
     "layout_image": "ourcq",
     "etymology": "Named after the Rue de l'Ourcq and the Canal de l'Ourcq, which takes its name from the Ourcq River, a tributary of the Marne. Napoleon ordered the construction of the canal in 1802 to supply Paris with fresh water and facilitate transport. The canal stretches 108 kilometers from Mareuil-sur-Ourcq to the Bassin de la Villette.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -1906,7 +1927,8 @@
     "layout_image": "oberkampf",
     "etymology": "Named after the Rue Oberkampf, which honors Christophe-Philippe Oberkampf (1738-1815), a German-born French industrialist who founded the famous Toile de Jouy textile factory in Jouy-en-Josas in 1760. His printed cotton fabrics became world-renowned, and he was ennobled by Napoleon for his contributions to French industry.",
     "categories": [
-      "trade"
+      "trade",
+      "foreign"
     ]
   },
   {
@@ -1940,7 +1962,8 @@
     "layout_image": "breguet_sabin",
     "etymology": "Located at the intersection of two streets: Rue Bréguet, honoring Abraham-Louis Breguet (1747-1823), a Swiss-French watchmaker and inventor who created the tourbillon and many other horological innovations; and Rue Saint-Sabin, named after Saint Sabinus, a 3rd-century Christian martyr. Breguet's timepieces were favored by Napoleon and Marie Antoinette.",
     "categories": [
-      "scientist"
+      "scientist",
+      "religion"
     ]
   },
   {
@@ -1966,7 +1989,8 @@
     "layout_image": "quai_rapee",
     "etymology": "Named after the Quai de la Rapée, a riverside quay along the Seine. The name derives from a 17th-century country house called 'La Rapée' that belonged to a wine merchant. The quay became an important location for the wine trade, as barrels were unloaded from barges here before being transported to the nearby Bercy wine market.",
     "categories": [
-      "street"
+      "place",
+      "trade"
     ]
   },
   {
@@ -1988,7 +2012,8 @@
     "layout_image": "austerlitz",
     "etymology": "Named after the Gare d'Austerlitz railway station, originally called Gare d'Orléans when it opened in 1840. The station was renamed after the Battle of Austerlitz (1805), Napoleon's greatest military victory against the Russian and Austrian empires. The nearby Pont d'Austerlitz bridge, built in 1806, also commemorates this battle.",
     "categories": [
-      "infrastructure"
+      "infrastructure",
+      "military"
     ]
   },
   {
@@ -2022,7 +2047,7 @@
     "layout_image": "campo_formio",
     "etymology": "Named after the Rue de Campo-Formio, which commemorates the Treaty of Campo Formio signed on October 17, 1797, between Napoleon Bonaparte and Austria. The treaty ended the War of the First Coalition and ceded Belgium and the left bank of the Rhine to France. Campo Formio (now Campoformido) is a village in northeastern Italy.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -2040,7 +2065,8 @@
     "layout_image": "place_d_italie",
     "etymology": "Named after the Place d'Italie, a large square at the junction of several major boulevards. The square sits on the historic road leading southeast toward Italy via Lyon. The area was once the site of the Barrière d'Italie, a toll gate on the Farmers General Wall. It serves as the central hub of the 13th arrondissement.",
     "categories": [
-      "geographic"
+      "place",
+      "foreign"
     ]
   },
   {
@@ -2074,7 +2100,7 @@
     "layout_image": "boissiere",
     "etymology": "Named after the Rue Boissière, which takes its name from the old lieu-dit 'La Boissière,' meaning a place overgrown with boxwood (buis in French). The area was once a wooded zone on the outskirts of Paris before being developed in the 19th century as part of the elegant 16th arrondissement.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -2091,7 +2117,7 @@
     "layout_image": "trocadero",
     "etymology": "Named after the Place du Trocadéro, which commemorates the Battle of Trocadero (1823), where French forces captured the Fort of Trocadero near Cadiz, Spain, to restore King Ferdinand VII to absolute power. The Palais du Trocadéro was built for the 1878 World's Fair and replaced by the Palais de Chaillot for the 1937 Exposition.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -2108,7 +2134,7 @@
     "layout_image": "passy",
     "etymology": "Named after the former commune of Passy, which was annexed to Paris in 1860 and became part of the 16th arrondissement. Passy was historically a village known for its thermal springs and became a fashionable residential area in the 18th century. The name may derive from the Gallo-Roman 'Paciacum,' meaning the estate of Paccius.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -2130,7 +2156,7 @@
     "layout_image": "bir_hakeim_champ_de_mars",
     "etymology": "Renamed in 1949 to commemorate the Battle of Bir Hakeim (1942), where Free French forces under General Koenig held off Rommel's Afrika Korps for 16 days in the Libyan desert. This heroic resistance allowed the British Eighth Army to regroup and was a major boost to Free French morale. The station was originally named Grenelle after the former commune.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -2147,7 +2173,8 @@
     "layout_image": "dupleix",
     "etymology": "Named after the Rue Dupleix, which honors Joseph François Dupleix (1697-1763), Governor General of French India from 1742 to 1754. He expanded French influence in India through alliances with local rulers and was a rival of Robert Clive. He was recalled to France and died in obscurity, his colonial ambitions unrecognized.",
     "categories": [
-      "ruler"
+      "government",
+      "foreign"
     ]
   },
   {
@@ -2198,7 +2225,8 @@
     "layout_image": "sevres_lecourbe",
     "etymology": "Located at the intersection of two streets: Rue de Sèvres, named after the road leading to the town of Sèvres (famous for its porcelain factory); and Rue Lecourbe, honoring Claude-Jacques Lecourbe (1759-1815), a French general of the Revolutionary and Napoleonic Wars who distinguished himself in the Rhine campaigns.",
     "categories": [
-      "street"
+      "place",
+      "military"
     ]
   },
   {
@@ -2232,7 +2260,8 @@
     "layout_image": "edgar_quinet",
     "etymology": "Named after the Boulevard Edgar-Quinet, which honors Edgar Quinet (1803-1875), a French historian, philosopher, and republican politician. He was a professor at the Collège de France and a fierce advocate for secularism and public education. He was exiled during the Second Empire and returned after the fall of Napoleon III in 1870.",
     "categories": [
-      "writer"
+      "writer",
+      "government"
     ]
   },
   {
@@ -2300,7 +2329,8 @@
     "layout_image": "nationale",
     "etymology": "Named after the Rue Nationale, a major street in the 13th arrondissement. The street was named during the French Revolution to express patriotic sentiment, replacing its earlier name. The term 'nationale' (national) reflects the revolutionary ideals of national unity and sovereignty.",
     "categories": [
-      "street"
+      "place",
+      "government"
     ]
   },
   {
@@ -2317,7 +2347,7 @@
     "layout_image": "chevaleret",
     "etymology": "Named after the Rue du Chevaleret, whose name derives from the old French word 'chevalet' (small horse or trestle), possibly referring to a wooden structure or signpost that once marked the area. The street runs through the eastern part of the 13th arrondissement near the Seine.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -2351,7 +2381,7 @@
     "layout_image": "bercy",
     "etymology": "Named after the former commune of Bercy, annexed to Paris in 1860. Bercy was historically the site of a vast wine market where wine arrived by barge on the Seine and was stored in hundreds of warehouses. The name may derive from a Gaulish landowner named Berciacus. The area now houses the Palais Omnisports and the Ministry of Finance.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -2402,7 +2432,7 @@
     "layout_image": "bel_air",
     "etymology": "Named after the Rue du Bel-Air, which takes its name from a locality called 'Bel-Air' (beautiful air), a common French place name referring to an elevated area with pleasant breezes or views. The neighborhood sits on slightly higher ground near the Bois de Vincennes, historically considered a healthful location.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -2419,7 +2449,7 @@
     "layout_image": "picpus",
     "etymology": "Named after the Rue de Picpus and the historic Picpus neighborhood. The name may derive from the old French 'pic-puce' (flea-bite), a humorous reference to the area's marshy conditions. The Picpus Cemetery nearby is notable as the burial site of victims of the Reign of Terror and of the Marquis de Lafayette, the hero of the American Revolution.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -2436,7 +2466,7 @@
     "layout_image": "la_courneuve_8_mai_1945",
     "etymology": "Named after the commune of La Courneuve in Seine-Saint-Denis. The suffix 8 Mai 1945 commemorates Victory in Europe Day, marking the end of World War II in Europe on 8 May 1945.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -2470,7 +2500,7 @@
     "layout_image": "aubervilliers_pantin_quatre_chemins",
     "etymology": "Named after the communes of Aubervilliers and Pantin, and the Quatre Chemins (Four Roads) crossroads where the borders of these two communes meet. The intersection has been a notable landmark since the 19th century.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -2509,7 +2539,7 @@
     "layout_image": "corentin_cariou",
     "etymology": "Originally named Pont de Flandre after the nearby bridge over the Canal de l'Ourcq. Renamed on 10 February 1946 in honor of Corentin Cariou (1898-1942), a Communist municipal councillor of the 19th arrondissement who was executed by the Nazis as a hostage during the German occupation.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -2526,7 +2556,8 @@
     "layout_image": "crimee",
     "etymology": "Named after the Rue de Crimée, which commemorates the Crimean War (1853-1856) in which France, allied with Britain and the Ottoman Empire, fought against Russia. The street was named during the Second Empire to celebrate French military victories.",
     "categories": [
-      "battle"
+      "military",
+      "foreign"
     ]
   },
   {
@@ -2543,7 +2574,8 @@
     "layout_image": "riquet",
     "etymology": "Named after the Rue Riquet, which honors Pierre-Paul Riquet (1609-1680), the engineer and entrepreneur who conceived and built the Canal du Midi in southern France, connecting the Atlantic Ocean to the Mediterranean Sea. The canal remains one of the greatest feats of 17th-century civil engineering.",
     "categories": [
-      "infrastructure"
+      "infrastructure",
+      "scientist"
     ]
   },
   {
@@ -2561,7 +2593,7 @@
     "layout_image": "louis_blanc",
     "etymology": "Named after the Rue Louis Blanc, honoring Louis Blanc (1811-1882), a French politician, historian, and socialist theorist. He was a member of the provisional government during the French Revolution of 1848 and advocated for workers' cooperatives and social reform.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -2578,7 +2610,7 @@
     "layout_image": "chateau_landon",
     "etymology": "Named after the Rue de Château-Landon, which refers to the town of Château-Landon in Seine-et-Marne. The street led toward the road to this medieval town, which was an important stronghold of the early Capetian kings of France.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -2612,7 +2644,7 @@
     "layout_image": "cadet",
     "etymology": "Named after the Rue Cadet, which takes its name from a certain Cadet, a landowner who possessed property in the area during the 18th century. The street was opened in 1779 on land belonging to this family.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -2629,7 +2661,7 @@
     "layout_image": "le_peletier",
     "etymology": "Named after the Rue Le Peletier, honoring Louis Le Peletier de Saint-Fargeau (1760-1793), a revolutionary politician who voted for the execution of King Louis XVI. He was assassinated on the eve of the king's execution and became a martyr of the Revolution.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -2652,7 +2684,9 @@
     "layout_image": "chaussee_d_antin",
     "etymology": "Named after the Chaussée d'Antin, a street named for Louis-Antoine de Pardaillan de Gondrin, Duke of Antin (1665-1736), who owned a grand estate in the area. La Fayette was added in 1989, referring to the nearby Rue La Fayette, named after the Marquis de Lafayette, hero of the American and French Revolutions.",
     "categories": [
-      "street"
+      "place",
+      "military",
+      "government"
     ]
   },
   {
@@ -2670,7 +2704,7 @@
     "layout_image": "pyramides",
     "etymology": "Named after the Rue des Pyramides, which commemorates Napoleon Bonaparte's victory at the Battle of the Pyramids on 21 July 1798, during the French campaign in Egypt. In this decisive engagement, the French army defeated the Mamluk forces near the Giza pyramids.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -2726,7 +2760,8 @@
     "layout_image": "sully_morland",
     "etymology": "Originally named Pont de Sully after the nearby bridge. The name combines two references: the Pont de Sully, named after Maximilien de Béthune, Duke of Sully (1559-1641), minister to Henri IV; and the Boulevard Morland, named after Charles Morland (1769-1805), a cavalry general killed at the Battle of Austerlitz.",
     "categories": [
-      "politician"
+      "government",
+      "military"
     ]
   },
   {
@@ -2795,7 +2830,8 @@
     "layout_image": "les_gobelins",
     "etymology": "Named after the famous Gobelins tapestry manufactory, established in the 15th century by the Gobelin family of dyers and weavers. Under Louis XIV, Jean-Baptiste Colbert transformed it into the royal Manufacture des Gobelins, which has been producing tapestries for the French state ever since.",
     "categories": [
-      "trade"
+      "trade",
+      "institution"
     ]
   },
   {
@@ -2812,7 +2848,7 @@
     "layout_image": "tolbiac",
     "etymology": "Named after the Rue de Tolbiac, which commemorates the Battle of Tolbiac (496 AD) in which Clovis I, king of the Franks, defeated the Alemanni. According to tradition, Clovis vowed to convert to Christianity during the battle, a pivotal moment in French history.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -2829,7 +2865,7 @@
     "layout_image": "maison_blanche",
     "etymology": "Named after the Quartier de la Maison-Blanche (White House Quarter) in the 13th arrondissement. The name comes from a white-painted house that once stood as a landmark at a crossroads in the area, serving as a reference point for travelers on the road south from Paris.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -2846,7 +2882,8 @@
     "layout_image": "le_kremlin_bicetre",
     "etymology": "Named after the commune of Le Kremlin-Bicêtre. The name 'Kremlin' derives from a cabaret called Au Grand Kremlin, established by a veteran of Napoleon's Russian campaign. Bicêtre refers to the nearby Bicêtre Hospital, whose name evolved from Winchester, after a former bishop of Winchester's castle on the site.",
     "categories": [
-      "foreign"
+      "foreign",
+      "institution"
     ]
   },
   {
@@ -2863,7 +2900,8 @@
     "layout_image": "villejuif_leo_lagrange",
     "etymology": "Named after the commune of Villejuif and Léo Lagrange (1900-1940), a French socialist politician who served as Under-Secretary of State for Sports and Leisure in the Popular Front government of 1936. He was killed in action during the Battle of France in World War II.",
     "categories": [
-      "politician"
+      "government",
+      "military"
     ]
   },
   {
@@ -2880,7 +2918,8 @@
     "layout_image": "villejuif_paul_vaillant_couturier",
     "etymology": "Named after Paul Vaillant-Couturier (1892-1937), a French Communist journalist, novelist, and politician. He served as mayor of Villejuif from 1929 until his death and was editor of the Communist newspaper L'Humanité. He was also a decorated veteran of World War I.",
     "categories": [
-      "politician"
+      "government",
+      "writer"
     ]
   },
   {
@@ -2914,7 +2953,8 @@
     "layout_image": "pre_saint_gervais",
     "etymology": "Named after the neighboring commune of Le Pré-Saint-Gervais, one of the smallest communes in France. The name means 'the meadow of Saint Gervase,' referring to the patron saint of the local parish church and the pastoral character of the land.",
     "categories": [
-      "geographic"
+      "place",
+      "religion"
     ]
   },
   {
@@ -2932,7 +2972,7 @@
     "layout_image": "place_des_fetes",
     "etymology": "Named after the Place des Fêtes (Festival Square), a public square in the 19th arrondissement that was historically used for popular festivities and public celebrations in the former commune of Belleville before its annexation by Paris in 1860.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -2966,7 +3006,8 @@
     "layout_image": "botzaris",
     "etymology": "Named after the Rue Botzaris, honoring Markos Botzaris (1788-1823), a Greek military commander and hero of the Greek War of Independence against the Ottoman Empire. He died leading a daring night attack at the Battle of Karpenisi and became a symbol of Greek freedom celebrated across Europe.",
     "categories": [
-      "foreign"
+      "foreign",
+      "military"
     ]
   },
   {
@@ -2983,7 +3024,7 @@
     "layout_image": "buttes_chaumont",
     "etymology": "Named after the Parc des Buttes-Chaumont, one of the largest parks in Paris, created under Napoleon III and designed by Jean-Charles Alphand. The name derives from chauve mont (bald mountain), referring to the barren gypsum quarry hills that were transformed into the park in 1867.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -3051,7 +3092,7 @@
     "layout_image": "felix_faure",
     "etymology": "Named after the Avenue Félix Faure, honoring Félix Faure (1841-1899), who served as President of the French Republic from 1895 until his death in office. He is notably associated with the Franco-Russian alliance and the political turmoil of the Dreyfus affair.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -3085,7 +3126,8 @@
     "layout_image": "ecole_militaire",
     "etymology": "Named after the nearby École Militaire (Military School), founded in 1750 by Louis XV at the urging of Madame de Pompadour and the financier Joseph Pâris Duverney. The school was designed by architect Ange-Jacques Gabriel and is where the young Napoleon Bonaparte studied as a cadet.",
     "categories": [
-      "military"
+      "military",
+      "institution"
     ]
   },
   {
@@ -3102,7 +3144,8 @@
     "layout_image": "la_tour_maubourg",
     "etymology": "Named after the Boulevard de La Tour-Maubourg, honoring Marie Victor de Fay, Marquis de La Tour-Maubourg (1768-1850), a French general and politician. He served as Minister of War under Louis XVIII and lost a leg at the Battle of Leipzig in 1813.",
     "categories": [
-      "military"
+      "military",
+      "government"
     ]
   },
   {
@@ -3120,7 +3163,8 @@
     "layout_image": "invalides",
     "etymology": "Named after the Hôtel des Invalides, a complex of buildings commissioned by Louis XIV in 1670 to house wounded and disabled war veterans (invalides). It now contains museums and monuments relating to French military history, as well as the tomb of Napoleon Bonaparte.",
     "categories": [
-      "institution"
+      "institution",
+      "military"
     ]
   },
   {
@@ -3157,8 +3201,9 @@
     "layout_image": "richelieu_drouot",
     "etymology": "Named after two intersecting streets: the Rue de Richelieu, honoring Cardinal Richelieu (1585-1642), chief minister to Louis XIII who centralized French royal power; and the Rue Drouot, named after Antoine Drouot (1774-1847), a Napoleonic artillery general known as the 'Sage of the Grande Armée.'",
     "categories": [
-      "politician",
-      "military"
+      "government",
+      "military",
+      "religion"
     ]
   },
   {
@@ -3233,7 +3278,8 @@
     "layout_image": "st_sebastien_froissart",
     "etymology": "Named after two streets: the Rue Saint-Sébastien, referencing Saint Sebastian, the Christian martyr; and the Rue Froissart, honoring Jean Froissart (c. 1337-c. 1405), a medieval chronicler whose Chroniques are among the most important primary sources for the first half of the Hundred Years' War.",
     "categories": [
-      "religion"
+      "religion",
+      "writer"
     ]
   },
   {
@@ -3250,7 +3296,7 @@
     "layout_image": "chemin_vert",
     "etymology": "Named after the Rue du Chemin Vert, meaning 'Green Path.' The name refers to a former rural lane bordered by vegetation that once crossed through the gardens and fields of the Faubourg Saint-Antoine, before the area was urbanized in the 18th and 19th centuries.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -3267,7 +3313,7 @@
     "layout_image": "ledru_rollin",
     "etymology": "Named after the Avenue Ledru-Rollin, honoring Alexandre Auguste Ledru-Rollin (1807-1874), a French politician who was instrumental in establishing universal male suffrage in France in 1848. He served as Minister of the Interior during the Second Republic and ran unsuccessfully for president.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -3284,7 +3330,8 @@
     "layout_image": "faidherbe_challigny",
     "etymology": "Named after two streets: the Rue Faidherbe, honoring Louis Faidherbe (1818-1889), a French general and colonial governor of Senegal who also led the Armée du Nord during the Franco-Prussian War; and the Rue de Chaligny, named after a locality in the Meuse region.",
     "categories": [
-      "military"
+      "military",
+      "government"
     ]
   },
   {
@@ -3301,7 +3348,7 @@
     "layout_image": "montgallet",
     "etymology": "Named after the Rue Montgallet, which takes its name from a local landowner or property in the area. The street became well known in the late 20th century as Paris's unofficial 'computer street,' with numerous shops selling electronics and computer components.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -3369,7 +3416,8 @@
     "layout_image": "liberte",
     "etymology": "Named after the Rue de la Liberté in Charenton-le-Pont. The street name refers to the French republican ideal of Liberty, one of the three values of the national motto 'Liberté, Égalité, Fraternité' adopted during the French Revolution.",
     "categories": [
-      "street"
+      "place",
+      "government"
     ]
   },
   {
@@ -3386,7 +3434,7 @@
     "layout_image": "charenton_ecoles",
     "etymology": "Named after the commune of Charenton-le-Pont and the Rue des Écoles (Schools Street). Charenton derives from a Gallo-Roman estate name, and the Écoles reference likely relates to the local schools in the commune's center.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -3437,7 +3485,7 @@
     "layout_image": "maisons_alfort_les_juilliottes",
     "etymology": "Named after the commune of Maisons-Alfort and the Les Juilliottes neighborhood. The name Juilliottes may derive from an old French word related to a local plant or land feature in this area of the Marne river valley.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -3454,7 +3502,7 @@
     "layout_image": "creteil_echat",
     "etymology": "Named after the city of Créteil, prefecture of the Val-de-Marne department, and the L'Échat district. The name Créteil may derive from the Gallo-Roman Cristoilum. L'Échat refers to a local toponym, possibly from an old French word meaning a cleared or open area.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -3505,7 +3553,7 @@
     "layout_image": "pointe_du_lac",
     "etymology": "Named after its location at the southern tip (pointe) of the Lac de Créteil, an artificial lake created from former sand and gravel quarries. The lake and surrounding park were developed in the 1970s as part of the new town planning for Créteil.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -3539,7 +3587,7 @@
     "layout_image": "billancourt",
     "etymology": "Named after the former commune of Billancourt, which merged with Boulogne-sur-Seine in 1926 to form Boulogne-Billancourt. The name Billancourt derives from a medieval landowner. The area became famous in the 20th century as the site of the Renault automobile factories on the Île Seguin.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -3556,7 +3604,7 @@
     "layout_image": "marcel_sembat",
     "etymology": "Named after Marcel Sembat (1862-1922), a French socialist politician who served as Minister of Public Works from 1914 to 1916 during World War I. He was a deputy for the Seine department and a prominent figure in the French Section of the Workers' International (SFIO). He was also a noted art critic and supporter of the Fauvist movement.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -3573,7 +3621,8 @@
     "layout_image": "porte_de_saint_cloud",
     "etymology": "Named after one of the gates in the Thiers fortification wall of Paris, which led toward the town of Saint-Cloud. Saint-Cloud itself is named after Clodoald (522-560), grandson of Clovis I, who renounced his claim to the Frankish throne and became a monk. The gate was an important western entrance to Paris.",
     "categories": [
-      "infrastructure"
+      "infrastructure",
+      "religion"
     ]
   },
   {
@@ -3659,7 +3708,7 @@
     "layout_image": "la_muette_boulainvilliers",
     "etymology": "Named after the Château de la Muette, a former royal hunting lodge and later palace in the Bois de Boulogne. The name may derive from 'la meute' (the pack of hounds) referring to the royal hunt, or from 'mue' (moulting), as the château may have housed a falconry where birds moulted. The château was rebuilt several times and now serves as the headquarters of the OECD.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -3676,7 +3725,7 @@
     "layout_image": "rue_de_la_pompe",
     "etymology": "Named after the Rue de la Pompe, a major street in the 16th arrondissement. The street takes its name from a water pump (pompe) that was installed in the 18th century to supply water to the village of Passy. During World War II, the street became infamous as the location of a Gestapo interrogation center at number 180.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -3693,7 +3742,7 @@
     "layout_image": "iena",
     "etymology": "Named after the Avenue d'Iéna, which commemorates the Battle of Jena-Auerstedt fought on 14 October 1806, during which Napoleon decisively defeated the Prussian army. The battle effectively ended Prussian resistance and led to the French occupation of Berlin. The avenue was created under Napoleon III in the 1850s.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -3710,7 +3759,7 @@
     "layout_image": "alma_marceau",
     "etymology": "Named after the Place de l'Alma and the Avenue Marceau. The Place de l'Alma commemorates the Battle of the Alma on 20 September 1854, the first major battle of the Crimean War, in which French and British forces defeated the Russian army at the Alma River in Crimea. The avenue honors François Séverin Marceau (1769-1796), a French Revolutionary general killed at the Battle of Altenkirchen.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -3795,7 +3844,7 @@
     "layout_image": "charonne",
     "etymology": "Named after the Rue de Charonne and the former village of Charonne. Charonne was an independent village east of Paris, annexed in 1860 as part of the 20th arrondissement, though this station is in the 11th. The village was known for its vineyards and rural character. The name may derive from a Gallo-Roman landowner named Caro.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -3812,7 +3861,7 @@
     "layout_image": "rue_des_boulets",
     "etymology": "Named after the Rue des Boulets, a street in the 11th arrondissement. The street name likely derives from the French word 'boulets' (cannonballs), possibly referencing a cannonball foundry or storage facility that once existed in the area. Some historians suggest the name may instead come from 'bouleau' (birch tree), referring to former birch groves.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -3829,7 +3878,7 @@
     "layout_image": "buzenval",
     "etymology": "Named after the Rue de Buzenval, which commemorates the Battle of Buzenval fought on 19 January 1871 during the Franco-Prussian War. This was one of the last sorties attempted by French forces during the Siege of Paris. The battle took place near the Château de Buzenval in Rueil-Malmaison and resulted in a French defeat with heavy losses.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -3880,7 +3929,7 @@
     "layout_image": "robespierre",
     "etymology": "Named after Maximilien de Robespierre (1758-1794), a key figure of the French Revolution. A lawyer from Arras, he became one of the most influential members of the Committee of Public Safety and was a driving force behind the Reign of Terror. He was overthrown and guillotined on 28 July 1794 during the Thermidorian Reaction.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -3897,7 +3946,7 @@
     "layout_image": "croix_de_chavaux",
     "etymology": "Named after an ancient crossroads in Montreuil known as the Croix de Chavaux. The name refers to a wayside cross (croix) that once stood at this intersection. 'Chavaux' is believed to be a corruption of 'chevaux' (horses), possibly indicating a former horse market or relay station at this crossroads.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -3931,7 +3980,8 @@
     "layout_image": "boulogne_pont_de_saint_cloud",
     "etymology": "Named after the commune of Boulogne-Billancourt and the Pont de Saint-Cloud, a bridge over the Seine leading to the commune of Saint-Cloud. Boulogne-sur-Seine was renamed after the church of Notre-Dame de Boulogne, built in the 14th century as a replica of the pilgrimage church at Boulogne-sur-Mer. Saint-Cloud is named after the Merovingian prince Clodoald.",
     "categories": [
-      "infrastructure"
+      "infrastructure",
+      "religion"
     ]
   },
   {
@@ -3948,7 +3998,7 @@
     "layout_image": "boulogne_jean_jaures",
     "etymology": "Named after the commune of Boulogne-Billancourt and the Avenue Jean Jaurès, which honors Jean Jaurès (1859-1914), a French socialist leader and pacifist who was assassinated on the eve of World War I. Jaurès was a founding figure of the French Socialist Party and editor of the newspaper L'Humanité. He is one of the most honored figures in French political history.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -3965,7 +4015,8 @@
     "layout_image": "michel_ange_molitor",
     "etymology": "Named after the intersection of the Rue Michel-Ange and the Rue Molitor. Michel-Ange refers to Michelangelo (1475-1564), the Italian Renaissance master. The Rue Molitor honors Gabriel Jean Joseph Molitor (1770-1849), a Marshal of France who served under Napoleon and later under the Restoration monarchy. He distinguished himself in campaigns in Switzerland and the Netherlands.",
     "categories": [
-      "artist"
+      "artist",
+      "military"
     ]
   },
   {
@@ -4016,7 +4067,7 @@
     "layout_image": "chardon_lagache",
     "etymology": "Named after the Rue Chardon-Lagache, which honors Claude Chardon-Lagache (1746-1816), a philanthropist and administrator who funded the construction of a hospice for the elderly poor in Auteuil. The hospice, built in 1863, became the Fondation Chardon-Lagache and still operates as a retirement home in the 16th arrondissement.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -4033,7 +4084,7 @@
     "layout_image": "mirabeau",
     "etymology": "Named after the Pont Mirabeau, a bridge over the Seine connecting the 15th and 16th arrondissements. The bridge honors Honoré Gabriel Riqueti, comte de Mirabeau (1749-1791), a key figure in the early French Revolution who advocated for a constitutional monarchy. The bridge inspired Guillaume Apollinaire's famous 1912 poem 'Le Pont Mirabeau'.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -4077,7 +4128,8 @@
     "layout_image": "charles_michels",
     "etymology": "Originally named Beaugrenelle after the local neighborhood. Renamed in 1945 in honor of Charles Michels (1903-1941), a French Communist deputy and resistance fighter. He was elected to the National Assembly in 1936 and was executed by firing squad on 22 October 1941 at Châteaubriant as one of the 27 hostages shot in reprisal by the German occupation forces.",
     "categories": [
-      "politician"
+      "government",
+      "military"
     ]
   },
   {
@@ -4111,7 +4163,8 @@
     "layout_image": "segur",
     "etymology": "Named after the Avenue de Ségur, which honors Philippe Henri, marquis de Ségur (1724-1801), a Marshal of France and Secretary of State for War under Louis XVI from 1780 to 1787. He reformed the French army and introduced the controversial Ségur Ordinance of 1781, which restricted officer commissions to those who could prove four generations of nobility.",
     "categories": [
-      "military"
+      "military",
+      "government"
     ]
   },
   {
@@ -4145,7 +4198,8 @@
     "layout_image": "mabillon",
     "etymology": "Named after the Rue Mabillon, which honors Jean Mabillon (1632-1707), a French Benedictine monk and scholar. He is considered the founder of the disciplines of palaeography and diplomatics through his seminal work 'De re diplomatica' (1681). He spent most of his career at the Abbey of Saint-Germain-des-Prés, located near this station.",
     "categories": [
-      "religion"
+      "religion",
+      "scientist"
     ]
   },
   {
@@ -4162,7 +4216,8 @@
     "layout_image": "saint_michel",
     "etymology": "Named after the Musée de Cluny (now Musée national du Moyen Âge), housed in the medieval Hôtel de Cluny built by the abbots of Cluny Abbey, and the Sorbonne, the historic University of Paris founded in 1257 by Robert de Sorbon as a theology college. Both are landmarks of the Latin Quarter and pillars of French intellectual heritage.",
     "categories": [
-      "institution"
+      "institution",
+      "religion"
     ]
   },
   {
@@ -4196,7 +4251,7 @@
     "layout_image": "rambuteau",
     "etymology": "Named after the Rue Rambuteau, which honors Claude-Philibert Barthelot, comte de Rambuteau (1781-1869), who served as Prefect of the Seine from 1833 to 1848. He oversaw major urban improvements in Paris, including widening streets and improving sanitation, prefiguring the later work of Baron Haussmann.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -4230,7 +4285,7 @@
     "layout_image": "pyrenees",
     "etymology": "Named after the Rue des Pyrenees, one of the longest streets in the 20th arrondissement, which takes its name from the Pyrenees mountain range forming the natural border between France and Spain. The street was created during the urban development of the Belleville and Menilmontant neighborhoods in the 19th century.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -4247,7 +4302,8 @@
     "layout_image": "jourdain",
     "etymology": "Named after the Rue du Jourdain, which refers to the Jordan River in the Middle East. The street name derives from a local church dedicated to Saint John the Baptist, who baptized Jesus in the River Jordan. The Jourdain neighborhood sits on the heights of Belleville in the 20th arrondissement.",
     "categories": [
-      "geographic"
+      "place",
+      "religion"
     ]
   },
   {
@@ -4264,7 +4320,8 @@
     "layout_image": "telegraphe",
     "etymology": "Named after the Rue du Telegraphe, commemorating the optical telegraph invented by Claude Chappe, which was tested on this hilltop site in 1792. The station sits at an elevation of 120 meters above sea level, making it the highest point in Paris, and at 24 meters below street level it is both a deep station and the highest in the network.",
     "categories": [
-      "infrastructure"
+      "infrastructure",
+      "scientist"
     ]
   },
   {
@@ -4282,7 +4339,8 @@
     "layout_image": "porte_des_lilas",
     "etymology": "Named after one of the gates in the Thiers fortification wall of Paris, which led to the commune of Les Lilas. The name 'lilas' (lilacs) refers to the lilac bushes that once grew abundantly in the area. The Line 3bis platforms opened in 1921 as part of Line 3, while the Line 11 platforms opened on 28 April 1935.",
     "categories": [
-      "geographic"
+      "place",
+      "infrastructure"
     ]
   },
   {
@@ -4333,7 +4391,7 @@
     "layout_image": "saint_fargeau",
     "etymology": "Named after the Place Saint-Fargeau, which honors Louis-Michel Le Peletier, marquis de Saint-Fargeau (1760-1793), a French revolutionary politician. He was a member of the National Convention who voted for the execution of King Louis XVI and was assassinated on the eve of the execution by a royalist former bodyguard.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -4350,7 +4408,9 @@
     "layout_image": "bolivar",
     "etymology": "Named after the Avenue Simon Bolivar, honoring Simon Bolivar (1783-1830), the Venezuelan military and political leader who led the independence movements of several South American countries from Spanish colonial rule. Known as El Libertador, he is credited with the liberation of Venezuela, Colombia, Ecuador, Peru, and Bolivia.",
     "categories": [
-      "foreign"
+      "foreign",
+      "military",
+      "government"
     ]
   },
   {
@@ -4367,7 +4427,7 @@
     "layout_image": "front_populaire",
     "etymology": "Named in honor of the Front Populaire (Popular Front), the coalition of left-wing parties that governed France from 1936 to 1938 under Leon Blum. The coalition implemented significant social reforms including the 40-hour work week, paid holidays, and collective bargaining agreements, transforming French labor law.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -4384,7 +4444,8 @@
     "layout_image": "aime_cesaire",
     "etymology": "Named after Aime Cesaire (1913-2008), a Martinican poet, author, and politician who was one of the founders of the Negritude literary movement alongside Leopold Sedar Senghor. He served as mayor of Fort-de-France for over 50 years and as a deputy in the French National Assembly, and his works explored the legacy of colonialism and the African diaspora.",
     "categories": [
-      "writer"
+      "writer",
+      "government"
     ]
   },
   {
@@ -4457,7 +4518,8 @@
     "layout_image": "convention",
     "etymology": "Named after the Rue de la Convention, which commemorates the Convention nationale (National Convention), the revolutionary assembly that governed France from 1792 to 1795. The Convention abolished the monarchy, proclaimed the First French Republic, and oversaw the trial and execution of King Louis XVI.",
     "categories": [
-      "institution"
+      "institution",
+      "government"
     ]
   },
   {
@@ -4474,7 +4536,7 @@
     "layout_image": "vaugirard",
     "etymology": "Named after the Rue de Vaugirard, the longest street in Paris at over four kilometers. The name derives from the former village of Vaugirard (originally Val Boitron, then Val Gerard, and eventually Vaugirard), which was an independent commune until its annexation by Paris in 1860.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -4542,7 +4604,7 @@
     "layout_image": "rennes",
     "etymology": "Named after the Rue de Rennes, which takes its name from the city of Rennes, the capital of Brittany in northwestern France. The street was laid out in the mid-19th century as part of a planned boulevard intended to connect the Gare Montparnasse to the Seine, though the project was never fully completed.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -4560,7 +4622,7 @@
     "layout_image": "sevres_babylone",
     "etymology": "Named after the intersection of the Rue de Sevres and the Rue de Babylone. The Rue de Sevres leads toward the town of Sevres, known for its porcelain manufactory. The Rue de Babylone takes its name from a corruption of 'Babel-Orient,' referring to the seminary of the Missions Etrangeres (Foreign Missions) located on the street.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -4594,7 +4656,7 @@
     "layout_image": "solferino",
     "etymology": "Named after the Rue de Solferino, which commemorates the Battle of Solferino fought on 24 June 1859 in Lombardy, Italy. In this decisive engagement of the Second Italian War of Independence, the Franco-Sardinian alliance defeated the Austrian Empire. The battle's carnage also inspired Henry Dunant to found the Red Cross.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -4616,7 +4678,8 @@
     "layout_image": "assemblee_nationale",
     "etymology": "Named after the Assemblee nationale, the lower house of the French Parliament, which meets in the Palais Bourbon on the Left Bank of the Seine. The station was originally named Chambre des Deputes after the pre-war legislative body and was renamed Assemblee nationale in 1989 during the bicentennial of the French Revolution.",
     "categories": [
-      "institution"
+      "institution",
+      "government"
     ]
   },
   {
@@ -4638,7 +4701,8 @@
     "layout_image": "trinite",
     "etymology": "Named after the Eglise de la Sainte-Trinite, a 19th-century church dedicated to the Holy Trinity, and the Place d'Estienne d'Orves. The square honors Honore d'Estienne d'Orves (1901-1941), a French naval officer and one of the first members of the Free French Forces who was captured by the Gestapo and executed at Mont-Valerien.",
     "categories": [
-      "religion"
+      "religion",
+      "military"
     ]
   },
   {
@@ -4706,7 +4770,9 @@
     "layout_image": "lamarck_caulaincourt",
     "etymology": "Named after the intersection of the Rue Lamarck and the Rue Caulaincourt. Jean-Baptiste Lamarck (1744-1829) was a pioneering French naturalist who developed an early theory of biological evolution. Armand de Caulaincourt (1773-1827) was a French general and diplomat who served as Napoleon's ambassador to Russia and later as Foreign Minister.",
     "categories": [
-      "scientist"
+      "scientist",
+      "military",
+      "government"
     ]
   },
   {
@@ -4723,7 +4789,7 @@
     "layout_image": "jules_joffrin",
     "etymology": "Named after the Rue Jules Joffrin, honoring Jules Joffrin (1846-1890), a French socialist politician and municipal councillor of the 18th arrondissement. A former metalworker and trade unionist, he was a prominent advocate for workers' rights and was elected to the Paris Municipal Council, where he championed social reforms until his early death.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -4745,7 +4811,7 @@
     "layout_image": "marx_dormoy",
     "etymology": "Originally named Torcy after the nearby Place de Torcy. Renamed on 11 May 1946 in honor of Marx Dormoy (1888-1941), a French socialist politician who served as Minister of the Interior under Leon Blum's Popular Front government. He was assassinated by the far-right Cagoule organization using a time bomb in his hotel room in Montelimar.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -4779,7 +4845,7 @@
     "layout_image": "chatillon_montrouge",
     "etymology": "Named after the communes of Châtillon and Montrouge in the southern suburbs of Paris. Châtillon derives from the Latin 'castellum' meaning small fortress, while Montrouge means 'red hill,' likely referring to the reddish clay soil found in the area. The station serves as the southern terminus of Line 13.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -4796,7 +4862,7 @@
     "layout_image": "malakoff_plateau_de_vanves",
     "etymology": "Named after the commune of Malakoff and the Plateau de Vanves neighborhood. Malakoff was named after the Tour Malakoff, a tower built by a local tavern owner to commemorate the French capture of the Malakoff redoubt during the Siege of Sevastopol in 1855 during the Crimean War. Vanves derives from the Gallo-Roman personal name Vanedia.",
     "categories": [
-      "battle"
+      "military"
     ]
   },
   {
@@ -4847,7 +4913,7 @@
     "layout_image": "plaisance",
     "etymology": "Named after the Rue de Plaisance and the surrounding Plaisance neighborhood in the 14th arrondissement. The name means 'pleasure' or 'pleasant place' in French and was given to this area when it was developed as a residential quarter in the mid-19th century. The neighborhood was historically home to a working-class community.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -4864,7 +4930,8 @@
     "layout_image": "pernety",
     "etymology": "Named after the Rue Pernety, which honors Antoine-Joseph Pernety (1716-1801), a French Benedictine monk, writer, and explorer. He accompanied Louis Antoine de Bougainville on his expedition to the Falkland Islands in 1763-1764 and published an account of the voyage. He later became librarian to Frederick the Great of Prussia.",
     "categories": [
-      "writer"
+      "writer",
+      "religion"
     ]
   },
   {
@@ -4881,7 +4948,7 @@
     "layout_image": "gaite",
     "etymology": "Named after the Rue de la Gaîté, a street in the 14th arrondissement known since the 18th century for its theaters, cabarets, and entertainment venues. The name means 'gaiety' or 'merriment' in French. The street has hosted numerous theaters including the Théâtre de la Gaîté-Montparnasse and the Bobino music hall.",
     "categories": [
-      "street"
+      "place"
     ]
   },
   {
@@ -4933,7 +5000,7 @@
     "layout_image": "varenne",
     "etymology": "Named after the Rue de Varenne, one of the most prestigious streets in the 7th arrondissement. The name derives from 'garenne,' an old French term meaning a game preserve or rabbit warren, referring to the hunting grounds that once occupied this area. The Hôtel Matignon, official residence of the French Prime Minister, and the Musée Rodin are both located on this street.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -4951,7 +5018,7 @@
     "layout_image": "miromesnil",
     "etymology": "Named after the Rue de Miromesnil, which honors Armand Thomas Hue de Miromesnil (1723-1796), who served as Keeper of the Seals of France under Louis XVI from 1774 to 1787. He was a moderate reformer who opposed some of the more radical proposals of Turgot and Necker. The street runs through the fashionable 8th arrondissement.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -4973,7 +5040,8 @@
     "layout_image": "liege",
     "etymology": "Originally named Berlin when it opened in 1911, reflecting the nearby Rue de Berlin. At the outbreak of World War I in August 1914, the station was renamed Liège in honor of the Belgian city that heroically resisted the German invasion. The Battle of Liège in August 1914 was one of the first engagements of the war. The station is decorated with ceramic panels depicting scenes from Liège.",
     "categories": [
-      "foreign"
+      "foreign",
+      "military"
     ]
   },
   {
@@ -4990,7 +5058,7 @@
     "layout_image": "la_fourche",
     "etymology": "Named after the fork ('fourche') in the road where the Avenue de Saint-Ouen and the Avenue de Clichy diverge. This is also the point where Line 13 splits into its two northern branches, one heading to Saint-Denis and the other to Asnières-Gennevilliers, making the station name doubly appropriate.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -5012,7 +5080,7 @@
     "layout_image": "guy_moquet",
     "etymology": "Originally named Carrefour Nollet after a nearby crossroads. Renamed in 1946 in honor of Guy Môquet (1924-1941), a young French Communist resistance figure who was arrested for distributing anti-German leaflets. He was executed by the Nazis at age 17 as one of the hostages shot at Châteaubriant in reprisal for the assassination of a German officer.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -5046,7 +5114,9 @@
     "layout_image": "garibaldi",
     "etymology": "Named after the Boulevard Garibaldi in Saint-Ouen, which honors Giuseppe Garibaldi (1807-1882), the Italian general and nationalist who was a central figure in the unification of Italy. Garibaldi also fought for France during the Franco-Prussian War of 1870-1871, commanding the Army of the Vosges as a volunteer.",
     "categories": [
-      "military"
+      "military",
+      "government",
+      "foreign"
     ]
   },
   {
@@ -5150,7 +5220,7 @@
     "layout_image": "les_courtilles",
     "etymology": "Named after the Les Courtilles neighborhood on the border of Asnières-sur-Seine and Gennevilliers. The word 'courtille' is an old French term derived from the Latin 'cortis' meaning a small enclosed garden or courtyard, referring to the market gardens that once occupied this area. The station is the northwestern terminus of Line 13.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -5167,7 +5237,7 @@
     "layout_image": "les_agnettes",
     "etymology": "Named after the Les Agnettes neighborhood at the border of Asnières-sur-Seine and Gennevilliers. The name likely derives from 'agneau' (lamb), suggesting the area was historically used for sheep grazing or had a connection to the wool trade. The neighborhood sits on elevated ground above the Seine flood plain.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -5184,7 +5254,7 @@
     "layout_image": "gabriel_peri",
     "etymology": "Named after Gabriel Péri (1902-1941), a French Communist politician and journalist who served as a member of the Chamber of Deputies. He was head of the foreign affairs section of the newspaper L'Humanité. Arrested by the Vichy police in 1941 and handed over to the Germans, he was executed by firing squad at Mont-Valérien on 15 December 1941.",
     "categories": [
-      "politician"
+      "government"
     ]
   },
   {
@@ -5201,7 +5271,7 @@
     "layout_image": "olympiades",
     "etymology": "Named after the Les Olympiades urban development complex, a large elevated pedestrian platform built in the early 1970s in the 13th arrondissement. The complex and its surrounding towers were named after various Olympic Games host cities (Athens, Helsinki, Mexico, etc.). The area is the heart of Paris's Chinatown neighborhood.",
     "categories": [
-      "geographic"
+      "place"
     ]
   },
   {
@@ -5218,7 +5288,9 @@
     "layout_image": "st_denis_pleyel",
     "etymology": "Named after the commune of Saint-Denis and the Pleyel neighborhood, which takes its name from Ignace Pleyel (1757-1831), an Austrian-French composer and piano manufacturer. Pleyel founded the Pleyel piano company and its factory was located in Saint-Denis. The Salle Pleyel concert hall in Paris was also named after him. The station opened as part of the Line 14 northern extension for the 2024 Paris Olympics.",
     "categories": [
-      "trade"
+      "trade",
+      "artist",
+      "foreign"
     ]
   },
   {

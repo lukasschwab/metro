@@ -6,9 +6,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
 
 const VALID_CATEGORIES = [
-  'battle', 'ruler', 'politician', 'military', 'writer', 'artist',
-  'scientist', 'religion', 'institution', 'geographic', 'infrastructure',
-  'trade', 'foreign', 'street',
+  'government', 'military', 'writer', 'artist', 'scientist',
+  'religion', 'institution', 'place', 'infrastructure',
+  'trade', 'foreign',
 ];
 
 const VALID_LINES = [1, 2, 3, '3bis', 4, 5, 6, 7, '7bis', 8, 9, 10, 11, 12, 13, 14];
