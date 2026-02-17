@@ -1,4 +1,5 @@
 import * as d3 from 'd3';
+import 'ninja-keys';
 
 // ─── Line colours ───────────────────────────────────────────────────
 const LINE_COLORS = {
@@ -586,12 +587,146 @@ document.getElementById('sidebar-close').addEventListener('click', () => {
   selectStation(null);
 });
 
+// ─── Command palette (ninja-keys) ───────────────────────────────────
+function initCommandPalette(stations) {
+  const ninja = document.querySelector('ninja-keys');
+  if (!ninja) return;
+
+  // Line toggle actions
+  const lineActions = LINE_ORDER.map(line => ({
+    id: `line-${line}`,
+    title: `Toggle Line ${line}`,
+    section: 'Lines',
+    handler: () => {
+      const label = String(line);
+      const btn = document.querySelector(`.line-btn[data-line="${label}"]`);
+      if (state.activeLines.has(label)) {
+        state.activeLines.delete(label);
+        btn?.classList.remove('active');
+      } else {
+        state.activeLines.add(label);
+        btn?.classList.add('active');
+      }
+      render();
+    },
+  }));
+
+  // Category toggle actions
+  const catActions = CATEGORIES.map(cat => ({
+    id: `cat-${cat.id}`,
+    title: `Toggle ${cat.label}`,
+    section: 'Categories',
+    handler: () => {
+      const btn = document.querySelector(`.cat-btn[data-cat="${cat.id}"]`);
+      if (state.activeCategories.has(cat.id)) {
+        state.activeCategories.delete(cat.id);
+        btn?.classList.remove('active');
+      } else {
+        state.activeCategories.add(cat.id);
+        btn?.classList.add('active');
+      }
+      render();
+    },
+  }));
+
+  // Timeline actions
+  const timelineActions = [
+    {
+      id: 'timeline-play',
+      title: 'Play / Pause Timeline',
+      section: 'Timeline',
+      handler: () => { state.playing ? stopPlay() : startPlay(); },
+    },
+    {
+      id: 'timeline-reset',
+      title: 'Reset Timeline to 2026',
+      section: 'Timeline',
+      handler: () => {
+        state.timelineYear = 2026;
+        document.getElementById('year-slider').value = 2026;
+        document.getElementById('year-label').textContent = '2026';
+        render();
+      },
+    },
+  ];
+
+  // Utility actions
+  const utilActions = [
+    {
+      id: 'clear-filters',
+      title: 'Clear All Filters',
+      section: 'View',
+      handler: () => {
+        state.activeLines.clear();
+        state.activeCategories.clear();
+        document.querySelectorAll('.line-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+        render();
+      },
+    },
+    {
+      id: 'deselect-station',
+      title: 'Deselect Station',
+      section: 'View',
+      handler: () => { selectStation(null); },
+    },
+  ];
+
+  // Station actions
+  const stationActions = stations.map(s => ({
+    id: `station-${s.slug}`,
+    title: s.name,
+    section: 'Stations',
+    keywords: s.lines.map(l => `line ${l}`).join(' '),
+    handler: () => {
+      selectStation(s);
+      panToStation(s);
+    },
+  }));
+
+  ninja.data = [...lineActions, ...catActions, ...timelineActions, ...utilActions, ...stationActions];
+}
+
 // Mobile drawer toggle
 const sidebarToggle = document.getElementById('sidebar-toggle');
 sidebarToggle.addEventListener('click', () => {
   const sidebar = document.getElementById('sidebar');
   const collapsed = sidebar.classList.toggle('collapsed');
   sidebarToggle.innerHTML = collapsed ? '[+]' : '[&minus;]';
+});
+
+// ─── Keyboard station navigation (j/k, arrows) ─────────────────────
+function getFilteredStationList() {
+  return state.stations.filter(s => isActive(s)).sort((a, b) => a.name.localeCompare(b.name));
+}
+
+function navigateStation(direction) {
+  if (!state.selectedStation) return;
+  const list = getFilteredStationList();
+  const idx = list.findIndex(s => s.slug === state.selectedStation.slug);
+  if (idx === -1) return;
+  const next = idx + direction;
+  if (next < 0 || next >= list.length) return;
+  selectStation(list[next]);
+  panToStation(list[next]);
+}
+
+document.addEventListener('keydown', (e) => {
+  // Don't intercept when typing in an input or when command palette is open
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (document.querySelector('ninja-keys')?.opened) return;
+
+  if (!state.selectedStation) return;
+
+  if (e.key === 'j' || e.key === 'ArrowDown') {
+    e.preventDefault();
+    navigateStation(1);
+  } else if (e.key === 'k' || e.key === 'ArrowUp') {
+    e.preventDefault();
+    navigateStation(-1);
+  } else if (e.key === 'Escape') {
+    selectStation(null);
+  }
 });
 
 // ─── Init ───────────────────────────────────────────────────────────
@@ -602,6 +737,7 @@ async function init() {
 
   initMap(stations);
   initControls(stations);
+  initCommandPalette(stations);
   render();
 
   // Handle resize

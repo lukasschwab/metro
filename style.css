@@ -458,6 +458,19 @@ main {
   display: none;
 }
 
+/* Command palette theming */
+ninja-keys {
+  --ninja-accent-color: var(--accent);
+  --ninja-secondary-background-color: var(--bg-light);
+  --ninja-secondary-text-color: var(--text-muted);
+  --ninja-text-color: var(--text);
+  --ninja-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --ninja-modal-background: var(--bg);
+  --ninja-footer-background: var(--bg-light);
+  --ninja-selected-background: rgba(255, 206, 0, 0.12);
+  --ninja-z-index: 300;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   header h1 {

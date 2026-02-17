@@ -11,7 +11,8 @@
     "validate": "node scripts/validate.js"
   },
   "dependencies": {
-    "d3": "^7.9.0"
+    "d3": "^7.9.0",
+    "ninja-keys": "^1.2.2"
   },
   "devDependencies": {
     "linkedom": "^0.18.0",
