@@ -558,7 +558,7 @@ document.getElementById('sidebar-close').addEventListener('click', () => {
 
 // ─── Init ───────────────────────────────────────────────────────────
 async function init() {
-  const resp = await fetch('/stations.json');
+  const resp = await fetch(import.meta.env.BASE_URL + 'stations.json');
   const stations = await resp.json();
   state.stations = stations;
 
