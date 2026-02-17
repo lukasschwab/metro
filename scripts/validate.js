@@ -24,7 +24,7 @@ for (const s of stations) {
   const id = s.slug || s.name || '(unknown)';
 
   // Required fields
-  for (const field of ['slug', 'name', 'lines', 'opening', 'category', 'etymology', 'latitude', 'longitude']) {
+  for (const field of ['slug', 'name', 'lines', 'opening', 'categories', 'etymology', 'latitude', 'longitude']) {
     if (!s[field] && s[field] !== 0) {
       console.error(`ERROR [${id}]: missing field '${field}'`);
       errors++;
@@ -44,10 +44,19 @@ for (const s of stations) {
     errors++;
   }
 
-  // Category
-  if (s.category && !VALID_CATEGORIES.includes(s.category)) {
-    console.error(`ERROR [${id}]: invalid category '${s.category}'`);
-    errors++;
+  // Categories
+  if (s.categories) {
+    if (!Array.isArray(s.categories) || s.categories.length === 0) {
+      console.error(`ERROR [${id}]: categories must be a non-empty array`);
+      errors++;
+    } else {
+      for (const c of s.categories) {
+        if (!VALID_CATEGORIES.includes(c)) {
+          console.error(`ERROR [${id}]: invalid category '${c}'`);
+          errors++;
+        }
+      }
+    }
   }
 
   // Lines

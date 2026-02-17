@@ -231,7 +231,7 @@ function isActive(station) {
   const lineMatch = state.activeLines.size === 0 ||
     station.lines.some(l => state.activeLines.has(String(l)));
   const catMatch = state.activeCategories.size === 0 ||
-    state.activeCategories.has(station.category);
+    station.categories.some(c => state.activeCategories.has(c));
   const yearMatch = !station.openingYear || station.openingYear <= state.timelineYear;
   return lineMatch && catMatch && yearMatch;
 }
@@ -543,7 +543,7 @@ function selectStation(station) {
       Opened: ${station.opening || 'Unknown'}<br>
       ${station.arrondissement ? station.arrondissement : ''}
     </div>
-    <span class="detail-category">${station.category}</span>
+    <div class="detail-categories">${station.categories.map(c => `<span class="detail-category">${c}</span>`).join(' ')}</div>
     <div class="detail-etymology">${station.etymology}</div>
     ${priorNames}
     ${layoutLink}

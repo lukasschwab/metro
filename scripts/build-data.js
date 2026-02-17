@@ -55,8 +55,10 @@ const enriched = stations.map(s => {
   const dades = dadesMap[layoutSlug] || dadesMap[nameSlug];
 
   if (dades) {
-    // Override coordinates with dades.js data (more reliable)
-    if (dades.lat && dades.lng) {
+    // Override coordinates with dades.js data (more reliable), but skip
+    // stations whose layout_image points to a different station's diagram
+    const SKIP_COORDS = ['cluny-la-sorbonne', 'la-chapelle'];
+    if (dades.lat && dades.lng && !SKIP_COORDS.includes(s.slug)) {
       result.latitude = dades.lat;
       result.longitude = dades.lng;
       coordUpdates++;
@@ -85,7 +87,7 @@ const categories = {};
 const lines = new Set();
 let missingCoords = 0;
 for (const s of enriched) {
-  categories[s.category] = (categories[s.category] || 0) + 1;
+  (s.categories || []).forEach(c => categories[c] = (categories[c] || 0) + 1);
   s.lines.forEach(l => lines.add(l));
   if (!s.latitude || !s.longitude) missingCoords++;
 }
