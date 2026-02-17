@@ -113,7 +113,7 @@
     ],
     "latitude": 48.8738,
     "longitude": 2.295,
-    "layout_image": "charles_de_gaulle_etoile",
+    "layout_image": "etoile",
     "etymology": "Originally named Etoile after the Place de l'Etoile, the star-shaped intersection of twelve avenues radiating from the Arc de Triomphe. Renamed in 1970 to honor Charles de Gaulle (1890-1970), leader of the Free French Forces during World War II and first president of the Fifth Republic."
   },
   {
@@ -230,7 +230,7 @@
     ],
     "latitude": 48.8625,
     "longitude": 2.3365,
-    "layout_image": "palais_royal_musee_du_louvre",
+    "layout_image": "palais_royal",
     "etymology": "Originally named Palais Royal after the nearby palace built by Cardinal Richelieu in 1628. Renamed in 1989 when the Louvre Pyramid opened and the museum entrance was relocated nearby. The Louvre was originally a medieval fortress before becoming a royal palace and then a museum."
   },
   {
@@ -269,7 +269,7 @@
     "prior_names": [],
     "latitude": 48.8583,
     "longitude": 2.3474,
-    "layout_image": "chatelet",
+    "layout_image": "chatelet_les_halles",
     "etymology": "Named after the Grand Chatelet, a medieval fortress that once guarded the northern approach to the Ile de la Cite across the Pont au Change. The Chatelet served as the seat of the Provost of Paris and housed courts and a prison until its demolition in 1802."
   },
   {
@@ -300,7 +300,7 @@
     "prior_names": [],
     "latitude": 48.8551,
     "longitude": 2.3607,
-    "layout_image": "saint_paul",
+    "layout_image": "st_paul",
     "etymology": "Named after the Church of Saint-Paul-Saint-Louis, a Baroque church built by the Jesuits between 1627 and 1641, located nearby in the Marais district. The station is sometimes subtitled 'Le Marais' in reference to the historic neighborhood it serves."
   },
   {
@@ -333,7 +333,7 @@
     "prior_names": [],
     "latitude": 48.8448,
     "longitude": 2.3735,
-    "layout_image": "gare_de_lyon",
+    "layout_image": "lyon",
     "etymology": "Named after the Gare de Lyon mainline railway station, one of the six large Paris termini. The station was built in 1849 and rebuilt for the 1900 Universal Exhibition. It is named after the city of Lyon, as it serves the south-eastern rail corridor."
   },
   {
@@ -387,7 +387,7 @@
     "prior_names": [],
     "latitude": 48.8472,
     "longitude": 2.4105,
-    "layout_image": "porte_de_vincennes",
+    "layout_image": "pte_vincennes",
     "etymology": "Named after the Porte de Vincennes, a gate in the Thiers fortifications of Paris on the road leading to the Chateau de Vincennes. The station was the original eastern terminus of Line 1 from 1900 until the extension to Chateau de Vincennes in 1934."
   },
   {
@@ -402,7 +402,7 @@
     "prior_names": [],
     "latitude": 48.846,
     "longitude": 2.4181,
-    "layout_image": "saint_mande",
+    "layout_image": "st_mande",
     "etymology": "Named after the commune of Saint-Mande, which borders the eastern edge of Paris near the Bois de Vincennes. The commune's name derives from Saint Mande (or Maudet), a 6th-century Breton saint who was an abbot and is venerated in the region."
   },
   {
@@ -621,7 +621,7 @@
     ],
     "latitude": 48.8839,
     "longitude": 2.3496,
-    "layout_image": "barbes_rochechouart",
+    "layout_image": "barbes",
     "etymology": "Named after two boulevards: Boulevard Barbes, honoring Armand Barbes (1809-1870), a republican revolutionary and political prisoner, and Boulevard de Rochechouart, named after Marguerite de Rochechouart de Montpipeau (1665-1727), abbess of Montmartre."
   },
   {
@@ -636,7 +636,7 @@
     "prior_names": [],
     "latitude": 48.8843,
     "longitude": 2.3606,
-    "layout_image": "la_chapelle",
+    "layout_image": "nord",
     "etymology": "Named after the former village and commune of La Chapelle, which was absorbed into Paris in 1860. The name derives from a chapel ('chapelle') that once stood in the area, dedicated to Saint Denis and marking the route of his martyrdom to Montmartre."
   },
   {
@@ -1138,7 +1138,7 @@
     ],
     "latitude": 48.864,
     "longitude": 2.3804,
-    "layout_image": "rue_saint_maur",
+    "layout_image": "rue_st_maur",
     "etymology": "Named after the Rue Saint-Maur, which honors Saint Maurus (died c. 584), a disciple of Saint Benedict and one of the founders of Western monasticism. The station was renamed from Saint-Maur to Rue Saint-Maur in 1998 to avoid confusion with the commune of Saint-Maur-des-Fosses."
   },
   {
@@ -1168,7 +1168,7 @@
     "prior_names": [],
     "latitude": 48.864,
     "longitude": 2.4076,
-    "layout_image": "porte_de_bagnolet",
+    "layout_image": "pte_bagnolet",
     "etymology": "Named after the Porte de Bagnolet, a gate in the Thiers fortifications of Paris on the road leading to the commune of Bagnolet. The name Bagnolet may derive from the Gallo-Roman 'balneoletum' related to baths, or from 'baigne' referring to marshy terrain."
   },
   {
@@ -1198,7 +1198,7 @@
     "prior_names": [],
     "latitude": 48.8974,
     "longitude": 2.3444,
-    "layout_image": "porte_de_clignancourt",
+    "layout_image": "pte_clignancourt",
     "etymology": "Named after the Porte de Clignancourt, one of the gates in the Thiers fortifications built in the 1840s. Clignancourt was a hamlet that became part of the 18th arrondissement when Paris annexed its surrounding communes in 1860. The name likely derives from a landowner named Clignancourt or from the old French word for a fenced enclosure."
   },
   {
@@ -1259,7 +1259,7 @@
     "prior_names": [],
     "latitude": 48.8809,
     "longitude": 2.3553,
-    "layout_image": "gare_du_nord",
+    "layout_image": "nord",
     "etymology": "Named after the Gare du Nord railway station, the busiest railway station in Europe by passenger numbers. The station was built in 1846 and rebuilt in its current form in 1864 by architect Jacques Hittorff. It serves as the terminus for trains heading north, including Eurostar services to London and Thalys services to Brussels and Amsterdam."
   },
   {
@@ -1275,7 +1275,7 @@
     "prior_names": [],
     "latitude": 48.8763,
     "longitude": 2.3592,
-    "layout_image": "gare_de_lest",
+    "layout_image": "est",
     "etymology": "Named after the Gare de l'Est railway station, which opened in 1849 as the Embarcadère de Strasbourg. It serves eastern France, Germany, Luxembourg, and Switzerland. The station was renamed Gare de l'Est in 1854 and its iconic facade was designed by architect François-Alexandre Duquesney."
   },
   {
@@ -1290,7 +1290,7 @@
     "prior_names": [],
     "latitude": 48.873,
     "longitude": 2.3564,
-    "layout_image": "chateau_deau",
+    "layout_image": "chateau_d_eau",
     "etymology": "Named after a water tower (château d'eau) that once stood on the nearby Place de la République. Built in 1811, this fountain distributed water from the Canal de l'Ourcq throughout the neighborhood. Though the fountain was relocated in 1867 when the square was redesigned, the name endured."
   },
   {
@@ -1305,7 +1305,7 @@
     "prior_names": [],
     "latitude": 48.8692,
     "longitude": 2.3544,
-    "layout_image": "strasbourg_saint_denis",
+    "layout_image": "strasbourg_st_denis",
     "etymology": "Located at the intersection of Boulevard de Strasbourg and Rue du Faubourg-Saint-Denis. The boulevard commemorates the city of Strasbourg in Alsace, while Saint-Denis refers to the route leading north to the Basilica of Saint-Denis, burial place of the French kings. The nearby Porte Saint-Denis triumphal arch, built in 1672, celebrates Louis XIV's victories on the Rhine."
   },
   {
@@ -1322,21 +1322,6 @@
     "longitude": 2.3489,
     "layout_image": "etienne_marcel",
     "etymology": "Named after the Rue Étienne Marcel, which honors Étienne Marcel (c. 1302-1358), provost of the merchants of Paris. He led a revolt against the Dauphin (future Charles V) during the Hundred Years' War, demanding greater political representation for the bourgeoisie. He was assassinated in 1358 by supporters of the Dauphin."
-  },
-  {
-    "slug": "les-halles",
-    "name": "Les Halles",
-    "lines": [
-      4
-    ],
-    "opening": "1908-04-21",
-    "arrondissement": "1st",
-    "category": "trade",
-    "prior_names": [],
-    "latitude": 48.8622,
-    "longitude": 2.3462,
-    "layout_image": "les_halles",
-    "etymology": "Named after Les Halles, the great central food market of Paris that operated on this site from 1137 to 1971. The famous iron-and-glass pavilions designed by Victor Baltard were built in the 1850s-1870s but demolished in 1971 when the market moved to Rungis. The site was replaced by the Forum des Halles shopping center."
   },
   {
     "slug": "cite",
@@ -1395,7 +1380,7 @@
     "prior_names": [],
     "latitude": 48.8532,
     "longitude": 2.3335,
-    "layout_image": "saint_germain_des_pres",
+    "layout_image": "st_germain_des_pres",
     "etymology": "Named after the Abbey of Saint-Germain-des-Prés, the oldest church in Paris, founded in 558 by King Childebert I. The abbey is dedicated to Saint Germain, Bishop of Paris (496-576). 'Des Prés' means 'of the meadows,' referring to the fields that once surrounded the abbey before urbanization."
   },
   {
@@ -1410,7 +1395,7 @@
     "prior_names": [],
     "latitude": 48.851,
     "longitude": 2.3311,
-    "layout_image": "saint_sulpice",
+    "layout_image": "st_sulpice",
     "etymology": "Named after the Church of Saint-Sulpice, one of the largest churches in Paris, whose construction began in 1646 and was completed in 1870. The church is dedicated to Sulpitius the Pious, a 7th-century Archbishop of Bourges. Its famous Delacroix murals and gnomon astronomical instrument make it a notable Parisian landmark."
   },
   {
@@ -1425,7 +1410,7 @@
     "prior_names": [],
     "latitude": 48.8467,
     "longitude": 2.3267,
-    "layout_image": "saint_placide",
+    "layout_image": "st_placide",
     "etymology": "Named after the Rue Saint-Placide, which honors Saint Placidus (c. 514-541), a disciple of Saint Benedict of Nursia. A Benedictine priory dedicated to Saint Placidus once stood in this area. The street and surrounding neighborhood retain the name of this early Christian monk."
   },
   {
@@ -1446,7 +1431,7 @@
     ],
     "latitude": 48.8428,
     "longitude": 2.3219,
-    "layout_image": "montparnasse_bienvenue",
+    "layout_image": "montparnasse2",
     "etymology": "A combination of two names: Montparnasse, from Mount Parnassus in Greek mythology, a nickname given by students who gathered on a mound of rubble to recite poetry; and Bienvenüe, honoring Fulgence Bienvenüe (1852-1936), the engineer who masterminded the construction of the Paris Métro. The two nearby stations were merged in 1942."
   },
   {
@@ -1498,7 +1483,7 @@
     ],
     "latitude": 48.8338,
     "longitude": 2.3326,
-    "layout_image": "denfert_rochereau",
+    "layout_image": "denfert",
     "etymology": "Named after Colonel Pierre Philippe Denfert-Rochereau (1823-1878), who heroically defended the city of Belfort during the Franco-Prussian War of 1870-1871, holding out for over 100 days. The square was previously called Place d'Enfer ('Hell Square'), and the similar sound of 'd'Enfer' and 'Denfert' made the renaming fitting. The Lion of Belfort statue by Bartholdi stands in the square."
   },
   {
@@ -1543,7 +1528,7 @@
     "prior_names": [],
     "latitude": 48.8226,
     "longitude": 2.3255,
-    "layout_image": "porte_dorleans",
+    "layout_image": "porte_orleans",
     "etymology": "Named after the Porte d'Orléans, a gate in the Thiers fortifications on the road leading south to the city of Orléans. The gate took its name from the historic route to Orléans, one of France's most important cities during the medieval period. General Leclerc's troops entered Paris through this gate during the Liberation in August 1944."
   },
   {
@@ -1767,7 +1752,7 @@
     ],
     "latitude": 48.8463,
     "longitude": 2.366,
-    "layout_image": "quai_de_la_rapee",
+    "layout_image": "quai_rapee",
     "etymology": "Named after the Quai de la Rapée, a riverside quay along the Seine. The name derives from a 17th-century country house called 'La Rapée' that belonged to a wine merchant. The quay became an important location for the wine trade, as barrels were unloaded from barges here before being transported to the nearby Bercy wine market."
   },
   {
@@ -1787,7 +1772,7 @@
     ],
     "latitude": 48.8424,
     "longitude": 2.3652,
-    "layout_image": "gare_dausterlitz",
+    "layout_image": "austerlitz",
     "etymology": "Named after the Gare d'Austerlitz railway station, originally called Gare d'Orléans when it opened in 1840. The station was renamed after the Battle of Austerlitz (1805), Napoleon's greatest military victory against the Russian and Austrian empires. The nearby Pont d'Austerlitz bridge, built in 1806, also commemorates this battle."
   },
   {
@@ -1802,7 +1787,7 @@
     "prior_names": [],
     "latitude": 48.8383,
     "longitude": 2.3607,
-    "layout_image": "saint_marcel",
+    "layout_image": "st_marcel",
     "etymology": "Named after the Boulevard Saint-Marcel, which honors Saint Marcel (or Marcellus) of Paris, the ninth Bishop of Paris in the 5th century. According to legend, he slew a dragon (or serpent) that terrorized the area. The Faubourg Saint-Marcel was historically one of the poorest neighborhoods of Paris."
   },
   {
@@ -1833,7 +1818,7 @@
     "prior_names": [],
     "latitude": 48.8311,
     "longitude": 2.3558,
-    "layout_image": "place_ditalie",
+    "layout_image": "place_d_italie",
     "etymology": "Named after the Place d'Italie, a large square at the junction of several major boulevards. The square sits on the historic road leading southeast toward Italy via Lyon. The area was once the site of the Barrière d'Italie, a toll gate on the Farmers General Wall. It serves as the central hub of the 13th arrondissement."
   },
   {
@@ -1913,7 +1898,7 @@
     ],
     "latitude": 48.8539,
     "longitude": 2.2891,
-    "layout_image": "bir_hakeim",
+    "layout_image": "bir_hakeim_champ_de_mars",
     "etymology": "Renamed in 1949 to commemorate the Battle of Bir Hakeim (1942), where Free French forces under General Koenig held off Rommel's Afrika Korps for 16 days in the Libyan desert. This heroic resistance allowed the British Eighth Army to regroup and was a major boost to Free French morale. The station was originally named Grenelle after the former commune."
   },
   {
@@ -1943,7 +1928,7 @@
     "prior_names": [],
     "latitude": 48.849,
     "longitude": 2.2986,
-    "layout_image": "la_motte_picquet_grenelle",
+    "layout_image": "la_motte_picquet",
     "etymology": "A dual name combining two references: Toussaint-Guillaume Picquet de la Motte (1720-1791), a French admiral who fought in the American Revolutionary War and the Battle of Ushant; and Grenelle, a former commune annexed by Paris in 1860. Grenelle's name derives from 'garennelle,' a diminutive of 'garenne' (rabbit warren)."
   },
   {
@@ -2018,7 +2003,7 @@
     "prior_names": [],
     "latitude": 48.8331,
     "longitude": 2.3372,
-    "layout_image": "saint_jacques",
+    "layout_image": "st_jacques",
     "etymology": "Named after the Rue Saint-Jacques, one of the oldest streets in Paris, following the route of the ancient Roman road (cardo maximus) through Lutetia. The street is named after Saint James (Jacques in French), as it was part of the pilgrimage route to Santiago de Compostela in Spain. The street has been in continuous use for over two millennia."
   },
   {
@@ -2183,7 +2168,7 @@
     "prior_names": [],
     "latitude": 48.9198,
     "longitude": 2.4106,
-    "layout_image": "la-courneuve-8-mai-1945_layout",
+    "layout_image": "la_courneuve_8_mai_1945",
     "etymology": "Named after the commune of La Courneuve in Seine-Saint-Denis. The suffix 8 Mai 1945 commemorates Victory in Europe Day, marking the end of World War II in Europe on 8 May 1945."
   },
   {
@@ -2198,7 +2183,7 @@
     "prior_names": [],
     "latitude": 48.914,
     "longitude": 2.4003,
-    "layout_image": "fort-daubervilliers_layout",
+    "layout_image": "fort_aubervilliers",
     "etymology": "Named after the Fort d'Aubervilliers, a military fortification built between 1840 and 1846 as part of the Thiers wall defenses surrounding Paris. The fort was part of a ring of detached forts designed to protect the capital from invasion."
   },
   {
@@ -2213,7 +2198,7 @@
     "prior_names": [],
     "latitude": 48.9038,
     "longitude": 2.3924,
-    "layout_image": "aubervilliers-pantin-quatre-chemins_layout",
+    "layout_image": "aubervilliers_pantin_quatre_chemins",
     "etymology": "Named after the communes of Aubervilliers and Pantin, and the Quatre Chemins (Four Roads) crossroads where the borders of these two communes meet. The intersection has been a notable landmark since the 19th century."
   },
   {
@@ -2228,7 +2213,7 @@
     "prior_names": [],
     "latitude": 48.8975,
     "longitude": 2.386,
-    "layout_image": "porte-de-la-villette_layout",
+    "layout_image": "porte_de_la_villette",
     "etymology": "Named after one of the gates in the Thiers fortification wall of Paris, which led to the village of La Villette. La Villette was an independent commune annexed by Paris in 1860 and was historically known for its cattle market and slaughterhouses."
   },
   {
@@ -2248,7 +2233,7 @@
     ],
     "latitude": 48.8948,
     "longitude": 2.3826,
-    "layout_image": "corentin-cariou_layout",
+    "layout_image": "corentin_cariou",
     "etymology": "Originally named Pont de Flandre after the nearby bridge over the Canal de l'Ourcq. Renamed on 10 February 1946 in honor of Corentin Cariou (1898-1942), a Communist municipal councillor of the 19th arrondissement who was executed by the Nazis as a hostage during the German occupation."
   },
   {
@@ -2263,7 +2248,7 @@
     "prior_names": [],
     "latitude": 48.891,
     "longitude": 2.377,
-    "layout_image": "crimee_layout",
+    "layout_image": "crimee",
     "etymology": "Named after the Rue de Crimée, which commemorates the Crimean War (1853-1856) in which France, allied with Britain and the Ottoman Empire, fought against Russia. The street was named during the Second Empire to celebrate French military victories."
   },
   {
@@ -2278,7 +2263,7 @@
     "prior_names": [],
     "latitude": 48.8883,
     "longitude": 2.3738,
-    "layout_image": "riquet_layout",
+    "layout_image": "riquet",
     "etymology": "Named after the Rue Riquet, which honors Pierre-Paul Riquet (1609-1680), the engineer and entrepreneur who conceived and built the Canal du Midi in southern France, connecting the Atlantic Ocean to the Mediterranean Sea. The canal remains one of the greatest feats of 17th-century civil engineering."
   },
   {
@@ -2294,7 +2279,7 @@
     "prior_names": [],
     "latitude": 48.8816,
     "longitude": 2.3648,
-    "layout_image": "louis-blanc_layout",
+    "layout_image": "louis_blanc",
     "etymology": "Named after the Rue Louis Blanc, honoring Louis Blanc (1811-1882), a French politician, historian, and socialist theorist. He was a member of the provisional government during the French Revolution of 1848 and advocated for workers' cooperatives and social reform."
   },
   {
@@ -2309,7 +2294,7 @@
     "prior_names": [],
     "latitude": 48.8786,
     "longitude": 2.3613,
-    "layout_image": "chateau-landon_layout",
+    "layout_image": "chateau_landon",
     "etymology": "Named after the Rue de Château-Landon, which refers to the town of Château-Landon in Seine-et-Marne. The street led toward the road to this medieval town, which was an important stronghold of the early Capetian kings of France."
   },
   {
@@ -2324,7 +2309,7 @@
     "prior_names": [],
     "latitude": 48.877,
     "longitude": 2.349,
-    "layout_image": "poissonniere_layout",
+    "layout_image": "poissonniere",
     "etymology": "Named after the Rue du Faubourg-Poissonnière and the Boulevard Poissonnière. The name derives from the French word for fishmonger (poissonnier), as this was historically the route used by fish merchants to transport their goods from the northern ports to the central Parisian markets."
   },
   {
@@ -2339,7 +2324,7 @@
     "prior_names": [],
     "latitude": 48.8757,
     "longitude": 2.3441,
-    "layout_image": "cadet_layout",
+    "layout_image": "cadet",
     "etymology": "Named after the Rue Cadet, which takes its name from a certain Cadet, a landowner who possessed property in the area during the 18th century. The street was opened in 1779 on land belonging to this family."
   },
   {
@@ -2354,7 +2339,7 @@
     "prior_names": [],
     "latitude": 48.8749,
     "longitude": 2.3405,
-    "layout_image": "le-peletier_layout",
+    "layout_image": "le_peletier",
     "etymology": "Named after the Rue Le Peletier, honoring Louis Le Peletier de Saint-Fargeau (1760-1793), a revolutionary politician who voted for the execution of King Louis XVI. He was assassinated on the eve of the king's execution and became a martyr of the Revolution."
   },
   {
@@ -2375,7 +2360,7 @@
     ],
     "latitude": 48.8731,
     "longitude": 2.3338,
-    "layout_image": "chaussee-dantin-la-fayette_layout",
+    "layout_image": "chaussee_d_antin",
     "etymology": "Named after the Chaussée d'Antin, a street named for Louis-Antoine de Pardaillan de Gondrin, Duke of Antin (1665-1736), who owned a grand estate in the area. La Fayette was added in 1989, referring to the nearby Rue La Fayette, named after the Marquis de Lafayette, hero of the American and French Revolutions."
   },
   {
@@ -2391,7 +2376,7 @@
     "prior_names": [],
     "latitude": 48.866,
     "longitude": 2.334,
-    "layout_image": "pyramides_layout",
+    "layout_image": "pyramides",
     "etymology": "Named after the Rue des Pyramides, which commemorates Napoleon Bonaparte's victory at the Battle of the Pyramids on 21 July 1798, during the French campaign in Egypt. In this decisive engagement, the French army defeated the Mamluk forces near the Giza pyramids."
   },
   {
@@ -2406,7 +2391,7 @@
     "prior_names": [],
     "latitude": 48.8583,
     "longitude": 2.3419,
-    "layout_image": "pont-neuf_layout",
+    "layout_image": "pont_neuf",
     "etymology": "Named after the Pont Neuf (New Bridge), the oldest standing bridge across the Seine in Paris. Despite its name meaning 'New Bridge,' it was completed in 1607 under King Henri IV and was revolutionary for its time as it was the first bridge in Paris built without houses on it."
   },
   {
@@ -2421,7 +2406,7 @@
     "prior_names": [],
     "latitude": 48.8535,
     "longitude": 2.357,
-    "layout_image": "pont-marie_layout",
+    "layout_image": "pont_marie",
     "etymology": "Named after the Pont Marie, a stone bridge over the Seine connecting the Île Saint-Louis to the Right Bank. The bridge was built between 1614 and 1635 and is named after Christophe Marie, the engineer and entrepreneur who financed its construction and the development of the Île Saint-Louis."
   },
   {
@@ -2441,7 +2426,7 @@
     ],
     "latitude": 48.851,
     "longitude": 2.3615,
-    "layout_image": "sully-morland_layout",
+    "layout_image": "sully_morland",
     "etymology": "Originally named Pont de Sully after the nearby bridge. The name combines two references: the Pont de Sully, named after Maximilien de Béthune, Duke of Sully (1559-1641), minister to Henri IV; and the Boulevard Morland, named after Charles Morland (1769-1805), a cavalry general killed at the Battle of Austerlitz."
   },
   {
@@ -2457,7 +2442,7 @@
     "prior_names": [],
     "latitude": 48.846,
     "longitude": 2.3543,
-    "layout_image": "jussieu_layout",
+    "layout_image": "jussieu",
     "etymology": "Named after the Rue Jussieu, honoring the Jussieu family of French botanists. Antoine de Jussieu (1686-1758) and his brothers contributed greatly to the botanical gardens, while his nephew Antoine Laurent de Jussieu (1748-1836) developed the first natural classification system for flowering plants."
   },
   {
@@ -2472,7 +2457,7 @@
     "prior_names": [],
     "latitude": 48.8432,
     "longitude": 2.3521,
-    "layout_image": "place-monge_layout",
+    "layout_image": "place_monge",
     "etymology": "Named after the Place Monge, which honors Gaspard Monge (1746-1818), a French mathematician and the inventor of descriptive geometry. He was also a prominent figure in the French Revolution and accompanied Napoleon on the Egyptian campaign as a member of the scientific commission."
   },
   {
@@ -2487,7 +2472,7 @@
     "prior_names": [],
     "latitude": 48.8409,
     "longitude": 2.3518,
-    "layout_image": "censier-daubenton_layout",
+    "layout_image": "censier_daubenton",
     "etymology": "Named after the Rue Censier, possibly from an old French word for a tax collector, and the Rue Daubenton, honoring Louis-Jean-Marie Daubenton (1716-1800), a French naturalist who collaborated with Buffon on his monumental Histoire Naturelle and was the first director of the Muséum national d'histoire naturelle."
   },
   {
@@ -2502,7 +2487,7 @@
     "prior_names": [],
     "latitude": 48.8358,
     "longitude": 2.3517,
-    "layout_image": "les-gobelins_layout",
+    "layout_image": "les_gobelins",
     "etymology": "Named after the famous Gobelins tapestry manufactory, established in the 15th century by the Gobelin family of dyers and weavers. Under Louis XIV, Jean-Baptiste Colbert transformed it into the royal Manufacture des Gobelins, which has been producing tapestries for the French state ever since."
   },
   {
@@ -2517,7 +2502,7 @@
     "prior_names": [],
     "latitude": 48.8264,
     "longitude": 2.3568,
-    "layout_image": "tolbiac_layout",
+    "layout_image": "tolbiac",
     "etymology": "Named after the Rue de Tolbiac, which commemorates the Battle of Tolbiac (496 AD) in which Clovis I, king of the Franks, defeated the Alemanni. According to tradition, Clovis vowed to convert to Christianity during the battle, a pivotal moment in French history."
   },
   {
@@ -2532,7 +2517,7 @@
     "prior_names": [],
     "latitude": 48.822,
     "longitude": 2.3585,
-    "layout_image": "maison-blanche_layout",
+    "layout_image": "maison_blanche",
     "etymology": "Named after the Quartier de la Maison-Blanche (White House Quarter) in the 13th arrondissement. The name comes from a white-painted house that once stood as a landmark at a crossroads in the area, serving as a reference point for travelers on the road south from Paris."
   },
   {
@@ -2547,7 +2532,7 @@
     "prior_names": [],
     "latitude": 48.8154,
     "longitude": 2.362,
-    "layout_image": "le-kremlin-bicetre_layout",
+    "layout_image": "le_kremlin_bicetre",
     "etymology": "Named after the commune of Le Kremlin-Bicêtre. The name 'Kremlin' derives from a cabaret called Au Grand Kremlin, established by a veteran of Napoleon's Russian campaign. Bicêtre refers to the nearby Bicêtre Hospital, whose name evolved from Winchester, after a former bishop of Winchester's castle on the site."
   },
   {
@@ -2562,7 +2547,7 @@
     "prior_names": [],
     "latitude": 48.804,
     "longitude": 2.363,
-    "layout_image": "villejuif-leo-lagrange_layout",
+    "layout_image": "villejuif_leo_lagrange",
     "etymology": "Named after the commune of Villejuif and Léo Lagrange (1900-1940), a French socialist politician who served as Under-Secretary of State for Sports and Leisure in the Popular Front government of 1936. He was killed in action during the Battle of France in World War II."
   },
   {
@@ -2577,7 +2562,7 @@
     "prior_names": [],
     "latitude": 48.7959,
     "longitude": 2.3682,
-    "layout_image": "villejuif-paul-vaillant-couturier_layout",
+    "layout_image": "villejuif_paul_vaillant_couturier",
     "etymology": "Named after Paul Vaillant-Couturier (1892-1937), a French Communist journalist, novelist, and politician. He served as mayor of Villejuif from 1929 until his death and was editor of the Communist newspaper L'Humanité. He was also a decorated veteran of World War I."
   },
   {
@@ -2592,7 +2577,7 @@
     "prior_names": [],
     "latitude": 48.7873,
     "longitude": 2.3678,
-    "layout_image": "villejuif-louis-aragon_layout",
+    "layout_image": "villejuif_louis_aragon",
     "etymology": "Named after Louis Aragon (1897-1982), a celebrated French poet, novelist, and essayist who was a leading figure in the Surrealist and later the Realist literary movements. A member of the French Resistance during World War II, he was also a lifelong Communist and closely associated with the cultural life of Villejuif."
   },
   {
@@ -2607,7 +2592,7 @@
     "prior_names": [],
     "latitude": 48.88,
     "longitude": 2.3985,
-    "layout_image": "pre-saint-gervais_layout",
+    "layout_image": "pre_saint_gervais",
     "etymology": "Named after the neighboring commune of Le Pré-Saint-Gervais, one of the smallest communes in France. The name means 'the meadow of Saint Gervase,' referring to the patron saint of the local parish church and the pastoral character of the land."
   },
   {
@@ -2623,7 +2608,7 @@
     "prior_names": [],
     "latitude": 48.8769,
     "longitude": 2.393,
-    "layout_image": "place-des-fetes_layout",
+    "layout_image": "place_des_fetes",
     "etymology": "Named after the Place des Fêtes (Festival Square), a public square in the 19th arrondissement that was historically used for popular festivities and public celebrations in the former commune of Belleville before its annexation by Paris in 1860."
   },
   {
@@ -2638,7 +2623,7 @@
     "prior_names": [],
     "latitude": 48.8818,
     "longitude": 2.3933,
-    "layout_image": "danube_layout",
+    "layout_image": "danube",
     "etymology": "Named after the Rue du Danube, which refers to the Danube River, the second-longest river in Europe flowing through Central and Eastern Europe. The street was named during a period when many streets in the area were given names of European rivers and geographical features."
   },
   {
@@ -2653,7 +2638,7 @@
     "prior_names": [],
     "latitude": 48.8793,
     "longitude": 2.3891,
-    "layout_image": "botzaris_layout",
+    "layout_image": "botzaris",
     "etymology": "Named after the Rue Botzaris, honoring Markos Botzaris (1788-1823), a Greek military commander and hero of the Greek War of Independence against the Ottoman Empire. He died leading a daring night attack at the Battle of Karpenisi and became a symbol of Greek freedom celebrated across Europe."
   },
   {
@@ -2668,7 +2653,7 @@
     "prior_names": [],
     "latitude": 48.8784,
     "longitude": 2.3816,
-    "layout_image": "buttes-chaumont_layout",
+    "layout_image": "buttes_chaumont",
     "etymology": "Named after the Parc des Buttes-Chaumont, one of the largest parks in Paris, created under Napoleon III and designed by Jean-Charles Alphand. The name derives from chauve mont (bald mountain), referring to the barren gypsum quarry hills that were transformed into the park in 1867."
   },
   {
@@ -2683,7 +2668,7 @@
     "prior_names": [],
     "latitude": 48.8365,
     "longitude": 2.2784,
-    "layout_image": "balard_layout",
+    "layout_image": "balard",
     "etymology": "Named after the Rue Balard, honoring Antoine Jérôme Balard (1802-1876), a French chemist who discovered the element bromine in 1826. He was a professor at the Sorbonne and the Collège de France and a member of the Académie des Sciences."
   },
   {
@@ -2698,7 +2683,7 @@
     "prior_names": [],
     "latitude": 48.8387,
     "longitude": 2.2822,
-    "layout_image": "lourmel_layout",
+    "layout_image": "lourmel",
     "etymology": "Named after the Rue de Lourmel, honoring Frédéric Henri Le Normand de Lourmel (1811-1854), a French general who was killed at the Battle of Inkerman during the Crimean War. He led a charge against Russian forces and died from his wounds shortly after."
   },
   {
@@ -2713,7 +2698,7 @@
     "prior_names": [],
     "latitude": 48.841,
     "longitude": 2.2878,
-    "layout_image": "boucicaut_layout",
+    "layout_image": "boucicaut",
     "etymology": "Named after the Square Boucicaut, honoring Aristide Boucicaut (1810-1877) and his wife Marguerite, founders of Le Bon Marché, considered the world's first modern department store. Marguerite Boucicaut was a renowned philanthropist who funded hospitals and charitable works in Paris."
   },
   {
@@ -2728,7 +2713,7 @@
     "prior_names": [],
     "latitude": 48.8426,
     "longitude": 2.2917,
-    "layout_image": "felix-faure_layout",
+    "layout_image": "felix_faure",
     "etymology": "Named after the Avenue Félix Faure, honoring Félix Faure (1841-1899), who served as President of the French Republic from 1895 until his death in office. He is notably associated with the Franco-Russian alliance and the political turmoil of the Dreyfus affair."
   },
   {
@@ -2743,7 +2728,7 @@
     "prior_names": [],
     "latitude": 48.8445,
     "longitude": 2.2937,
-    "layout_image": "commerce_layout",
+    "layout_image": "commerce",
     "etymology": "Named after the Rue du Commerce, a major commercial street in the 15th arrondissement. The street was named for the active trade and shops that developed along it from the 19th century onward, making it the principal shopping thoroughfare of the Grenelle quarter."
   },
   {
@@ -2758,7 +2743,7 @@
     "prior_names": [],
     "latitude": 48.8553,
     "longitude": 2.3063,
-    "layout_image": "ecole-militaire_layout",
+    "layout_image": "ecole_militaire",
     "etymology": "Named after the nearby École Militaire (Military School), founded in 1750 by Louis XV at the urging of Madame de Pompadour and the financier Joseph Pâris Duverney. The school was designed by architect Ange-Jacques Gabriel and is where the young Napoleon Bonaparte studied as a cadet."
   },
   {
@@ -2773,7 +2758,7 @@
     "prior_names": [],
     "latitude": 48.8573,
     "longitude": 2.3103,
-    "layout_image": "la-tour-maubourg_layout",
+    "layout_image": "la_tour_maubourg",
     "etymology": "Named after the Boulevard de La Tour-Maubourg, honoring Marie Victor de Fay, Marquis de La Tour-Maubourg (1768-1850), a French general and politician. He served as Minister of War under Louis XVIII and lost a leg at the Battle of Leipzig in 1813."
   },
   {
@@ -2789,7 +2774,7 @@
     "prior_names": [],
     "latitude": 48.8607,
     "longitude": 2.3142,
-    "layout_image": "invalides_layout",
+    "layout_image": "invalides",
     "etymology": "Named after the Hôtel des Invalides, a complex of buildings commissioned by Louis XIV in 1670 to house wounded and disabled war veterans (invalides). It now contains museums and monuments relating to French military history, as well as the tomb of Napoleon Bonaparte."
   },
   {
@@ -2806,7 +2791,7 @@
     "prior_names": [],
     "latitude": 48.8698,
     "longitude": 2.325,
-    "layout_image": "madeleine_layout",
+    "layout_image": "madeleine",
     "etymology": "Named after the Église de la Madeleine, a neoclassical church dedicated to Mary Magdalene (Sainte Marie-Madeleine). Begun in 1764, the building was redesigned multiple times, notably by Napoleon who wanted it as a temple to his Grande Armée, before finally being consecrated as a church in 1842."
   },
   {
@@ -2822,7 +2807,7 @@
     "prior_names": [],
     "latitude": 48.872,
     "longitude": 2.3387,
-    "layout_image": "richelieu-drouot_layout",
+    "layout_image": "richelieu_drouot",
     "etymology": "Named after two intersecting streets: the Rue de Richelieu, honoring Cardinal Richelieu (1585-1642), chief minister to Louis XIII who centralized French royal power; and the Rue Drouot, named after Antoine Drouot (1774-1847), a Napoleonic artillery general known as the 'Sage of the Grande Armée.'"
   },
   {
@@ -2843,7 +2828,7 @@
     ],
     "latitude": 48.8713,
     "longitude": 2.3429,
-    "layout_image": "grands-boulevards_layout",
+    "layout_image": "grands_boulevards",
     "etymology": "Originally named Rue Montmartre after the nearby street, which caused confusion with the Montmartre neighborhood. Renamed Grands Boulevards in 1998 after the famous chain of wide boulevards built on the site of Paris's demolished medieval fortifications, which became fashionable promenades in the 17th and 18th centuries."
   },
   {
@@ -2859,7 +2844,7 @@
     "prior_names": [],
     "latitude": 48.8706,
     "longitude": 2.3485,
-    "layout_image": "bonne-nouvelle_layout",
+    "layout_image": "bonne_nouvelle",
     "etymology": "Named after the Boulevard de Bonne-Nouvelle and the nearby church of Notre-Dame de Bonne-Nouvelle. The name means 'Good News,' a reference to the Annunciation when the Archangel Gabriel brought the news of Christ's coming to the Virgin Mary. A chapel dedicated to this was built here around 1563."
   },
   {
@@ -2874,7 +2859,7 @@
     "prior_names": [],
     "latitude": 48.8631,
     "longitude": 2.3665,
-    "layout_image": "filles-du-calvaire_layout",
+    "layout_image": "filles_du_calvaire",
     "etymology": "Named after the Boulevard des Filles du Calvaire, which refers to the Benedictine convent of the Filles du Calvaire (Daughters of Calvary), a religious order founded in 1617 by Antoinette d'Orléans-Longueville. The convent once stood on this site before being dissolved during the French Revolution."
   },
   {
@@ -2889,7 +2874,7 @@
     "prior_names": [],
     "latitude": 48.861,
     "longitude": 2.367,
-    "layout_image": "saint-sebastien-froissart_layout",
+    "layout_image": "st_sebastien_froissart",
     "etymology": "Named after two streets: the Rue Saint-Sébastien, referencing Saint Sebastian, the Christian martyr; and the Rue Froissart, honoring Jean Froissart (c. 1337-c. 1405), a medieval chronicler whose Chroniques are among the most important primary sources for the first half of the Hundred Years' War."
   },
   {
@@ -2904,7 +2889,7 @@
     "prior_names": [],
     "latitude": 48.8574,
     "longitude": 2.3685,
-    "layout_image": "chemin-vert_layout",
+    "layout_image": "chemin_vert",
     "etymology": "Named after the Rue du Chemin Vert, meaning 'Green Path.' The name refers to a former rural lane bordered by vegetation that once crossed through the gardens and fields of the Faubourg Saint-Antoine, before the area was urbanized in the 18th and 19th centuries."
   },
   {
@@ -2919,7 +2904,7 @@
     "prior_names": [],
     "latitude": 48.8521,
     "longitude": 2.3764,
-    "layout_image": "ledru-rollin_layout",
+    "layout_image": "ledru_rollin",
     "etymology": "Named after the Avenue Ledru-Rollin, honoring Alexandre Auguste Ledru-Rollin (1807-1874), a French politician who was instrumental in establishing universal male suffrage in France in 1848. He served as Minister of the Interior during the Second Republic and ran unsuccessfully for president."
   },
   {
@@ -2934,7 +2919,7 @@
     "prior_names": [],
     "latitude": 48.8497,
     "longitude": 2.3798,
-    "layout_image": "faidherbe-chaligny_layout",
+    "layout_image": "faidherbe_challigny",
     "etymology": "Named after two streets: the Rue Faidherbe, honoring Louis Faidherbe (1818-1889), a French general and colonial governor of Senegal who also led the Armée du Nord during the Franco-Prussian War; and the Rue de Chaligny, named after a locality in the Meuse region."
   },
   {
@@ -2949,7 +2934,7 @@
     "prior_names": [],
     "latitude": 48.844,
     "longitude": 2.3886,
-    "layout_image": "montgallet_layout",
+    "layout_image": "montgallet",
     "etymology": "Named after the Rue Montgallet, which takes its name from a local landowner or property in the area. The street became well known in the late 20th century as Paris's unofficial 'computer street,' with numerous shops selling electronics and computer components."
   },
   {
@@ -2964,7 +2949,7 @@
     "prior_names": [],
     "latitude": 48.8371,
     "longitude": 2.4018,
-    "layout_image": "michel-bizot_layout",
+    "layout_image": "michel_bizot",
     "etymology": "Named after the Avenue Michel Bizot, honoring Michel Bizot (1795-1855), a French military engineer and general who died during the Siege of Sevastopol in the Crimean War. He directed the engineering operations of the French army during the siege."
   },
   {
@@ -2979,7 +2964,7 @@
     "prior_names": [],
     "latitude": 48.8352,
     "longitude": 2.4063,
-    "layout_image": "porte-doree_layout",
+    "layout_image": "pte_doree",
     "etymology": "Named after the Porte Dorée (Golden Gate), one of the former gates in the Thiers fortification wall of Paris. The station was built to serve the 1931 Paris Colonial Exhibition, and the nearby Palais de la Porte Dorée was the exhibition's centerpiece, now housing the National Museum of the History of Immigration."
   },
   {
@@ -2994,7 +2979,7 @@
     "prior_names": [],
     "latitude": 48.8334,
     "longitude": 2.4101,
-    "layout_image": "porte-de-charenton_layout",
+    "layout_image": "pte_charenton",
     "etymology": "Named after one of the former gates in the Thiers fortification wall of Paris, which led to the town of Charenton-le-Pont. The gate was part of the ring of fortifications built in the 1840s and demolished in the early 20th century."
   },
   {
@@ -3009,7 +2994,7 @@
     "prior_names": [],
     "latitude": 48.8317,
     "longitude": 2.4165,
-    "layout_image": "liberte_layout",
+    "layout_image": "liberte",
     "etymology": "Named after the Rue de la Liberté in Charenton-le-Pont. The street name refers to the French republican ideal of Liberty, one of the three values of the national motto 'Liberté, Égalité, Fraternité' adopted during the French Revolution."
   },
   {
@@ -3024,7 +3009,7 @@
     "prior_names": [],
     "latitude": 48.8274,
     "longitude": 2.4142,
-    "layout_image": "charenton-ecoles_layout",
+    "layout_image": "charenton_ecoles",
     "etymology": "Named after the commune of Charenton-le-Pont and the Rue des Écoles (Schools Street). Charenton derives from a Gallo-Roman estate name, and the Écoles reference likely relates to the local schools in the commune's center."
   },
   {
@@ -3039,7 +3024,7 @@
     "prior_names": [],
     "latitude": 48.815,
     "longitude": 2.4218,
-    "layout_image": "ecole-veterinaire-de-maisons-alfort_layout",
+    "layout_image": "ecole_veterinaire_de_maisons_alfort",
     "etymology": "Named after the École Nationale Vétérinaire d'Alfort, one of the oldest and most prestigious veterinary schools in the world. Founded in 1766 by Claude Bourgelat, it was the second veterinary school established in France and houses the remarkable Fragonard Museum of veterinary anatomy."
   },
   {
@@ -3054,7 +3039,7 @@
     "prior_names": [],
     "latitude": 48.8079,
     "longitude": 2.4285,
-    "layout_image": "maisons-alfort-stade_layout",
+    "layout_image": "maisons_alfort_stade",
     "etymology": "Named after the commune of Maisons-Alfort and the nearby municipal stadium. Maisons-Alfort takes its name from the estates (maisons) of Alfort, a locality whose name may derive from a Frankish personal name or from the Latin alta forda (high ford) over the Marne river."
   },
   {
@@ -3069,7 +3054,7 @@
     "prior_names": [],
     "latitude": 48.8022,
     "longitude": 2.4334,
-    "layout_image": "maisons-alfort-les-juilliottes_layout",
+    "layout_image": "maisons_alfort_les_juilliottes",
     "etymology": "Named after the commune of Maisons-Alfort and the Les Juilliottes neighborhood. The name Juilliottes may derive from an old French word related to a local plant or land feature in this area of the Marne river valley."
   },
   {
@@ -3084,7 +3069,7 @@
     "prior_names": [],
     "latitude": 48.7955,
     "longitude": 2.4493,
-    "layout_image": "creteil-lechat_layout",
+    "layout_image": "creteil_echat",
     "etymology": "Named after the city of Créteil, prefecture of the Val-de-Marne department, and the L'Échat district. The name Créteil may derive from the Gallo-Roman Cristoilum. L'Échat refers to a local toponym, possibly from an old French word meaning a cleared or open area."
   },
   {
@@ -3099,7 +3084,7 @@
     "prior_names": [],
     "latitude": 48.7896,
     "longitude": 2.4512,
-    "layout_image": "creteil-universite_layout",
+    "layout_image": "creteil_universite",
     "etymology": "Named after the city of Créteil and the nearby Université Paris-Est Créteil (UPEC), founded in 1970 as part of the reorganization of the University of Paris. The university campus, one of the largest in the Paris region, serves tens of thousands of students."
   },
   {
@@ -3114,7 +3099,7 @@
     "prior_names": [],
     "latitude": 48.7799,
     "longitude": 2.459,
-    "layout_image": "creteil-prefecture_layout",
+    "layout_image": "creteil_prefecture",
     "etymology": "Named after the city of Créteil and its role as the seat of the préfecture (administrative capital) of the Val-de-Marne department, created in 1968. The nearby Hôtel de Ville and prefectural buildings represent the administrative center of the department."
   },
   {
@@ -3129,7 +3114,7 @@
     "prior_names": [],
     "latitude": 48.7688,
     "longitude": 2.4631,
-    "layout_image": "pointe-du-lac_layout",
+    "layout_image": "pointe_du_lac",
     "etymology": "Named after its location at the southern tip (pointe) of the Lac de Créteil, an artificial lake created from former sand and gravel quarries. The lake and surrounding park were developed in the 1970s as part of the new town planning for Créteil."
   },
   {
@@ -3265,7 +3250,7 @@
     "prior_names": [],
     "latitude": 48.8584,
     "longitude": 2.2741,
-    "layout_image": "la_muette",
+    "layout_image": "la_muette_boulainvilliers",
     "etymology": "Named after the Château de la Muette, a former royal hunting lodge and later palace in the Bois de Boulogne. The name may derive from 'la meute' (the pack of hounds) referring to the royal hunt, or from 'mue' (moulting), as the château may have housed a falconry where birds moulted. The château was rebuilt several times and now serves as the headquarters of the OECD."
   },
   {
@@ -3325,7 +3310,7 @@
     "prior_names": [],
     "latitude": 48.872,
     "longitude": 2.31,
-    "layout_image": "saint_philippe_du_roule",
+    "layout_image": "st_philippe_du_roule",
     "etymology": "Named after the Church of Saint-Philippe-du-Roule, a neoclassical church built between 1774 and 1784 by architect Jean-François Chalgrin on the Rue du Faubourg Saint-Honoré. The church is dedicated to Saint Philip the Apostle. 'Du Roule' refers to the former hamlet of Le Roule, which was absorbed into the Faubourg Saint-Honoré."
   },
   {
@@ -3340,7 +3325,7 @@
     "prior_names": [],
     "latitude": 48.8746,
     "longitude": 2.3155,
-    "layout_image": "saint_augustin",
+    "layout_image": "st_augustin",
     "etymology": "Named after the Church of Saint-Augustin, a large church built between 1860 and 1871 by architect Victor Baltard. The church is dedicated to Saint Augustine of Hippo (354-430), one of the most important Church Fathers and a major figure in Western philosophy and theology. The church's innovative iron-frame structure was concealed behind a stone exterior."
   },
   {
@@ -3355,7 +3340,7 @@
     "prior_names": [],
     "latitude": 48.8614,
     "longitude": 2.3738,
-    "layout_image": "saint_ambroise",
+    "layout_image": "st_ambroise",
     "etymology": "Named after the Church of Saint-Ambroise, located on the Boulevard Voltaire. The church, built between 1863 and 1869, is dedicated to Saint Ambrose (340-397), Bishop of Milan and one of the four original Doctors of the Church. He was a major influence on Saint Augustine and played a crucial role in establishing the authority of the Church in the Western Roman Empire."
   },
   {
@@ -3445,7 +3430,7 @@
     "prior_names": [],
     "latitude": 48.8534,
     "longitude": 2.4112,
-    "layout_image": "porte_de_montreuil",
+    "layout_image": "pte_montreuil",
     "etymology": "Named after one of the gates in the Thiers fortification wall of Paris, which led to the commune of Montreuil. Montreuil's name derives from 'monasteriolum' (small monastery), referring to a monastery founded in the 7th century. The area around the gate is known for its large flea market, the Marché aux Puces de Montreuil."
   },
   {
@@ -3550,7 +3535,7 @@
     "prior_names": [],
     "latitude": 48.848,
     "longitude": 2.258,
-    "layout_image": "porte_dauteuil",
+    "layout_image": "porte_d_auteuil",
     "etymology": "Named after one of the gates in the Thiers fortification wall of Paris, which led to the former village of Auteuil. Auteuil was annexed by Paris in 1860 and incorporated into the 16th arrondissement. The area is adjacent to the Bois de Boulogne and is near Roland-Garros stadium, home of the French Open tennis tournament."
   },
   {
@@ -3565,7 +3550,7 @@
     "prior_names": [],
     "latitude": 48.8479,
     "longitude": 2.2693,
-    "layout_image": "eglise_dauteuil",
+    "layout_image": "eglise_d_auteuil",
     "etymology": "Named after the Church of Notre-Dame d'Auteuil, the parish church of the former village of Auteuil. The original medieval church was replaced by the current neo-Romanesque structure built between 1877 and 1892 by architect Émile Vaudremer. The church sits on the Place d'Auteuil, the historic center of the village."
   },
   {
@@ -3615,7 +3600,7 @@
     ],
     "latitude": 48.8462,
     "longitude": 2.2786,
-    "layout_image": "javel_andre_citroen",
+    "layout_image": "javel",
     "etymology": "Named after the Quai de Javel and André Citroën (1878-1935), the industrialist who founded the Citroën automobile company. The Javel neighborhood takes its name from a former chemical works that produced 'eau de Javel' (bleach), invented here in 1789. Citroën built his first factory on the Quai de Javel in 1915, originally producing munitions before switching to automobiles."
   },
   {
@@ -3710,7 +3695,7 @@
     "prior_names": [],
     "latitude": 48.851,
     "longitude": 2.3443,
-    "layout_image": "cluny_la_sorbonne",
+    "layout_image": "saint_michel",
     "etymology": "Named after the Musée de Cluny (now Musée national du Moyen Âge), housed in the medieval Hôtel de Cluny built by the abbots of Cluny Abbey, and the Sorbonne, the historic University of Paris founded in 1257 by Robert de Sorbon as a theology college. Both are landmarks of the Latin Quarter and pillars of French intellectual heritage."
   },
   {
@@ -3921,7 +3906,7 @@
     "prior_names": [],
     "latitude": 48.8241,
     "longitude": 2.2732,
-    "layout_image": "mairie_dissy",
+    "layout_image": "mairie_d_issy",
     "etymology": "Named after the town hall (mairie) of Issy-les-Moulineaux, a commune in the Hauts-de-Seine department southwest of Paris. The name 'Issy' derives from the Gallo-Roman estate name Isciacum. The commune is also known for the Seminaire d'Issy, where significant theological conferences took place in the 17th century."
   },
   {
@@ -3956,7 +3941,7 @@
     "prior_names": [],
     "latitude": 48.8324,
     "longitude": 2.288,
-    "layout_image": "porte_de_versailles",
+    "layout_image": "pte_versailles",
     "etymology": "Named after one of the gates in the Thiers fortification wall of Paris, which led toward the city of Versailles to the southwest. The area is best known for the Parc des Expositions de la Porte de Versailles, one of the largest exhibition centers in Europe, which has hosted major trade fairs and events since 1923."
   },
   {
@@ -4031,7 +4016,7 @@
     "prior_names": [],
     "latitude": 48.8453,
     "longitude": 2.3287,
-    "layout_image": "notre_dame_des_champs",
+    "layout_image": "nd_champs",
     "etymology": "Named after the Rue Notre-Dame-des-Champs, which refers to a medieval priory and church dedicated to the Virgin Mary 'of the fields' (des champs). The priory of Notre-Dame-des-Champs was founded in the 6th century on the site of a former pagan temple and stood in what were then the rural outskirts of Paris."
   },
   {
@@ -4077,7 +4062,7 @@
     "prior_names": [],
     "latitude": 48.8557,
     "longitude": 2.3257,
-    "layout_image": "rue_du_bac",
+    "layout_image": "bac",
     "etymology": "Named after the Rue du Bac, one of the principal streets of the 7th arrondissement. The word 'bac' means ferry, referring to a flat-bottomed boat that once crossed the Seine at this location to transport stone blocks for the construction of the Palais des Tuileries in the 16th century."
   },
   {
@@ -4132,7 +4117,7 @@
     ],
     "latitude": 48.8763,
     "longitude": 2.3326,
-    "layout_image": "trinite_destienne_dorves",
+    "layout_image": "trinite",
     "etymology": "Named after the Eglise de la Sainte-Trinite, a 19th-century church dedicated to the Holy Trinity, and the Place d'Estienne d'Orves. The square honors Honore d'Estienne d'Orves (1901-1941), a French naval officer and one of the first members of the Free French Forces who was captured by the Gestapo and executed at Mont-Valerien."
   },
   {
@@ -4147,7 +4132,7 @@
     "prior_names": [],
     "latitude": 48.876,
     "longitude": 2.3385,
-    "layout_image": "notre_dame_de_lorette",
+    "layout_image": "nd_lorette",
     "etymology": "Named after the Eglise Notre-Dame-de-Lorette, a neoclassical basilica completed in 1836 and dedicated to Our Lady of Loreto. The church references the Holy House of Loreto in Italy, where according to Catholic tradition the house of the Virgin Mary was miraculously transported from Nazareth by angels in the 13th century."
   },
   {
@@ -4162,7 +4147,7 @@
     "prior_names": [],
     "latitude": 48.8784,
     "longitude": 2.3375,
-    "layout_image": "saint_georges",
+    "layout_image": "st_georges",
     "etymology": "Named after the Place Saint-Georges, a small square in the 9th arrondissement. The square takes its name from a chapel dedicated to Saint George that once stood in the area. The Place Saint-Georges is notable for its central fountain and for being the location of the Fondation Dosne-Thiers, a library and museum."
   },
   {
@@ -4242,7 +4227,7 @@
     "prior_names": [],
     "latitude": 48.8977,
     "longitude": 2.3595,
-    "layout_image": "porte_de_la_chapelle",
+    "layout_image": "pte_chapelle",
     "etymology": "Named after one of the gates in the Thiers fortification wall of Paris, which led to the village of La Chapelle. The name refers to a medieval chapel (chapelle) dedicated to various saints that once stood in the area. La Chapelle was an independent commune that was annexed by Paris in 1860 as part of the 18th arrondissement."
   },
   {
@@ -4378,7 +4363,7 @@
     "prior_names": [],
     "latitude": 48.8512,
     "longitude": 2.3143,
-    "layout_image": "saint_francois_xavier",
+    "layout_image": "st_francois_xavier",
     "etymology": "Named after the nearby Church of Saint-François-Xavier, built between 1861 and 1874 by architect Joseph-Ulysse Lelong. The church is dedicated to Saint Francis Xavier (1506-1552), a Spanish Jesuit missionary and co-founder of the Society of Jesus, who is the patron saint of missionaries. He evangelized extensively in Asia, particularly in India, Japan, and the East Indies."
   },
   {
@@ -4556,7 +4541,7 @@
     "prior_names": [],
     "latitude": 48.9296,
     "longitude": 2.3566,
-    "layout_image": "saint_denis_porte_de_paris",
+    "layout_image": "st_denis_porte_de_paris",
     "etymology": "Named after the commune of Saint-Denis and the Porte de Paris, a triumphal arch built in 1672 by architect Michel Villedo to commemorate the victories of Louis XIV along the Rhine. Saint-Denis takes its name from the first bishop of Paris, who was martyred around 250 AD. According to legend, after his decapitation he carried his own head to the site of the future basilica."
   },
   {
@@ -4571,7 +4556,7 @@
     "prior_names": [],
     "latitude": 48.9367,
     "longitude": 2.3596,
-    "layout_image": "basilique_de_saint_denis",
+    "layout_image": "basilique_de_st_denis",
     "etymology": "Named after the Basilica of Saint-Denis, one of the most important Gothic churches in France and the burial site of nearly every French monarch from the 10th to the 18th century. The basilica was built on the grave of Saint Denis, the patron saint of France, and its reconstruction under Abbot Suger around 1135-1144 is considered the origin of Gothic architecture."
   },
   {
@@ -4646,7 +4631,7 @@
     "prior_names": [],
     "latitude": 48.9195,
     "longitude": 2.3433,
-    "layout_image": "saint_denis_pleyel",
+    "layout_image": "st_denis_pleyel",
     "etymology": "Named after the commune of Saint-Denis and the Pleyel neighborhood, which takes its name from Ignace Pleyel (1757-1831), an Austrian-French composer and piano manufacturer. Pleyel founded the Pleyel piano company and its factory was located in Saint-Denis. The Salle Pleyel concert hall in Paris was also named after him. The station opened as part of the Line 14 northern extension for the 2024 Paris Olympics."
   },
   {
@@ -4661,7 +4646,7 @@
     "prior_names": [],
     "latitude": 48.7282,
     "longitude": 2.3619,
-    "layout_image": "aeroport_dorly",
+    "layout_image": "aeroport_orly",
     "etymology": "Named after Paris-Orly Airport, the second-busiest airport in France after Charles de Gaulle. The airport takes its name from the commune of Orly, derived from the Gallo-Roman name 'Aureliacum,' referring to an estate belonging to someone named Aurelius. The station opened as part of the Line 14 southern extension for the 2024 Paris Olympics, providing a direct metro link to the airport."
   },
   {
