@@ -89,6 +89,8 @@ const state = {
   selectedStation: null,
   playing: false,
   playTimer: null,
+  view: new URLSearchParams(window.location.search).get('view') === 'table' ? 'table' : 'map',
+  tableSort: { col: 'name', dir: 'asc' },
 };
 
 // ─── Projection: geo → SVG coordinates ──────────────────────────────
@@ -244,6 +246,90 @@ function isActive(station) {
   return lineMatch && catMatch && yearMatch;
 }
 
+// ─── View toggle ────────────────────────────────────────────────────
+function toggleView(view) {
+  state.view = view;
+  document.getElementById('map-container').classList.toggle('hidden', view === 'table');
+  document.getElementById('table-container').classList.toggle('hidden', view === 'map');
+  document.getElementById('sidebar').classList.toggle('hidden', view === 'table');
+
+  const link = document.getElementById('view-toggle');
+  if (view === 'table') {
+    link.textContent = 'Map';
+    link.href = '?view=map';
+  } else {
+    link.textContent = 'Table';
+    link.href = '?view=table';
+  }
+
+  history.replaceState(null, '', view === 'map' ? window.location.pathname : '?view=table');
+  render();
+}
+
+function updateSortHeaders() {
+  document.querySelectorAll('#station-table th[data-sort]').forEach(th => {
+    const col = th.dataset.sort;
+    const arrow = col === state.tableSort.col
+      ? (state.tableSort.dir === 'asc' ? ' \u25B4' : ' \u25BE')
+      : '';
+    th.textContent = th.dataset.label + arrow;
+  });
+}
+
+function renderTable() {
+  const tbody = document.querySelector('#station-table tbody');
+  const active = state.stations.filter(s => isActive(s));
+
+  const { col, dir } = state.tableSort;
+  const m = dir === 'asc' ? 1 : -1;
+  // Stable name sort as baseline
+  active.sort((a, b) => a.name.localeCompare(b.name));
+  if (col === 'opened') {
+    active.sort((a, b) => m * ((a.opening || '') < (b.opening || '') ? -1 : (a.opening || '') > (b.opening || '') ? 1 : 0));
+  } else if (col === 'lines') {
+    active.sort((a, b) => m * (a.lines.length - b.lines.length));
+  } else {
+    active.sort((a, b) => m * a.name.localeCompare(b.name));
+  }
+
+  updateSortHeaders();
+
+  tbody.innerHTML = active.map(s => {
+    const lineDots = s.lines.map(l =>
+      `<span class="list-line-dot" style="background:${LINE_COLORS[l] || '#666'}"></span>`
+    ).join('');
+    const cats = s.categories.map(c => `<span class="detail-category">${c}</span>`).join(' ');
+    const year = s.opening ? s.opening.slice(0, 4) : '?';
+
+    const layoutLink = s.layout_image
+      ? ` <a class="table-layout-link" href="http://estacions.albertguillaumes.cat/img/paris/${s.layout_image}.png" target="_blank" rel="noopener">Station layout &rarr;</a>`
+      : '';
+
+    return `<tr class="station-row" data-slug="${s.slug}">
+        <td class="expand-arrow">&#9656;</td>
+        <td>${s.name}</td>
+        <td><span class="list-lines">${lineDots}</span></td>
+        <td>${year}</td>
+        <td class="arr-col">${s.arrondissement || ''}</td>
+        <td>${cats}</td>
+      </tr>
+      <tr class="station-detail" data-slug="${s.slug}">
+        <td colspan="6"><div class="detail-inner">
+          <div class="detail-etymology">${s.etymology}${layoutLink}</div>
+        </div></td>
+      </tr>`;
+  }).join('');
+
+  tbody.querySelectorAll('.station-row').forEach(row => {
+    row.addEventListener('click', () => {
+      const slug = row.dataset.slug;
+      const detail = tbody.querySelector(`.station-detail[data-slug="${slug}"]`);
+      const isOpen = detail.classList.toggle('open');
+      row.querySelector('.expand-arrow').innerHTML = isOpen ? '&#9662;' : '&#9656;';
+    });
+  });
+}
+
 // ─── Render / update ────────────────────────────────────────────────
 let svg, gLines, gStations, gLabels, tooltip, zoom;
 
@@ -368,6 +454,10 @@ function render() {
 
   // Update sidebar station list (if no station selected)
   renderSidebarList();
+
+  if (state.view === 'table') {
+    renderTable();
+  }
 }
 
 // ─── Controls ───────────────────────────────────────────────────────
@@ -597,6 +687,24 @@ document.getElementById('sidebar-close').addEventListener('click', () => {
   selectStation(null);
 });
 
+document.getElementById('view-toggle').addEventListener('click', (e) => {
+  e.preventDefault();
+  toggleView(state.view === 'map' ? 'table' : 'map');
+});
+
+document.querySelectorAll('#station-table th[data-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.sort;
+    if (state.tableSort.col === col) {
+      state.tableSort.dir = state.tableSort.dir === 'asc' ? 'desc' : 'asc';
+    } else {
+      state.tableSort.col = col;
+      state.tableSort.dir = 'asc';
+    }
+    renderTable();
+  });
+});
+
 // ─── Command palette (ninja-keys) ───────────────────────────────────
 function initCommandPalette(stations) {
   const ninja = document.querySelector('ninja-keys');
@@ -749,7 +857,13 @@ async function init() {
   initMap(stations);
   initControls(stations);
   initCommandPalette(stations);
-  render();
+
+  // Apply initial view from URL
+  if (state.view === 'table') {
+    toggleView('table');
+  } else {
+    render();
+  }
 
   // Handle resize
   let resizeTimer;

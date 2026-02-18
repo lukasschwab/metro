@@ -15,7 +15,7 @@
 <body>
   <header>
     <h1>Paris Métro</h1>
-    <p class="subtitle">The origin of every station name</p>
+    <p class="subtitle">The origin of every station name · <a id="view-toggle" href="?view=table">Table</a></p>
   </header>
 
   <div id="controls">
@@ -36,6 +36,16 @@
   <main>
     <div id="map-container">
       <svg id="metro-map"></svg>
+    </div>
+    <div id="table-container" class="hidden">
+      <table id="station-table">
+        <thead>
+          <tr>
+            <th></th><th data-sort="name" data-label="Name">Name</th><th data-sort="lines" data-label="Lines">Lines</th><th data-sort="opened" data-label="Opened">Opened</th><th class="arr-col">Location</th><th>Category</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
     <aside id="sidebar">
       <button id="sidebar-toggle" aria-label="Toggle drawer">[&minus;]</button>

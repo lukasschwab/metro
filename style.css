@@ -241,6 +241,103 @@ main {
   height: 100%;
 }
 
+/* Hidden utility */
+.hidden {
+  display: none !important;
+}
+
+/* Table view */
+#table-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+#station-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+#station-table th {
+  text-align: left;
+  border-bottom: 1px solid var(--bg-light);
+  color: var(--text-muted);
+  padding: 8px;
+  font-weight: 600;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+#station-table th[data-sort] {
+  cursor: pointer;
+  user-select: none;
+}
+
+#station-table th[data-sort]:hover {
+  color: var(--text);
+}
+
+.station-row {
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.station-row:hover {
+  background: rgba(255,255,255,0.03);
+}
+
+.station-row td {
+  padding: 8px;
+}
+
+.expand-arrow {
+  width: 20px;
+  color: var(--text-muted);
+  user-select: none;
+}
+
+.station-detail td {
+  padding: 0;
+}
+
+.detail-inner {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 8px 0 28px;
+}
+
+.station-detail.open .detail-inner {
+  max-height: 400px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.detail-inner .table-layout-link {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+
+.detail-inner .table-layout-link:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+/* View toggle link */
+#view-toggle {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+#view-toggle:hover {
+  color: var(--text);
+}
+
 /* Station circles */
 .station-dot {
   cursor: pointer;
@@ -371,7 +468,7 @@ main {
   line-height: 1.6;
 }
 
-#sidebar-content .detail-category {
+.detail-category {
   display: inline-block;
   padding: 2px 8px;
   border-radius: 10px;
@@ -529,6 +626,15 @@ ninja-keys {
 
   #sidebar.collapsed #sidebar-content {
     display: none;
+  }
+
+  .arr-col {
+    display: none;
+  }
+
+  #table-container {
+    padding: 12px;
+    overflow-x: auto;
   }
 
   main {
