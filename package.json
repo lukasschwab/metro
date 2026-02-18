@@ -8,7 +8,8 @@
     "build": "node scripts/build-data.js && vite build",
     "preview": "vite preview",
     "build-data": "node scripts/build-data.js",
-    "validate": "node scripts/validate.js"
+    "validate": "node scripts/validate.js",
+    "test": "node --test scripts/test-line-data.js"
   },
   "dependencies": {
     "d3": "^7.9.0",
