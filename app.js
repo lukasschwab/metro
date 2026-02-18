@@ -291,8 +291,8 @@ function initMap(stations) {
     .attr('cy', d => projection(d)[1])
     .attr('r', 3)
     .attr('fill', d => {
-      const mainLine = d.lines[0];
-      return LINE_COLORS[mainLine] || '#fff';
+      if (d.lines.length > 1) return '#fff';
+      return LINE_COLORS[d.lines[0]] || '#fff';
     })
     .attr('stroke', '#fff')
     .attr('stroke-width', 0.5)
