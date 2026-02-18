@@ -4235,6 +4235,23 @@
     ]
   },
   {
+    "slug": "maubert-mutualite",
+    "name": "Maubert - Mutualité",
+    "lines": [
+      10
+    ],
+    "opening": "1930-02-15",
+    "arrondissement": "5th",
+    "prior_names": [],
+    "latitude": 48.8501,
+    "longitude": 2.3482,
+    "layout_image": "maubert_mutualite",
+    "etymology": "Named after Place Maubert, a historic square in the Latin Quarter whose name likely derives from Maître Albert (Albertus Magnus), the 13th-century Dominican scholar and teacher of Thomas Aquinas, who lectured in the open air nearby. The 'Mutualité' refers to the Maison de la Mutualité, a conference hall built in 1931 on the square, long associated with left-wing political rallies and union meetings.",
+    "categories": [
+      "place"
+    ]
+  },
+  {
     "slug": "cardinal-lemoine",
     "name": "Cardinal Lemoine",
     "lines": [
@@ -5269,6 +5286,24 @@
     "etymology": "Named after Gabriel Péri (1902-1941), a French Communist politician and journalist who served as a member of the Chamber of Deputies. He was head of the foreign affairs section of the newspaper L'Humanité. Arrested by the Vichy police in 1941 and handed over to the Germans, he was executed by firing squad at Mont-Valérien on 15 December 1941.",
     "categories": [
       "government"
+    ]
+  },
+  {
+    "slug": "bibliotheque-francois-mitterrand",
+    "name": "Bibliothèque François Mitterrand",
+    "lines": [
+      14
+    ],
+    "opening": "1998-10-15",
+    "arrondissement": "13th",
+    "prior_names": [],
+    "latitude": 48.8301,
+    "longitude": 2.3763,
+    "layout_image": "bibliotheque_francois_mitterrand",
+    "etymology": "Named after the Bibliothèque nationale de France site François-Mitterrand, the main building of France's national library. Designed by architect Dominique Perrault and inaugurated in 1996, the library's four glass towers evoke open books. It was named after President François Mitterrand (1916-1996), who initiated the project in 1988 as one of his grands travaux to modernize Paris.",
+    "categories": [
+      "institution",
+      "ruler"
     ]
   },
   {
