@@ -1999,7 +1999,8 @@
     "slug": "gare-dausterlitz",
     "name": "Gare d'Austerlitz",
     "lines": [
-      5
+      5,
+      10
     ],
     "opening": "1906-06-02",
     "arrondissement": "13th",
