@@ -308,13 +308,23 @@ main {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  padding: 0 8px 0 28px;
 }
 
 .station-detail.open .detail-inner {
   max-height: 400px;
+}
+
+.detail-inner > :first-child {
   padding-top: 8px;
+}
+
+.detail-inner > :last-child {
   padding-bottom: 16px;
+}
+
+.detail-inner > * {
+  padding-left: 28px;
+  padding-right: 8px;
 }
 
 .detail-inner .table-layout-link {
