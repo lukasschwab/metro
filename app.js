@@ -11,6 +11,61 @@ const LINE_COLORS = {
 
 const LINE_ORDER = [1, 2, 3, '3bis', 4, 5, 6, 7, '7bis', 8, 9, 10, 11, 12, 13, 14];
 
+// ─── Explicit station order per line ─────────────────────────────────
+// Each line maps to an array of segments (arrays of station slugs).
+// Most lines have one segment; lines with branches/loops have multiple.
+// Stations not found in the data for a given line are silently skipped.
+const LINE_STATION_ORDER = {
+  1: [['la-defense', 'esplanade-de-la-defense', 'pont-de-neuilly', 'les-sablons', 'porte-maillot', 'argentine', 'charles-de-gaulle-etoile', 'george-v', 'franklin-d-roosevelt', 'champs-elysees-clemenceau', 'concorde', 'tuileries', 'palais-royal-musee-du-louvre', 'louvre-rivoli', 'chatelet', 'hotel-de-ville', 'saint-paul', 'bastille', 'gare-de-lyon', 'reuilly-diderot', 'nation', 'porte-de-vincennes', 'saint-mande', 'berault', 'chateau-de-vincennes']],
+
+  2: [['porte-dauphine', 'victor-hugo', 'charles-de-gaulle-etoile', 'ternes', 'courcelles', 'monceau', 'villiers', 'rome', 'place-de-clichy', 'blanche', 'pigalle', 'anvers', 'barbes-rochechouart', 'la-chapelle', 'stalingrad', 'jaures', 'colonel-fabien', 'belleville', 'couronnes', 'menilmontant', 'pere-lachaise', 'philippe-auguste', 'alexandre-dumas', 'avron', 'nation']],
+
+  3: [['pont-de-levallois-becon', 'anatole-france', 'louise-michel', 'porte-de-champerret', 'pereire', 'wagram', 'malesherbes', 'villiers', 'europe', 'saint-lazare', 'havre-caumartin', 'opera', 'quatre-septembre', 'bourse', 'sentier', 'reaumur-sebastopol', 'arts-et-metiers', 'temple', 'republique', 'parmentier', 'rue-saint-maur', 'pere-lachaise', 'gambetta', 'porte-de-bagnolet', 'gallieni']],
+
+  '3bis': [['gambetta', 'pelleport', 'saint-fargeau', 'porte-des-lilas']],
+
+  4: [['porte-de-clignancourt', 'simplon', 'marcadet-poissonniers', 'chateau-rouge', 'barbes-rochechouart', 'gare-du-nord', 'gare-de-lest', 'chateau-deau', 'strasbourg-saint-denis', 'reaumur-sebastopol', 'etienne-marcel', 'chatelet', 'cite', 'saint-michel', 'odeon', 'saint-germain-des-pres', 'saint-sulpice', 'saint-placide', 'montparnasse-bienvenue', 'vavin', 'raspail', 'denfert-rochereau', 'mouton-duvernet', 'alesia', 'porte-dorleans', 'mairie-de-montrouge', 'barbara']],
+
+  5: [['bobigny-pablo-picasso', 'bobigny-pantin-raymond-queneau', 'eglise-de-pantin', 'hoche', 'porte-de-pantin', 'ourcq', 'laumiere', 'jaures', 'stalingrad', 'gare-du-nord', 'gare-de-lest', 'jacques-bonsergent', 'republique', 'oberkampf', 'richard-lenoir', 'breguet-sabin', 'bastille', 'quai-de-la-rapee', 'gare-dausterlitz', 'saint-marcel', 'campo-formio', 'place-ditalie']],
+
+  6: [['charles-de-gaulle-etoile', 'kleber', 'boissiere', 'trocadero', 'passy', 'bir-hakeim', 'dupleix', 'la-motte-picquet-grenelle', 'cambronne', 'sevres-lecourbe', 'pasteur', 'montparnasse-bienvenue', 'edgar-quinet', 'raspail', 'denfert-rochereau', 'saint-jacques', 'glaciere', 'corvisart', 'place-ditalie', 'nationale', 'chevaleret', 'quai-de-la-gare', 'bercy', 'daumesnil', 'dugommier', 'bel-air', 'picpus', 'nation']],
+
+  7: [['la-courneuve-8-mai-1945', 'fort-daubervilliers', 'aubervilliers-pantin-quatre-chemins', 'porte-de-la-villette', 'corentin-cariou', 'crimee', 'riquet', 'stalingrad', 'jaures', 'louis-blanc', 'chateau-landon', 'gare-de-lest', 'poissonniere', 'cadet', 'le-peletier', 'chaussee-dantin-la-fayette', 'opera', 'pyramides', 'pont-neuf', 'chatelet', 'pont-marie', 'sully-morland', 'jussieu', 'place-monge', 'censier-daubenton', 'les-gobelins', 'place-ditalie', 'tolbiac', 'maison-blanche', 'le-kremlin-bicetre', 'villejuif-paul-vaillant-couturier', 'villejuif-leo-lagrange', 'villejuif-louis-aragon']],
+
+  '7bis': [
+    // Main line + one side of loop
+    ['louis-blanc', 'jaures', 'bolivar', 'buttes-chaumont', 'botzaris', 'place-des-fetes', 'pre-saint-gervais'],
+    // Loop return via Danube
+    ['pre-saint-gervais', 'danube', 'botzaris'],
+  ],
+
+  8: [['balard', 'lourmel', 'boucicaut', 'felix-faure', 'commerce', 'la-motte-picquet-grenelle', 'ecole-militaire', 'la-tour-maubourg', 'invalides', 'concorde', 'madeleine', 'opera', 'richelieu-drouot', 'grands-boulevards', 'bonne-nouvelle', 'strasbourg-saint-denis', 'republique', 'filles-du-calvaire', 'saint-sebastien-froissart', 'chemin-vert', 'bastille', 'ledru-rollin', 'faidherbe-chaligny', 'reuilly-diderot', 'montgallet', 'michel-bizot', 'porte-doree', 'porte-de-charenton', 'liberte', 'charenton-ecoles', 'ecole-veterinaire-de-maisons-alfort', 'maisons-alfort-stade', 'maisons-alfort-les-juilliottes', 'creteil-lechat', 'creteil-universite', 'creteil-prefecture', 'pointe-du-lac']],
+
+  9: [['pont-de-sevres', 'billancourt', 'marcel-sembat', 'porte-de-saint-cloud', 'exelmans', 'michel-ange-auteuil', 'jasmin', 'ranelagh', 'la-muette', 'rue-de-la-pompe', 'iena', 'alma-marceau', 'franklin-d-roosevelt', 'saint-philippe-du-roule', 'miromesnil', 'saint-augustin', 'havre-caumartin', 'chaussee-dantin-la-fayette', 'richelieu-drouot', 'grands-boulevards', 'bonne-nouvelle', 'strasbourg-saint-denis', 'republique', 'oberkampf', 'saint-ambroise', 'voltaire', 'charonne', 'rue-des-boulets', 'nation', 'buzenval', 'maraichers', 'porte-de-montreuil', 'robespierre', 'croix-de-chavaux', 'mairie-de-montreuil']],
+
+  10: [
+    // Main route (eastbound)
+    ['boulogne-pont-de-saint-cloud', 'boulogne-jean-jaures', 'michel-ange-molitor', 'chardon-lagache', 'mirabeau', 'javel-andre-citroen', 'charles-michels', 'avenue-emile-zola', 'la-motte-picquet-grenelle', 'segur', 'duroc', 'vaneau', 'sevres-babylone', 'mabillon', 'odeon', 'cluny-la-sorbonne', 'maubert-mutualite', 'cardinal-lemoine', 'jussieu', 'gare-dausterlitz'],
+    // Auteuil branch (loop between Boulogne-JJ and Javel)
+    ['boulogne-jean-jaures', 'porte-dauteuil', 'michel-ange-auteuil', 'eglise-dauteuil', 'javel-andre-citroen'],
+  ],
+
+  11: [['chatelet', 'hotel-de-ville', 'rambuteau', 'arts-et-metiers', 'republique', 'goncourt', 'belleville', 'pyrenees', 'jourdain', 'place-des-fetes', 'telegraphe', 'porte-des-lilas', 'mairie-des-lilas']],
+
+  12: [['mairie-dissy', 'corentin-celton', 'porte-de-versailles', 'convention', 'vaugirard', 'volontaires', 'falguiere', 'montparnasse-bienvenue', 'notre-dame-des-champs', 'rennes', 'sevres-babylone', 'rue-du-bac', 'solferino', 'assemblee-nationale', 'concorde', 'madeleine', 'saint-lazare', 'trinite-destienne-dorves', 'notre-dame-de-lorette', 'saint-georges', 'pigalle', 'abbesses', 'lamarck-caulaincourt', 'jules-joffrin', 'marx-dormoy', 'porte-de-la-chapelle', 'front-populaire', 'aime-cesaire']],
+
+  13: [
+    // Main trunk (south to La Fourche)
+    ['chatillon-montrouge', 'malakoff-rue-etienne-dolet', 'malakoff-plateau-de-vanves', 'porte-de-vanves', 'plaisance', 'pernety', 'gaite', 'montparnasse-bienvenue', 'duroc', 'saint-francois-xavier', 'varenne', 'invalides', 'champs-elysees-clemenceau', 'miromesnil', 'saint-lazare', 'liege', 'place-de-clichy', 'la-fourche'],
+    // Saint-Denis branch (northeast)
+    ['la-fourche', 'guy-moquet', 'porte-de-saint-ouen', 'garibaldi', 'mairie-de-saint-ouen', 'saint-denis-porte-de-paris', 'basilique-de-saint-denis'],
+    // Les Courtilles branch (northwest)
+    ['la-fourche', 'brochant', 'porte-de-clichy', 'gabriel-peri', 'les-agnettes', 'les-courtilles'],
+  ],
+
+  14: [['aeroport-dorly', 'olympiades', 'bibliotheque-francois-mitterrand', 'gare-de-lyon', 'chatelet', 'pyramides', 'madeleine', 'saint-lazare', 'pont-cardinet', 'porte-de-clichy', 'mairie-de-saint-ouen', 'saint-denis-pleyel']],
+};
+
 const CATEGORIES = [
   { id: 'government', label: 'Government' },
   { id: 'military', label: 'Military' },
@@ -103,75 +158,30 @@ function hideTooltip(tt) {
 }
 
 // ─── Line paths (connect stations on same line) ─────────────────────
-// Uses nearest-neighbor traversal from a terminus to capture true station
-// order, then splits at large jumps to handle Y-shaped branches (L7, L13).
+// Uses explicit station ordering from LINE_STATION_ORDER. Each line has
+// one or more segments (branches/loops have multiple). Stations listed
+// in the order but missing from the data are silently skipped.
 function buildLinePaths(stations) {
+  const bySlug = new Map(stations.map(s => [s.slug, s]));
   const result = {};
 
   for (const line of LINE_ORDER) {
-    const sts = stations
-      .filter(s => s.lines.includes(line))
-      .map(s => ({ ...s, pos: projection(s) }))
-      .filter(s => s.pos);
+    const segments = LINE_STATION_ORDER[line];
+    if (!segments) { result[line] = []; continue; }
 
-    if (sts.length < 2) { result[line] = [sts]; continue; }
-
-    // Pick a terminus: the station farthest from the centroid
-    const cx = d3.mean(sts, s => s.pos[0]);
-    const cy = d3.mean(sts, s => s.pos[1]);
-    let maxDist = -1, startIdx = 0;
-    sts.forEach((s, i) => {
-      const d = Math.hypot(s.pos[0] - cx, s.pos[1] - cy);
-      if (d > maxDist) { maxDist = d; startIdx = i; }
-    });
-
-    // Nearest-neighbor chain from the terminus
-    const ordered = [sts[startIdx]];
-    const visited = new Set([startIdx]);
-    const stepDists = [];
-
-    while (ordered.length < sts.length) {
-      const last = ordered[ordered.length - 1];
-      let bestDist = Infinity, bestIdx = -1;
-      sts.forEach((s, i) => {
-        if (visited.has(i)) return;
-        const d = Math.hypot(s.pos[0] - last.pos[0], s.pos[1] - last.pos[1]);
-        if (d < bestDist) { bestDist = d; bestIdx = i; }
-      });
-      if (bestIdx === -1) break;
-      visited.add(bestIdx);
-      ordered.push(sts[bestIdx]);
-      stepDists.push(bestDist);
-    }
-
-    // Split into segments at large jumps (Y-branch detection)
-    const sortedDists = [...stepDists].sort((a, b) => a - b);
-    const median = sortedDists[Math.floor(sortedDists.length / 2)];
-    const threshold = median * 3;
-
-    const segments = [];
-    let seg = [ordered[0]];
-
-    for (let i = 0; i < stepDists.length; i++) {
-      if (stepDists[i] > threshold) {
-        segments.push(seg);
-        // Connect new branch back to closest station in previous segments
-        const next = ordered[i + 1];
-        let closest = null, closestDist = Infinity;
-        for (const prev of segments) {
-          for (const s of prev) {
-            const d = Math.hypot(s.pos[0] - next.pos[0], s.pos[1] - next.pos[1]);
-            if (d < closestDist) { closestDist = d; closest = s; }
-          }
-        }
-        seg = closest ? [closest, next] : [next];
-      } else {
-        seg.push(ordered[i + 1]);
-      }
-    }
-    segments.push(seg);
-
-    result[line] = segments;
+    result[line] = segments.map(slugs => {
+      return slugs
+        .map(slug => {
+          const s = bySlug.get(slug);
+          if (!s) return null;
+          // Verify this station is actually on this line (or allow shared
+          // stations that appear as segment endpoints for branches)
+          const pos = projection(s);
+          if (!pos) return null;
+          return { ...s, pos };
+        })
+        .filter(Boolean);
+    }).filter(seg => seg.length >= 2);
   }
   return result;
 }

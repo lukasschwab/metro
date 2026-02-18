@@ -1607,7 +1607,9 @@
     "name": "Montparnasse - Bienvenüe",
     "lines": [
       4,
-      6
+      6,
+      12,
+      13
     ],
     "opening": "1910-01-09",
     "arrondissement": "15th",
