@@ -157,6 +157,7 @@ header .subtitle {
 }
 
 #station-count {
+  font-variant-numeric: tabular-nums;
   font-size: 0.75rem;
   color: var(--text-muted);
   white-space: nowrap;
@@ -340,13 +341,13 @@ main {
 
 /* View toggle link */
 #view-toggle {
-  color: var(--text-muted);
-  text-decoration: none;
+  color: var(--accent);
+  text-decoration: underline dotted;
   transition: color 0.2s;
 }
 
 #view-toggle:hover {
-  color: var(--text);
+  color: var(--accent);
 }
 
 /* Station circles */
