@@ -2419,7 +2419,8 @@
     "slug": "daumesnil",
     "name": "Daumesnil",
     "lines": [
-      6
+      6,
+      8
     ],
     "opening": "1909-03-01",
     "arrondissement": "12th",
