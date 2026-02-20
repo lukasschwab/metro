@@ -4,3 +4,4 @@ public/stations.json
 .DS_Store
 dades.js
 .vscode
+.gtfs-tmp/

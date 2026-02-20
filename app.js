@@ -30,7 +30,7 @@ const LINE_STATION_ORDER = {
 
   6: [['charles-de-gaulle-etoile', 'kleber', 'boissiere', 'trocadero', 'passy', 'bir-hakeim', 'dupleix', 'la-motte-picquet-grenelle', 'cambronne', 'sevres-lecourbe', 'pasteur', 'montparnasse-bienvenue', 'edgar-quinet', 'raspail', 'denfert-rochereau', 'saint-jacques', 'glaciere', 'corvisart', 'place-ditalie', 'nationale', 'chevaleret', 'quai-de-la-gare', 'bercy', 'dugommier', 'daumesnil', 'bel-air', 'picpus', 'nation']],
 
-  7: [['la-courneuve-8-mai-1945', 'fort-daubervilliers', 'aubervilliers-pantin-quatre-chemins', 'porte-de-la-villette', 'corentin-cariou', 'crimee', 'riquet', 'stalingrad', 'jaures', 'louis-blanc', 'chateau-landon', 'gare-de-lest', 'poissonniere', 'cadet', 'le-peletier', 'chaussee-dantin-la-fayette', 'opera', 'pyramides', 'pont-neuf', 'chatelet', 'pont-marie', 'sully-morland', 'jussieu', 'place-monge', 'censier-daubenton', 'les-gobelins', 'place-ditalie', 'tolbiac', 'maison-blanche', 'le-kremlin-bicetre', 'villejuif-paul-vaillant-couturier', 'villejuif-leo-lagrange', 'villejuif-louis-aragon']],
+  7: [['la-courneuve-8-mai-1945', 'fort-daubervilliers', 'aubervilliers-pantin-quatre-chemins', 'porte-de-la-villette', 'corentin-cariou', 'crimee', 'riquet', 'stalingrad', 'jaures', 'louis-blanc', 'chateau-landon', 'gare-de-lest', 'poissonniere', 'cadet', 'le-peletier', 'chaussee-dantin-la-fayette', 'opera', 'pyramides', 'palais-royal-musee-du-louvre', 'pont-neuf', 'chatelet', 'pont-marie', 'sully-morland', 'jussieu', 'place-monge', 'censier-daubenton', 'les-gobelins', 'place-ditalie', 'tolbiac', 'maison-blanche', 'le-kremlin-bicetre', 'villejuif-paul-vaillant-couturier', 'villejuif-leo-lagrange', 'villejuif-louis-aragon']],
 
   '7bis': [
     // Main line + one side of loop
@@ -41,7 +41,7 @@ const LINE_STATION_ORDER = {
 
   8: [['balard', 'lourmel', 'boucicaut', 'felix-faure', 'commerce', 'la-motte-picquet-grenelle', 'ecole-militaire', 'la-tour-maubourg', 'invalides', 'concorde', 'madeleine', 'opera', 'richelieu-drouot', 'grands-boulevards', 'bonne-nouvelle', 'strasbourg-saint-denis', 'republique', 'filles-du-calvaire', 'saint-sebastien-froissart', 'chemin-vert', 'bastille', 'ledru-rollin', 'faidherbe-chaligny', 'reuilly-diderot', 'montgallet', 'daumesnil', 'michel-bizot', 'porte-doree', 'porte-de-charenton', 'liberte', 'charenton-ecoles', 'ecole-veterinaire-de-maisons-alfort', 'maisons-alfort-stade', 'maisons-alfort-les-juilliottes', 'creteil-lechat', 'creteil-universite', 'creteil-prefecture', 'pointe-du-lac']],
 
-  9: [['pont-de-sevres', 'billancourt', 'marcel-sembat', 'porte-de-saint-cloud', 'exelmans', 'michel-ange-auteuil', 'jasmin', 'ranelagh', 'la-muette', 'rue-de-la-pompe', 'iena', 'alma-marceau', 'franklin-d-roosevelt', 'saint-philippe-du-roule', 'miromesnil', 'saint-augustin', 'havre-caumartin', 'chaussee-dantin-la-fayette', 'richelieu-drouot', 'grands-boulevards', 'bonne-nouvelle', 'strasbourg-saint-denis', 'republique', 'oberkampf', 'saint-ambroise', 'voltaire', 'charonne', 'rue-des-boulets', 'nation', 'buzenval', 'maraichers', 'porte-de-montreuil', 'robespierre', 'croix-de-chavaux', 'mairie-de-montreuil']],
+  9: [['pont-de-sevres', 'billancourt', 'marcel-sembat', 'porte-de-saint-cloud', 'exelmans', 'michel-ange-molitor', 'michel-ange-auteuil', 'jasmin', 'ranelagh', 'la-muette', 'rue-de-la-pompe', 'trocadero', 'iena', 'alma-marceau', 'franklin-d-roosevelt', 'saint-philippe-du-roule', 'miromesnil', 'saint-augustin', 'havre-caumartin', 'chaussee-dantin-la-fayette', 'richelieu-drouot', 'grands-boulevards', 'bonne-nouvelle', 'strasbourg-saint-denis', 'republique', 'oberkampf', 'saint-ambroise', 'voltaire', 'charonne', 'rue-des-boulets', 'nation', 'buzenval', 'maraichers', 'porte-de-montreuil', 'robespierre', 'croix-de-chavaux', 'mairie-de-montreuil']],
 
   10: [
     // Main route (eastbound)
@@ -50,20 +50,20 @@ const LINE_STATION_ORDER = {
     ['boulogne-jean-jaures', 'porte-dauteuil', 'michel-ange-auteuil', 'eglise-dauteuil', 'javel-andre-citroen'],
   ],
 
-  11: [['chatelet', 'hotel-de-ville', 'rambuteau', 'arts-et-metiers', 'republique', 'goncourt', 'belleville', 'pyrenees', 'jourdain', 'place-des-fetes', 'telegraphe', 'porte-des-lilas', 'mairie-des-lilas']],
+  11: [['chatelet', 'hotel-de-ville', 'rambuteau', 'arts-et-metiers', 'republique', 'goncourt', 'belleville', 'pyrenees', 'jourdain', 'place-des-fetes', 'telegraphe', 'porte-des-lilas', 'mairie-des-lilas', 'serge-gainsbourg', 'romainville-carnot', 'montreuil-hopital', 'la-dhuys', 'rosny-bois-perrier']],
 
-  12: [['mairie-dissy', 'corentin-celton', 'porte-de-versailles', 'convention', 'vaugirard', 'volontaires', 'falguiere', 'montparnasse-bienvenue', 'notre-dame-des-champs', 'rennes', 'sevres-babylone', 'rue-du-bac', 'solferino', 'assemblee-nationale', 'concorde', 'madeleine', 'saint-lazare', 'trinite-destienne-dorves', 'notre-dame-de-lorette', 'saint-georges', 'pigalle', 'abbesses', 'lamarck-caulaincourt', 'jules-joffrin', 'marx-dormoy', 'porte-de-la-chapelle', 'front-populaire', 'aime-cesaire']],
+  12: [['mairie-dissy', 'corentin-celton', 'porte-de-versailles', 'convention', 'vaugirard', 'volontaires', 'pasteur', 'falguiere', 'montparnasse-bienvenue', 'notre-dame-des-champs', 'rennes', 'sevres-babylone', 'rue-du-bac', 'solferino', 'assemblee-nationale', 'concorde', 'madeleine', 'saint-lazare', 'trinite-destienne-dorves', 'notre-dame-de-lorette', 'saint-georges', 'pigalle', 'abbesses', 'lamarck-caulaincourt', 'jules-joffrin', 'marcadet-poissonniers', 'marx-dormoy', 'porte-de-la-chapelle', 'front-populaire', 'aime-cesaire']],
 
   13: [
     // Main trunk (south to La Fourche)
     ['chatillon-montrouge', 'malakoff-rue-etienne-dolet', 'malakoff-plateau-de-vanves', 'porte-de-vanves', 'plaisance', 'pernety', 'gaite', 'montparnasse-bienvenue', 'duroc', 'saint-francois-xavier', 'varenne', 'invalides', 'champs-elysees-clemenceau', 'miromesnil', 'saint-lazare', 'liege', 'place-de-clichy', 'la-fourche'],
     // Saint-Denis branch (northeast)
-    ['la-fourche', 'guy-moquet', 'porte-de-saint-ouen', 'garibaldi', 'mairie-de-saint-ouen', 'saint-denis-porte-de-paris', 'basilique-de-saint-denis'],
+    ['la-fourche', 'guy-moquet', 'porte-de-saint-ouen', 'garibaldi', 'mairie-de-saint-ouen', 'carrefour-pleyel', 'saint-denis-porte-de-paris', 'basilique-de-saint-denis'],
     // Les Courtilles branch (northwest)
     ['la-fourche', 'brochant', 'porte-de-clichy', 'gabriel-peri', 'les-agnettes', 'les-courtilles'],
   ],
 
-  14: [['aeroport-dorly', 'olympiades', 'bibliotheque-francois-mitterrand', 'gare-de-lyon', 'chatelet', 'pyramides', 'madeleine', 'saint-lazare', 'pont-cardinet', 'porte-de-clichy', 'mairie-de-saint-ouen', 'saint-denis-pleyel']],
+  14: [['aeroport-dorly', 'thiais-orly', 'chevilly-larue', 'villejuif-gustave-roussy', 'hopital-bicetre', 'maison-blanche', 'olympiades', 'bibliotheque-francois-mitterrand', 'cour-saint-emilion', 'bercy', 'gare-de-lyon', 'chatelet', 'pyramides', 'madeleine', 'saint-lazare', 'pont-cardinet', 'porte-de-clichy', 'mairie-de-saint-ouen', 'saint-denis-pleyel']],
 };
 
 const CATEGORIES = [

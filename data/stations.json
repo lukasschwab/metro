@@ -246,7 +246,8 @@
     "slug": "palais-royal-musee-du-louvre",
     "name": "Palais Royal - Musee du Louvre",
     "lines": [
-      1
+      1,
+      7
     ],
     "opening": "1900-07-19",
     "arrondissement": "1st",
@@ -1384,7 +1385,8 @@
     "slug": "marcadet-poissonniers",
     "name": "Marcadet - Poissonniers",
     "lines": [
-      4
+      4,
+      12
     ],
     "opening": "1908-04-21",
     "arrondissement": "18th",
@@ -2119,7 +2121,8 @@
     "slug": "trocadero",
     "name": "Trocadéro",
     "lines": [
-      6
+      6,
+      9
     ],
     "opening": "1900-10-06",
     "arrondissement": "16th",
@@ -2247,7 +2250,8 @@
     "slug": "pasteur",
     "name": "Pasteur",
     "lines": [
-      6
+      6,
+      12
     ],
     "opening": "1906-04-24",
     "arrondissement": "15th",
@@ -2385,7 +2389,8 @@
     "slug": "bercy",
     "name": "Bercy",
     "lines": [
-      6
+      6,
+      14
     ],
     "opening": "1909-03-01",
     "arrondissement": "12th",
@@ -2870,7 +2875,8 @@
     "slug": "maison-blanche",
     "name": "Maison Blanche",
     "lines": [
-      7
+      7,
+      14
     ],
     "opening": "1930-03-07",
     "arrondissement": "13th",
@@ -4020,6 +4026,7 @@
     "slug": "michel-ange-molitor",
     "name": "Michel-Ange - Molitor",
     "lines": [
+      9,
       10
     ],
     "opening": "1913-09-30",
@@ -5375,6 +5382,194 @@
     "etymology": "Named after the Pont Cardinet, a bridge that crosses the railway tracks of the Gare Saint-Lazare in the 17th arrondissement. The bridge and nearby street are named after Jean Cardinet (1751-1818), a local landowner and mayor of the former commune of Les Batignolles. The area was historically associated with the Batignolles railway yards.",
     "categories": [
       "infrastructure"
+    ]
+  },
+  {
+    "slug": "serge-gainsbourg",
+    "name": "Serge Gainsbourg",
+    "lines": [
+      11
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Romainville",
+    "prior_names": [],
+    "latitude": 48.88115,
+    "longitude": 2.42664,
+    "layout_image": "serge_gainsbourg",
+    "etymology": "Named after Serge Gainsbourg (1928–1991), iconic French singer-songwriter, composer, and provocateur. Born Lucien Ginsburg in Paris to Russian-Jewish immigrants, he became one of the most influential figures in French popular music, known for songs like 'La Javanaise' and 'Je t'aime… moi non plus.'",
+    "categories": [
+      "artist"
+    ]
+  },
+  {
+    "slug": "romainville-carnot",
+    "name": "Romainville-Carnot",
+    "lines": [
+      11
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Romainville",
+    "prior_names": [],
+    "latitude": 48.8834,
+    "longitude": 2.4408,
+    "layout_image": "romainville_carnot",
+    "etymology": "Named after the commune of Romainville and the nearby Rue Carnot. Carnot refers to Sadi Carnot (1837–1894), President of the French Republic from 1887 until his assassination in Lyon, or to his grandfather Lazare Carnot (1753–1823), the military strategist known as the 'Organizer of Victory' during the French Revolutionary Wars.",
+    "categories": [
+      "place"
+    ]
+  },
+  {
+    "slug": "montreuil-hopital",
+    "name": "Montreuil-Hôpital",
+    "lines": [
+      11
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Montreuil",
+    "prior_names": [],
+    "latitude": 48.87842,
+    "longitude": 2.45316,
+    "layout_image": "montreuil_hopital",
+    "etymology": "Named after the commune of Montreuil and the nearby Montreuil Intercommunal Hospital Centre. The name Montreuil derives from the Latin 'monasteriolum,' meaning small monastery, referencing a religious establishment that once stood in the area.",
+    "categories": [
+      "institution"
+    ]
+  },
+  {
+    "slug": "la-dhuys",
+    "name": "La Dhuys",
+    "lines": [
+      11
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Montreuil",
+    "prior_names": [],
+    "latitude": 48.87795,
+    "longitude": 2.4654,
+    "layout_image": "la_dhuys",
+    "etymology": "Named after the Dhuis aqueduct (Aqueduc de la Dhuis), a 131-kilometre underground aqueduct built between 1863 and 1865 under Baron Haussmann to bring water from the Dhuis river in the Aisne department to Paris. The aqueduct passes through this area of eastern Paris.",
+    "categories": [
+      "infrastructure"
+    ]
+  },
+  {
+    "slug": "rosny-bois-perrier",
+    "name": "Rosny-Bois-Perrier",
+    "lines": [
+      11
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Rosny-sous-Bois",
+    "prior_names": [],
+    "latitude": 48.88284,
+    "longitude": 2.4806,
+    "layout_image": "rosny_bois_perrier",
+    "etymology": "Named after the commune of Rosny-sous-Bois and the Bois-Perrier neighbourhood. The name Rosny may derive from a Gallo-Roman personal name. The station is a major transport hub also served by RER E, connecting the eastern suburbs to central Paris.",
+    "categories": [
+      "place"
+    ]
+  },
+  {
+    "slug": "carrefour-pleyel",
+    "name": "Carrefour Pleyel",
+    "lines": [
+      13
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Saint-Denis",
+    "prior_names": [],
+    "latitude": 48.91963,
+    "longitude": 2.34328,
+    "layout_image": "carrefour_pleyel",
+    "etymology": "Named after the Carrefour Pleyel intersection in Saint-Denis, itself named after Ignace Pleyel (1757–1831), an Austrian-born French composer, piano manufacturer, and music publisher. Born in Ruppersthal, Austria, Pleyel studied under Joseph Haydn and founded the Pleyel piano company in Paris in 1807, which became one of Europe's most prestigious piano makers.",
+    "categories": [
+      "artist",
+      "foreign"
+    ]
+  },
+  {
+    "slug": "cour-saint-emilion",
+    "name": "Cour Saint-Émilion",
+    "lines": [
+      14
+    ],
+    "opening": "1998-10-15",
+    "arrondissement": "12th",
+    "prior_names": [],
+    "latitude": 48.83367,
+    "longitude": 2.38611,
+    "layout_image": "cour_st_emilion",
+    "etymology": "Named after the Cour Saint-Émilion, a pedestrian area in the 12th arrondissement located within the former Bercy wine warehouses. Saint-Émilion refers to the famous wine-producing town in Bordeaux, reflecting the area's historical role as Paris's principal wine market where barrels arrived by barge along the Seine.",
+    "categories": [
+      "place"
+    ]
+  },
+  {
+    "slug": "hopital-bicetre",
+    "name": "Hôpital Bicêtre",
+    "lines": [
+      14
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Le Kremlin-Bicêtre",
+    "prior_names": [],
+    "latitude": 48.8096,
+    "longitude": 2.34969,
+    "layout_image": "hopital_bicetre",
+    "etymology": "Named after the Bicêtre Hospital, a major teaching hospital in Le Kremlin-Bicêtre. The name Bicêtre is a corruption of 'Winchester,' referring to John of Pontoise, Bishop of Winchester, who owned a manor on this site in the 13th century. The institution has served variously as a fortress, prison, asylum, and hospital since the 17th century.",
+    "categories": [
+      "institution"
+    ]
+  },
+  {
+    "slug": "villejuif-gustave-roussy",
+    "name": "Villejuif – Gustave Roussy",
+    "lines": [
+      14
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Villejuif",
+    "prior_names": [],
+    "latitude": 48.79344,
+    "longitude": 2.34973,
+    "layout_image": "villejuif_gustave_roussy",
+    "etymology": "Named after the Gustave Roussy Institute in Villejuif, Europe's largest cancer research and treatment centre, and Gustave Roussy (1874–1948), a Swiss-born French neuropathologist and oncologist who founded it. Roussy made major contributions to the understanding of brain tumours and thalamic syndrome.",
+    "categories": [
+      "scientist"
+    ]
+  },
+  {
+    "slug": "chevilly-larue",
+    "name": "Chevilly-Larue",
+    "lines": [
+      14
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Chevilly-Larue",
+    "prior_names": [],
+    "latitude": 48.75905,
+    "longitude": 2.36648,
+    "layout_image": "chevilly_larue",
+    "etymology": "Named after the commune of Chevilly-Larue in the Val-de-Marne department. The name Chevilly derives from the Gallo-Roman 'Cavilliacum,' an estate name, while Larue comes from 'la rue,' referring to a road that historically crossed the settlement. The two villages merged in 1964.",
+    "categories": [
+      "place"
+    ]
+  },
+  {
+    "slug": "thiais-orly",
+    "name": "Thiais – Orly",
+    "lines": [
+      14
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Thiais",
+    "prior_names": [],
+    "latitude": 48.74722,
+    "longitude": 2.37283,
+    "layout_image": "thiais_orly",
+    "etymology": "Named after its location between the communes of Thiais and Orly in the Val-de-Marne department. Thiais derives from the Gallo-Roman name 'Theodacium,' while Orly comes from 'Aureliacum,' an estate belonging to someone named Aurelius. The station opened as part of the Line 14 southern extension.",
+    "categories": [
+      "place"
     ]
   }
 ]
