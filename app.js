@@ -24,13 +24,18 @@ const LINE_STATION_ORDER = {
 
   '3bis': [['gambetta', 'pelleport', 'saint-fargeau', 'porte-des-lilas']],
 
-  4: [['porte-de-clignancourt', 'simplon', 'marcadet-poissonniers', 'chateau-rouge', 'barbes-rochechouart', 'gare-du-nord', 'gare-de-lest', 'chateau-deau', 'strasbourg-saint-denis', 'reaumur-sebastopol', 'etienne-marcel', 'chatelet', 'cite', 'saint-michel', 'odeon', 'saint-germain-des-pres', 'saint-sulpice', 'saint-placide', 'montparnasse-bienvenue', 'vavin', 'raspail', 'denfert-rochereau', 'mouton-duvernet', 'alesia', 'porte-dorleans', 'mairie-de-montrouge', 'barbara']],
+  4: [['porte-de-clignancourt', 'simplon', 'marcadet-poissonniers', 'chateau-rouge', 'barbes-rochechouart', 'gare-du-nord', 'gare-de-lest', 'chateau-deau', 'strasbourg-saint-denis', 'reaumur-sebastopol', 'etienne-marcel', 'chatelet', 'cite', 'saint-michel', 'odeon', 'saint-germain-des-pres', 'saint-sulpice', 'saint-placide', 'montparnasse-bienvenue', 'vavin', 'raspail', 'denfert-rochereau', 'mouton-duvernet', 'alesia', 'porte-dorleans', 'mairie-de-montrouge', 'barbara', 'bagneux-lucie-aubrac']],
 
   5: [['bobigny-pablo-picasso', 'bobigny-pantin-raymond-queneau', 'eglise-de-pantin', 'hoche', 'porte-de-pantin', 'ourcq', 'laumiere', 'jaures', 'stalingrad', 'gare-du-nord', 'gare-de-lest', 'jacques-bonsergent', 'republique', 'oberkampf', 'richard-lenoir', 'breguet-sabin', 'bastille', 'quai-de-la-rapee', 'gare-dausterlitz', 'saint-marcel', 'campo-formio', 'place-ditalie']],
 
   6: [['charles-de-gaulle-etoile', 'kleber', 'boissiere', 'trocadero', 'passy', 'bir-hakeim', 'dupleix', 'la-motte-picquet-grenelle', 'cambronne', 'sevres-lecourbe', 'pasteur', 'montparnasse-bienvenue', 'edgar-quinet', 'raspail', 'denfert-rochereau', 'saint-jacques', 'glaciere', 'corvisart', 'place-ditalie', 'nationale', 'chevaleret', 'quai-de-la-gare', 'bercy', 'dugommier', 'daumesnil', 'bel-air', 'picpus', 'nation']],
 
-  7: [['la-courneuve-8-mai-1945', 'fort-daubervilliers', 'aubervilliers-pantin-quatre-chemins', 'porte-de-la-villette', 'corentin-cariou', 'crimee', 'riquet', 'stalingrad', 'louis-blanc', 'chateau-landon', 'gare-de-lest', 'poissonniere', 'cadet', 'le-peletier', 'chaussee-dantin-la-fayette', 'opera', 'pyramides', 'palais-royal-musee-du-louvre', 'pont-neuf', 'chatelet', 'pont-marie', 'sully-morland', 'jussieu', 'place-monge', 'censier-daubenton', 'les-gobelins', 'place-ditalie', 'tolbiac', 'maison-blanche', 'le-kremlin-bicetre', 'villejuif-leo-lagrange', 'villejuif-paul-vaillant-couturier', 'villejuif-louis-aragon']],
+  7: [
+    // Villejuif branch
+    ['la-courneuve-8-mai-1945', 'fort-daubervilliers', 'aubervilliers-pantin-quatre-chemins', 'porte-de-la-villette', 'corentin-cariou', 'crimee', 'riquet', 'stalingrad', 'louis-blanc', 'chateau-landon', 'gare-de-lest', 'poissonniere', 'cadet', 'le-peletier', 'chaussee-dantin-la-fayette', 'opera', 'pyramides', 'palais-royal-musee-du-louvre', 'pont-neuf', 'chatelet', 'pont-marie', 'sully-morland', 'jussieu', 'place-monge', 'censier-daubenton', 'les-gobelins', 'place-ditalie', 'tolbiac', 'maison-blanche', 'le-kremlin-bicetre', 'villejuif-leo-lagrange', 'villejuif-paul-vaillant-couturier', 'villejuif-louis-aragon'],
+    // Ivry branch
+    ['maison-blanche', 'porte-ditalie', 'porte-de-choisy', 'porte-divry', 'pierre-et-marie-curie', 'mairie-divry'],
+  ],
 
   '7bis': [
     // Main line + one side of loop
@@ -50,20 +55,20 @@ const LINE_STATION_ORDER = {
     ['boulogne-jean-jaures', 'porte-dauteuil', 'michel-ange-auteuil', 'eglise-dauteuil', 'javel-andre-citroen'],
   ],
 
-  11: [['chatelet', 'hotel-de-ville', 'rambuteau', 'arts-et-metiers', 'republique', 'goncourt', 'belleville', 'pyrenees', 'jourdain', 'place-des-fetes', 'telegraphe', 'porte-des-lilas', 'mairie-des-lilas', 'serge-gainsbourg', 'romainville-carnot', 'montreuil-hopital', 'la-dhuys', 'rosny-bois-perrier']],
+  11: [['chatelet', 'hotel-de-ville', 'rambuteau', 'arts-et-metiers', 'republique', 'goncourt', 'belleville', 'pyrenees', 'jourdain', 'place-des-fetes', 'telegraphe', 'porte-des-lilas', 'mairie-des-lilas', 'serge-gainsbourg', 'romainville-carnot', 'montreuil-hopital', 'la-dhuys', 'coteaux-beauclair', 'rosny-bois-perrier']],
 
-  12: [['mairie-dissy', 'corentin-celton', 'porte-de-versailles', 'convention', 'vaugirard', 'volontaires', 'pasteur', 'falguiere', 'montparnasse-bienvenue', 'notre-dame-des-champs', 'rennes', 'sevres-babylone', 'rue-du-bac', 'solferino', 'assemblee-nationale', 'concorde', 'madeleine', 'saint-lazare', 'trinite-destienne-dorves', 'notre-dame-de-lorette', 'saint-georges', 'pigalle', 'abbesses', 'lamarck-caulaincourt', 'jules-joffrin', 'marcadet-poissonniers', 'marx-dormoy', 'porte-de-la-chapelle', 'front-populaire', 'aime-cesaire']],
+  12: [['mairie-dissy', 'corentin-celton', 'porte-de-versailles', 'convention', 'vaugirard', 'volontaires', 'pasteur', 'falguiere', 'montparnasse-bienvenue', 'notre-dame-des-champs', 'rennes', 'sevres-babylone', 'rue-du-bac', 'solferino', 'assemblee-nationale', 'concorde', 'madeleine', 'saint-lazare', 'trinite-destienne-dorves', 'notre-dame-de-lorette', 'saint-georges', 'pigalle', 'abbesses', 'lamarck-caulaincourt', 'jules-joffrin', 'marcadet-poissonniers', 'marx-dormoy', 'porte-de-la-chapelle', 'front-populaire', 'aime-cesaire', 'mairie-daubervilliers']],
 
   13: [
     // Main trunk (south to La Fourche)
     ['chatillon-montrouge', 'malakoff-rue-etienne-dolet', 'malakoff-plateau-de-vanves', 'porte-de-vanves', 'plaisance', 'pernety', 'gaite', 'montparnasse-bienvenue', 'duroc', 'saint-francois-xavier', 'varenne', 'invalides', 'champs-elysees-clemenceau', 'miromesnil', 'saint-lazare', 'liege', 'place-de-clichy', 'la-fourche'],
     // Saint-Denis branch (northeast)
-    ['la-fourche', 'guy-moquet', 'porte-de-saint-ouen', 'garibaldi', 'mairie-de-saint-ouen', 'carrefour-pleyel', 'saint-denis-porte-de-paris', 'basilique-de-saint-denis'],
+    ['la-fourche', 'guy-moquet', 'porte-de-saint-ouen', 'garibaldi', 'mairie-de-saint-ouen', 'carrefour-pleyel', 'saint-denis-porte-de-paris', 'basilique-de-saint-denis', 'saint-denis-universite'],
     // Les Courtilles branch (northwest)
     ['la-fourche', 'brochant', 'porte-de-clichy', 'gabriel-peri', 'les-agnettes', 'les-courtilles'],
   ],
 
-  14: [['aeroport-dorly', 'thiais-orly', 'chevilly-larue', 'villejuif-gustave-roussy', 'hopital-bicetre', 'maison-blanche', 'olympiades', 'bibliotheque-francois-mitterrand', 'cour-saint-emilion', 'bercy', 'gare-de-lyon', 'chatelet', 'pyramides', 'madeleine', 'saint-lazare', 'pont-cardinet', 'porte-de-clichy', 'mairie-de-saint-ouen', 'saint-denis-pleyel']],
+  14: [['aeroport-dorly', 'thiais-orly', 'chevilly-larue', 'lhay-les-roses', 'villejuif-gustave-roussy', 'hopital-bicetre', 'maison-blanche', 'olympiades', 'bibliotheque-francois-mitterrand', 'cour-saint-emilion', 'bercy', 'gare-de-lyon', 'chatelet', 'pyramides', 'madeleine', 'saint-lazare', 'pont-cardinet', 'porte-de-clichy', 'saint-ouen', 'mairie-de-saint-ouen', 'saint-denis-pleyel']],
 };
 
 const CATEGORIES = [

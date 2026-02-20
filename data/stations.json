@@ -5570,5 +5570,192 @@
     "categories": [
       "place"
     ]
+  },
+  {
+    "slug": "bagneux-lucie-aubrac",
+    "name": "Bagneux – Lucie Aubrac",
+    "lines": [
+      4
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Bagneux",
+    "prior_names": [],
+    "latitude": 48.80356,
+    "longitude": 2.31743,
+    "layout_image": "bagneux_lucie_aubrac",
+    "etymology": "Named after Lucie Aubrac (1912–2007), a French Resistance heroine during World War II. She was a key figure in the Lyon-based Resistance network Libération-sud and famously orchestrated the rescue of her husband Raymond Aubrac from Gestapo custody in 1943. The station is located in the commune of Bagneux.",
+    "categories": [
+      "military"
+    ]
+  },
+  {
+    "slug": "porte-ditalie",
+    "name": "Porte d'Italie",
+    "lines": [
+      7
+    ],
+    "opening": "1946-05-06",
+    "arrondissement": "13th",
+    "prior_names": [],
+    "latitude": 48.8189,
+    "longitude": 2.35991,
+    "layout_image": "porte_italie",
+    "etymology": "Named after the Porte d'Italie, a former gate in the Thiers fortifications of Paris. The gate marked the start of the road leading south toward Italy via Lyon, giving it its name.",
+    "categories": [
+      "place"
+    ]
+  },
+  {
+    "slug": "porte-de-choisy",
+    "name": "Porte de Choisy",
+    "lines": [
+      7
+    ],
+    "opening": "1946-05-06",
+    "arrondissement": "13th",
+    "prior_names": [],
+    "latitude": 48.81991,
+    "longitude": 2.36452,
+    "layout_image": "porte_de_choisy",
+    "etymology": "Named after the Porte de Choisy, a former gate in the Thiers fortifications of Paris. The gate was named for the road leading to Choisy-le-Roi, a commune south of Paris along the Seine.",
+    "categories": [
+      "place"
+    ]
+  },
+  {
+    "slug": "porte-divry",
+    "name": "Porte d'Ivry",
+    "lines": [
+      7
+    ],
+    "opening": "1946-05-06",
+    "arrondissement": "13th",
+    "prior_names": [],
+    "latitude": 48.82156,
+    "longitude": 2.36934,
+    "layout_image": "porte_ivry",
+    "etymology": "Named after the Porte d'Ivry, a former gate in the Thiers fortifications of Paris. The gate was named for the road leading to Ivry-sur-Seine, a neighbouring commune to the southeast.",
+    "categories": [
+      "place"
+    ]
+  },
+  {
+    "slug": "pierre-et-marie-curie",
+    "name": "Pierre et Marie Curie",
+    "lines": [
+      7
+    ],
+    "opening": "1946-05-06",
+    "arrondissement": "Ivry-sur-Seine",
+    "prior_names": [],
+    "latitude": 48.81594,
+    "longitude": 2.37691,
+    "layout_image": "pierre_et_marie_curie",
+    "etymology": "Named after Pierre Curie (1859–1906) and Marie Curie (1867–1934), the pioneering physicists who jointly discovered polonium and radium. Marie Curie was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different sciences (Physics in 1903, Chemistry in 1911).",
+    "categories": [
+      "scientist"
+    ]
+  },
+  {
+    "slug": "mairie-divry",
+    "name": "Mairie d'Ivry",
+    "lines": [
+      7
+    ],
+    "opening": "1946-05-06",
+    "arrondissement": "Ivry-sur-Seine",
+    "prior_names": [],
+    "latitude": 48.81102,
+    "longitude": 2.3841,
+    "layout_image": "mairie_ivry",
+    "etymology": "Named after the town hall (mairie) of Ivry-sur-Seine. The commune's name derives from the Gallo-Roman 'Evriacum,' an estate name likely belonging to someone called Ebrius or Eburius.",
+    "categories": [
+      "government"
+    ]
+  },
+  {
+    "slug": "coteaux-beauclair",
+    "name": "Coteaux Beauclair",
+    "lines": [
+      11
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Romainville",
+    "prior_names": [],
+    "latitude": 48.88209,
+    "longitude": 2.46743,
+    "layout_image": null,
+    "etymology": "Named after the Coteaux Beauclair neighbourhood in Romainville. 'Coteaux' means hillsides in French, and 'Beauclair' (beautiful light) refers to the elevated, sun-exposed terrain of this area on the eastern outskirts of Paris.",
+    "categories": [
+      "place"
+    ]
+  },
+  {
+    "slug": "mairie-daubervilliers",
+    "name": "Mairie d'Aubervilliers",
+    "lines": [
+      12
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Aubervilliers",
+    "prior_names": [],
+    "latitude": 48.91402,
+    "longitude": 2.38138,
+    "layout_image": "mairie_aubervilliers",
+    "etymology": "Named after the town hall (mairie) of Aubervilliers. The commune's name derives from 'Albertivillare,' a medieval estate belonging to someone named Albert, first recorded in the 12th century.",
+    "categories": [
+      "government"
+    ]
+  },
+  {
+    "slug": "saint-denis-universite",
+    "name": "Saint-Denis – Université",
+    "lines": [
+      13
+    ],
+    "opening": "1998-05-25",
+    "arrondissement": "Saint-Denis",
+    "prior_names": [],
+    "latitude": 48.94586,
+    "longitude": 2.36455,
+    "layout_image": "st_denis_universite",
+    "etymology": "Named after its location near the University of Paris VIII (Vincennes–Saint-Denis) in the commune of Saint-Denis. The university moved to Saint-Denis in 1980 from its original location in Vincennes. Saint-Denis itself is named after Denis of Paris, the city's first bishop and patron saint, who was martyred around 250 AD.",
+    "categories": [
+      "institution"
+    ]
+  },
+  {
+    "slug": "saint-ouen",
+    "name": "Saint-Ouen",
+    "lines": [
+      14
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "Saint-Ouen",
+    "prior_names": [],
+    "latitude": 48.90498,
+    "longitude": 2.32243,
+    "layout_image": "saint_ouen",
+    "etymology": "Named after the commune of Saint-Ouen-sur-Seine, itself named after Saint Ouen (c. 609–686), also known as Audoenus or Dado. He served as chancellor to King Dagobert I and later became Bishop of Rouen, where he was renowned for his charitable works and efforts to combat simony.",
+    "categories": [
+      "place"
+    ]
+  },
+  {
+    "slug": "lhay-les-roses",
+    "name": "L'Haÿ-les-Roses",
+    "lines": [
+      14
+    ],
+    "opening": "2024-06-24",
+    "arrondissement": "L'Haÿ-les-Roses",
+    "prior_names": [],
+    "latitude": 48.77554,
+    "longitude": 2.35403,
+    "layout_image": "hay_les_roses",
+    "etymology": "Named after the commune of L'Haÿ-les-Roses in the Val-de-Marne department. The name 'L'Haÿ' derives from the medieval Latin 'Laiacum,' a Gallo-Roman estate name. The suffix 'les-Roses' was added in 1914 in honour of the renowned Roseraie du Val-de-Marne, a rose garden founded by Jules Gravereaux in 1899.",
+    "categories": [
+      "place"
+    ]
   }
 ]
