@@ -30,7 +30,7 @@ const LINE_STATION_ORDER = {
 
   6: [['charles-de-gaulle-etoile', 'kleber', 'boissiere', 'trocadero', 'passy', 'bir-hakeim', 'dupleix', 'la-motte-picquet-grenelle', 'cambronne', 'sevres-lecourbe', 'pasteur', 'montparnasse-bienvenue', 'edgar-quinet', 'raspail', 'denfert-rochereau', 'saint-jacques', 'glaciere', 'corvisart', 'place-ditalie', 'nationale', 'chevaleret', 'quai-de-la-gare', 'bercy', 'dugommier', 'daumesnil', 'bel-air', 'picpus', 'nation']],
 
-  7: [['la-courneuve-8-mai-1945', 'fort-daubervilliers', 'aubervilliers-pantin-quatre-chemins', 'porte-de-la-villette', 'corentin-cariou', 'crimee', 'riquet', 'stalingrad', 'jaures', 'louis-blanc', 'chateau-landon', 'gare-de-lest', 'poissonniere', 'cadet', 'le-peletier', 'chaussee-dantin-la-fayette', 'opera', 'pyramides', 'palais-royal-musee-du-louvre', 'pont-neuf', 'chatelet', 'pont-marie', 'sully-morland', 'jussieu', 'place-monge', 'censier-daubenton', 'les-gobelins', 'place-ditalie', 'tolbiac', 'maison-blanche', 'le-kremlin-bicetre', 'villejuif-paul-vaillant-couturier', 'villejuif-leo-lagrange', 'villejuif-louis-aragon']],
+  7: [['la-courneuve-8-mai-1945', 'fort-daubervilliers', 'aubervilliers-pantin-quatre-chemins', 'porte-de-la-villette', 'corentin-cariou', 'crimee', 'riquet', 'stalingrad', 'louis-blanc', 'chateau-landon', 'gare-de-lest', 'poissonniere', 'cadet', 'le-peletier', 'chaussee-dantin-la-fayette', 'opera', 'pyramides', 'palais-royal-musee-du-louvre', 'pont-neuf', 'chatelet', 'pont-marie', 'sully-morland', 'jussieu', 'place-monge', 'censier-daubenton', 'les-gobelins', 'place-ditalie', 'tolbiac', 'maison-blanche', 'le-kremlin-bicetre', 'villejuif-leo-lagrange', 'villejuif-paul-vaillant-couturier', 'villejuif-louis-aragon']],
 
   '7bis': [
     // Main line + one side of loop
